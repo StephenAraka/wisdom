@@ -17,7 +17,7 @@ export default function App() {
           return <View key={`indicator${index}`} style={styles.progressIndicatorBar(width, activeSubQuote === index)} />
         })}
       </View>
-      <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} arrayLength={(quotes[0].length) - 1}>
+      <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} subQuoteLength={(quotes[0].length) - 1}>
         <View style={styles.contentContainer}>
           {quotes[0].map((subquote, index) => {
             const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';

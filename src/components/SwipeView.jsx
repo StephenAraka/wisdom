@@ -5,31 +5,24 @@ const SwipeView = ({
   children,
   activeSubQuote,
   setActiveSubQuote,
-  arrayLength,
+  subQuoteLength,
 }) => {
-  console.log("====================================");
-  console.log(arrayLength);
-  console.log("====================================");
   const handleLeftTap = () => {
+    /* Ensuring the left tap tap doesn't go below the first status*/
     if (activeSubQuote == 0) {
       return;
     } else {
       setActiveSubQuote((prev) => prev - 1);
     }
-    // Add your left tap logic here
   };
 
   const handleRightTap = () => {
-    console.log("Right Tap detected!");
-    console.log("====================================");
-    console.log(activeSubQuote);
-    console.log("====================================");
-    if (activeSubQuote == arrayLength) {
+    /* Ensuring the right tap doesn't exceed the number of statuses*/
+    if (activeSubQuote == subQuoteLength) {
       return;
     } else {
       setActiveSubQuote((prev) => prev + 1);
     }
-    // Add your right tap logic here
   };
 
   return (
