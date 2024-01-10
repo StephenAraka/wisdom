@@ -1,25 +1,30 @@
-// import { StatusBar } from 'expo-status-bar';
+import { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import jsonData from './data.json';
+import SwipeView from './src/components/SwipeView';
 
 const quotes = jsonData.quotes;
 
 export default function App() {
+  const [activeSubQuote, setActiveSubQuote] = useState(3);
+
   return (
     <SafeAreaView style={styles.container}>
       {/* <StatusBar style="auto" /> */}
       <View style={styles.progressIndicators}>
         {quotes[0].map((subquote, index) => {
           const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
-          return <View key={`indicator${index}`} style={styles.progressIndicatorBar(width)} />
+          return <View key={`indicator${index}`} style={styles.progressIndicatorBar(width, activeSubQuote === index)} />
         })}
       </View>
-      <View style={styles.contentContainer}>
-        {quotes[0].map((subquote, index) => {
-          const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
-          return <Text key={`content${index}`} style={styles.text}>{subquote.message}</Text>
-        })}
-      </View>
+      <SwipeView>
+        <View style={styles.contentContainer}>
+          {quotes[0].map((subquote, index) => {
+            const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
+            return (index === activeSubQuote && <Text key={`content${index}`} style={styles.text}>{subquote.message}</Text>)
+          })}
+        </View>
+        </SwipeView>
     </SafeAreaView>
   );
 }
@@ -42,9 +47,9 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: '100%',
   },
-  progressIndicatorBar: (width) => ({
+  progressIndicatorBar: (width, isActive) => ({
     height: 4,
-    backgroundColor: '#fff',
+    backgroundColor: isActive ? 'red' : '#fff',
     width,
   }),
   text: {
