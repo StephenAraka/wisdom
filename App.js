@@ -21,7 +21,7 @@ export default function App() {
         <View style={styles.contentContainer}>
           {quotes[0].map((subquote, index) => {
             const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
-            return (index === activeSubQuote && <Text key={`content${index}`} style={styles.text}>{subquote.message}</Text>)
+            return (index === activeSubQuote && <Text key={`content${index}`} style={styles.text(subquote.italics)}>{subquote.message}</Text>)
           })}
         </View>
         </SwipeView>
@@ -55,8 +55,9 @@ const styles = StyleSheet.create({
     backgroundColor: isActive ? '#fff' : 'grey',
     width,
   }),
-  text: {
+  text: (italics)=> ({
     color: '#fff',
-    fontSize: 20
-  }
+    fontSize: 20,
+    fontStyle: italics ? 'italic': 'normal'
+  })
 });
