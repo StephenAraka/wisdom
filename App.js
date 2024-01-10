@@ -1,8 +1,8 @@
 // import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import jsonData from './data.json';
 
-const data = require('./data.json') 
-const quotes = data.quotes
+const quotes = jsonData.quotes;
 
 export default function App() {
   return (
