@@ -35,6 +35,7 @@ const SwipeView = ({
           top: 0,
           bottom: 0,
           width: "50%",
+          zIndex: 100,
         }}
       />
       <TouchableOpacity
@@ -45,6 +46,7 @@ const SwipeView = ({
           top: 0,
           bottom: 0,
           width: "50%",
+          zIndex: 100,
         }}
       />
       {children}

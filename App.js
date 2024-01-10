@@ -34,12 +34,15 @@ const styles = StyleSheet.create({
     display: 'flex',
     flex: 1,
     backgroundColor: '#000',
+    paddingVertical: 35,
   },
   contentContainer: {
     paddingHorizontal: 16,
     paddingVertical: 32,
     width: '100%',
     flex: 1,
+    alignItems: 'center', 
+    justifyContent: 'center', 
   },
   progressIndicators: {
     display: 'flex',
@@ -48,11 +51,12 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   progressIndicatorBar: (width, isActive) => ({
-    height: 4,
-    backgroundColor: isActive ? 'red' : '#fff',
+    height: 2,
+    backgroundColor: isActive ? '#fff' : 'grey',
     width,
   }),
   text: {
     color: '#fff',
+    fontSize: 20
   }
 });
