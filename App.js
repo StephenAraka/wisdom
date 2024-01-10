@@ -6,7 +6,7 @@ import SwipeView from './src/components/SwipeView';
 const quotes = jsonData.quotes;
 
 export default function App() {
-  const [activeSubQuote, setActiveSubQuote] = useState(3);
+  const [activeSubQuote, setActiveSubQuote] = useState(0);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -17,7 +17,7 @@ export default function App() {
           return <View key={`indicator${index}`} style={styles.progressIndicatorBar(width, activeSubQuote === index)} />
         })}
       </View>
-      <SwipeView>
+      <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} arrayLength={(quotes[0].length) - 1}>
         <View style={styles.contentContainer}>
           {quotes[0].map((subquote, index) => {
             const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';

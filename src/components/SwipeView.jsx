@@ -1,37 +1,59 @@
-import React, { useRef } from 'react';
-import { View, Text, PanResponder } from 'react-native';
+import React from "react";
+import { View, TouchableOpacity } from "react-native";
 
-const SwipeView = ({ children }) => {
-  const panResponder = useRef(
-    PanResponder.create({
-      onStartShouldSetPanResponder: () => true,
-      onPanResponderMove: (evt, gestureState) => {
-        // Access the horizontal move distance
-        const { dx } = gestureState;
+const SwipeView = ({
+  children,
+  activeSubQuote,
+  setActiveSubQuote,
+  arrayLength,
+}) => {
+  console.log("====================================");
+  console.log(arrayLength);
+  console.log("====================================");
+  const handleLeftTap = () => {
+    if (activeSubQuote == 0) {
+      return;
+    } else {
+      setActiveSubQuote((prev) => prev - 1);
+    }
+    // Add your left tap logic here
+  };
 
-        // Handle left swipe
-        if (dx < -50) {
-          console.log('Left swipe detected!');
-          // Add your left swipe logic here
-        }
-
-        // Handle right swipe
-        if (dx > 50) {
-          console.log('Right swipe detected!');
-          // Add your right swipe logic here
-        }
-      },
-      onPanResponderRelease: () => {
-        // Reset any necessary state or perform additional actions on gesture release
-      },
-    })
-  ).current;
+  const handleRightTap = () => {
+    console.log("Right Tap detected!");
+    console.log("====================================");
+    console.log(activeSubQuote);
+    console.log("====================================");
+    if (activeSubQuote == arrayLength) {
+      return;
+    } else {
+      setActiveSubQuote((prev) => prev + 1);
+    }
+    // Add your right tap logic here
+  };
 
   return (
-    <View
-      style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
-      {...panResponder.panHandlers}
-    >
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <TouchableOpacity
+        onPress={handleLeftTap}
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 0,
+          bottom: 0,
+          width: "50%",
+        }}
+      />
+      <TouchableOpacity
+        onPress={handleRightTap}
+        style={{
+          position: "absolute",
+          right: 0,
+          top: 0,
+          bottom: 0,
+          width: "50%",
+        }}
+      />
       {children}
     </View>
   );
