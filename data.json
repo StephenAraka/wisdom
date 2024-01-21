@@ -1,5 +1,37 @@
 {
   "quotes":[
+
+    [
+      {"date": {
+        "month": "January",
+        "date": 1
+      }},
+      {
+        "type":"intro",
+        "message":"Better to know a few things which are good and necessary than many things which are useless and mediocre."
+      },
+      {
+        "type":"quote",
+        "message":"What a great treasure can be hidden in a small, selected library! A company of the wisest and the most deserving people from all the civilized countries of the world, for thousands of years, can make the results of their studies and their in clear words for us, people from another century. Yes, we should be grateful for the best books, for the best spiritual achievements in our lives.",
+        "author":"Ralph Waldo Emerson"
+      } ,
+      {
+        "type":"quote",
+        "message":"There are too many mediocre books which exist just to entertain your mind. Therefore, read only those books which are accepted without doubt as good.",
+        "author":"Lucius Annaeus Seneca"
+      },
+      {
+        "type":"quote",
+        "message":"Read the best books first, otherwise you’ll find you do not have time.",
+        "author":"Henry David Thoreau"
+      },
+      {
+        "type":"message",
+        "italics": true,
+        "message":"The difference between real material poison and intellectual poison is that most material poison is disgusting to the taste, but intellectual poison, which takes the form of cheap newspapers or bad books, can unfortunately sometimes be attractive."
+      }
+    ],
+
     [
       {
         "type": "intro",
