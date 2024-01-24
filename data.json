@@ -1,6 +1,5 @@
 {
   "quotes":[
-
     [
       {"date": {
         "month": "January",
@@ -32,6 +31,36 @@
       }
     ],
 
+    [
+      {
+        "date": {
+          "month": "January",
+          "date": 24
+        }
+      },
+      {
+        "type":"intro",
+        "message":"Nobody knows where the human race is going. The highest wisdom, then, is to know where you should go: toward perfection."
+      },
+      {
+        "type":"quote",
+        "message":"A wise man seeks wisdom; a madman thinks that he has found it.",
+        "author":"PERSIAN PROVERB"
+      } ,
+      {
+        "type":"quote",
+        "italics": true,
+        "message":"It is not the place we occupy which is important, but the direction in which we move.",
+        "author":"OLIVER WENDELL HOLMES"
+      },
+      {
+        "type":"message",
+        "message":"Your actions should be determined not by the desire of the people around you, but by the needs of all mankind."
+      }
+    ],
+
+
+  
     [
       {
         "type": "intro",
