@@ -3,7 +3,7 @@
 
     [
       {"date": {
-        "month": "January",
+        "month": 1,
         "date": 1
       }},
       {
@@ -33,6 +33,46 @@
     ],
 
     [
+      {
+        "date":{
+          "month":1,
+          "date":2
+        }
+      },
+      {
+        "type":"quote",
+        "message":"One of the most primitive superstitions is the belief held by the majority of so-called scientists that it is possible to live without faith.",
+        "author":" Tolstoy"
+      },
+      {
+        "type":"quote",
+        "message": "Throughout the ages people have always yearned to know, or at least to have some idea, about the beginning or the final goal of their earthly existence. Religion has come into being to satisfy this urge, and to illuminate the link which joins all people together as brothers, with everyone coming from one and the same origin, and all moving towards the one universal final goal.",
+        "author":"Mazzini, DM"
+      },
+{
+"type":"quote",
+"message": " True religion is the establishment of a relationship between people and the infinite life that surrounds them – a relationship that links their lives with this infinite life and that acts as a guide to their actions.",
+"author":  "Tolstoy"
+},{
+"type":"quote",
+"message" : "There is only one essential task for every religion, and that is to answer the question: why do I exist and what is my relationship to the infinite world around me? There is not a single religion, from the most sophisticated to the most primitive, which is not based on the establishment of man’s relationship with the world around him.",
+"author": " Tolstoy"
+},
+{
+"type":"quote",
+"message" : "The essence of every religion is not the divine revelations of particular doctrines (this is what has become known as theology), but the recognition that all our obligations are to be seen as the commandments of God.",
+"author": "After Kant, CPrR"
+},
+{
+  "type":"message",
+  "message":  "To live without faith is to live like an animal.",
+"author":  "Tolstoy"
+}
+
+    ],
+
+    [
+      
       {
         "type": "intro",
         "message": "Life is the understanding of a holy spirit in yourself; a holy spirit which is put into some limits"
