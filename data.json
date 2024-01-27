@@ -9,6 +9,7 @@
       },
       {
         "type": "intro",
+        "italics": true,
         "message": "Better to know a few things which are good and necessary than many things which are useless and mediocre."
       },
       {
@@ -40,34 +41,29 @@
         }
       },
       {
-        "type": "quote",
-        "message": "One of the most primitive superstitions is the belief held by the majority of so-called scientists that it is possible to live without faith.",
-        "author": " Tolstoy"
+        "type": "intro",
+        "italics": true,
+        "message": "One of the worst prejudices known is held by the majority of the so-called scholars of our time, who claim that a person can live without faith."
       },
       {
         "type": "quote",
-        "message": "Throughout the ages people have always yearned to know, or at least to have some idea, about the beginning or the final goal of their earthly existence. Religion has come into being to satisfy this urge, and to illuminate the link which joins all people together as brothers, with everyone coming from one and the same origin, and all moving towards the one universal final goal.",
-        "author": "Mazzini, DM"
-      },
-      {
-        "type": "quote",
-        "message": " True religion is the establishment of a relationship between people and the infinite life that surrounds them – a relationship that links their lives with this infinite life and that acts as a guide to their actions.",
-        "author": "Tolstoy"
-      },
-      {
-        "type": "quote",
-        "message": "There is only one essential task for every religion, and that is to answer the question: why do I exist and what is my relationship to the infinite world around me? There is not a single religion, from the most sophisticated to the most primitive, which is not based on the establishment of man’s relationship with the world around him.",
-        "author": " Tolstoy"
-      },
-      {
-        "type": "quote",
-        "message": "The essence of every religion is not the divine revelations of particular doctrines (this is what has become known as theology), but the recognition that all our obligations are to be seen as the commandments of God.",
-        "author": "After Kant, CPrR"
+        "message": "Throughout the centuries, in every age, people have wanted to know or at least have a vague idea about the source, the beginning, and the final purpose of their existence. Religion satisfies this requirement, and makes clear those connections which unite all people as brothers, revealing to them that they have the same source of origin, the same task for their lives, and the same general final goal.",
+        "author": "Guiseppe Mazzini"
       },
       {
         "type": "message",
-        "message": "To live without faith is to live like an animal.",
-        "author": "Tolstoy"
+        "italics": true,
+        "message": " The essential meaning of every religion is to answer the question “Why do I live, and what is my attitude to the limitless world which surrounds me?” There is not a single religion, from the most sophisticated to the most primitive, which does not have as its basis the definition of this attitude of a person to the world."
+      },
+      {
+        "type": "quote",
+        "message": "At the heart of all religions lies a single unifying truth. Let Persians bear their taovids, Jews wear their caps, Christians bear their cross, Muslims bear their sickle moon, but we have to remember that these are all only outer signs. The general essence of all religions is love to your neighbor, and that this is requested by Manuf, Zoroaster, Buddha, Moses, Socrates, Jesus, Saint Paul, and Mohammed alike.",
+        "author": "EWALD FLÜGEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The life of a person without faith is the life of an animal."
       }
     ],
     [
