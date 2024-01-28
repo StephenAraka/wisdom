@@ -69,6 +69,39 @@
     [
       {
         "date": {
+          "month": 1,
+          "date": 3
+        }
+      },
+      {
+        "type": "quote",
+        "message": "Those who know the rules of true wisdom are baser than those who love them. Those who love them are baser than those who follow them.",
+        "author": "Chinese Proverb"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The most important question to keep before ourselves at all times is this: Do we do the right thing? During this short period of time which  we call our life, do our acts conform to the will of the force that sent us into the world? Do we do the right thing?"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When I am in difficult circumstances, I ask God to help me. But it is my duty to serve the Lord, and not His to serve me. As soon as I remember this, my burden becomes lighter."
+      },
+      {
+        "type": "quote",
+        "message": "We have to fulfill honestly and irreproachably the work destined for us. It does not matter whether we hope that we will become angels some day, or believe that we have originated from slugs.",
+        "author": "John Ruskin"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Just imagine that the purpose of your life is your happiness only—then life becomes a cruel and senseless thing. You have to embrace what the wisdom of humanity, your intellect, and your heart tell you: that the meaning of life is to serve the force that sent you into the world. Then life becomes a constant joy."
+      }
+    ],
+    [
+      {
+        "date": {
           "month": "January",
           "date": 24
         }
