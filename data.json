@@ -102,6 +102,39 @@
     [
       {
         "date": {
+          "month": 1,
+          "date": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Even if we don’t want to, we can’t help but feel our connection to the rest of mankind: we are connected by industry, by trade, by art, by knowledge, and most importantly, by our common mortality."
+      },
+      {
+        "type": "quote",
+        "message": "Kind people help each other even without noticing that they are doing so, and evil people act against each other on purpose.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Every person has his burden. One cannot live without the support of other people; therefore we have to support each other with consolation, advice, and mutual warnings.",
+        "author": "From the \"BOOK OF DIVINE THOUGHTS\""
+      },
+      {
+        "type": "quote",
+        "message": "All the children of Adam are members of the same body. When one member suffers, all the others suffer as well. If you are indifferent to the sufferings of others, you do not deserve to be called a man.",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The history of mankind is the movement of humanity toward greater and greater unification."
+      }
+    ],
+    [
+      {
+        "date": {
           "month": "January",
           "date": 24
         }
