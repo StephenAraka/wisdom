@@ -1,5 +1,131 @@
 {
-  "quotes":[
+  "quotes": [
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Better to know a few things which are good and necessary than many things which are useless and mediocre."
+      },
+      {
+        "type": "quote",
+        "message": "What a great treasure can be hidden in a small, selected library! A company of the wisest and the most deserving people from all the civilized countries of the world, for thousands of years, can make the results of their studies and their in clear words for us, people from another century. Yes, we should be grateful for the best books, for the best spiritual achievements in our lives.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "type": "quote",
+        "message": "There are too many mediocre books which exist just to entertain your mind. Therefore, read only those books which are accepted without doubt as good.",
+        "author": "Lucius Annaeus Seneca"
+      },
+      {
+        "type": "quote",
+        "message": "Read the best books first, otherwise you’ll find you do not have time.",
+        "author": "Henry David Thoreau"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The difference between real material poison and intellectual poison is that most material poison is disgusting to the taste, but intellectual poison, which takes the form of cheap newspapers or bad books, can unfortunately sometimes be attractive."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "One of the worst prejudices known is held by the majority of the so-called scholars of our time, who claim that a person can live without faith."
+      },
+      {
+        "type": "quote",
+        "message": "Throughout the centuries, in every age, people have wanted to know or at least have a vague idea about the source, the beginning, and the final purpose of their existence. Religion satisfies this requirement, and makes clear those connections which unite all people as brothers, revealing to them that they have the same source of origin, the same task for their lives, and the same general final goal.",
+        "author": "Guiseppe Mazzini"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": " The essential meaning of every religion is to answer the question “Why do I live, and what is my attitude to the limitless world which surrounds me?” There is not a single religion, from the most sophisticated to the most primitive, which does not have as its basis the definition of this attitude of a person to the world."
+      },
+      {
+        "type": "quote",
+        "message": "At the heart of all religions lies a single unifying truth. Let Persians bear their taovids, Jews wear their caps, Christians bear their cross, Muslims bear their sickle moon, but we have to remember that these are all only outer signs. The general essence of all religions is love to your neighbor, and that this is requested by Manuf, Zoroaster, Buddha, Moses, Socrates, Jesus, Saint Paul, and Mohammed alike.",
+        "author": "EWALD FLÜGEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The life of a person without faith is the life of an animal."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 3
+        }
+      },
+      {
+        "type": "quote",
+        "message": "Those who know the rules of true wisdom are baser than those who love them. Those who love them are baser than those who follow them.",
+        "author": "Chinese Proverb"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The most important question to keep before ourselves at all times is this: Do we do the right thing? During this short period of time which  we call our life, do our acts conform to the will of the force that sent us into the world? Do we do the right thing?"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When I am in difficult circumstances, I ask God to help me. But it is my duty to serve the Lord, and not His to serve me. As soon as I remember this, my burden becomes lighter."
+      },
+      {
+        "type": "quote",
+        "message": "We have to fulfill honestly and irreproachably the work destined for us. It does not matter whether we hope that we will become angels some day, or believe that we have originated from slugs.",
+        "author": "John Ruskin"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Just imagine that the purpose of your life is your happiness only—then life becomes a cruel and senseless thing. You have to embrace what the wisdom of humanity, your intellect, and your heart tell you: that the meaning of life is to serve the force that sent you into the world. Then life becomes a constant joy."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": "January",
+          "date": 24
+        }
+      },
+      {
+        "type": "intro",
+        "message": "Nobody knows where the human race is going. The highest wisdom, then, is to know where you should go: toward perfection."
+      },
+      {
+        "type": "quote",
+        "message": "A wise man seeks wisdom; a madman thinks that he has found it.",
+        "author": "PERSIAN PROVERB"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "It is not the place we occupy which is important, but the direction in which we move.",
+        "author": "OLIVER WENDELL HOLMES"
+      },
+      {
+        "type": "message",
+        "message": "Your actions should be determined not by the desire of the people around you, but by the needs of all mankind."
+      }
+    ],
     [
       {
         "type": "intro",
