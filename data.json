@@ -113,6 +113,7 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "Kind people help each other even without noticing that they are doing so, and evil people act against each other on purpose.",
         "author": "CHINESE PROVERB"
       },
