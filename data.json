@@ -136,6 +136,49 @@
     [
       {
         "date": {
+          "month": 1,
+          "date": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Sometimes, the damage done by our words is obvious and sometimes it isn’t, but the damage is not any smaller for our not being able to see those people who suffer from our words."
+      },
+      {
+        "type": "quote",
+        "message": "A gunshot wound may be cured, but the wound made by a tongue never heals.",
+        "author": "PERSIAN WISDOM"
+      },
+      {
+        "type": "scripture",
+        "message": "If any man offend not in word, the same is a perfect man…. Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!",
+        "verse": "—JAMES 3: 2, 5"
+      },
+      {
+        "type": "quote",
+        "message": "When you hear people speak about the viciousness of other people, do not share in pleasure by discussing these issues. When you hear about the bad deeds of people, do not listen to the end and try to forget what you have heard. When you hear about the virtues of other people, remember them and tell them to others.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Do listen to disputes, but be not so involved in disputes yourself.",
+        "author": "NIKOLAI GOGOL"
+      },
+      {
+        "type": "scripture",
+        "message": "I said, I will take heed to my ways, that I sin not with my tongue.",
+        "verse": "PSALMS 39:1"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Be afraid to destroy the unity of people by stirring bad feelings amongst them against another with your words."
+      }
+    ],
+    [
+      {
+        "date": {
           "month": "January",
           "date": 24
         }
