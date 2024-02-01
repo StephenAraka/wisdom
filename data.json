@@ -179,7 +179,45 @@
     [
       {
         "date": {
-          "month": "January",
+          "month": 1,
+          "date": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It’s important to strive to do good, and even more important to strive to abstain from evil."
+      },
+      {
+        "type": "quote",
+        "message": "Abstention should be a habit in your life; it should support you in your virtues. For he who is resolute in goodness, there is nothing that he could not overcome.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "Put at least half of your energy into making yourself free of empty wishes, and very soon you will see that in so doing you will receive much greater fulfillment and happiness.",
+        "author": " After EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "God tests everyone, one with wealth, another with poverty. A rich man is tested in whether he would extend an arm of support to those who need it; a poor man in whether he would bear all his sufferings without discontent and with obedience.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "I will call the right groom he who can stop his rage, which goes as fast as the fastest chariot. Other people have no power; they just hold the reins.",
+        "author": "—DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "No matter how many times yon aim to achieve victory over your passions, do not give tip. Every effort weakens the power of passion and makes it easier to gain victory over it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
