@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     height: 40,
   },
   dateBottomRow: {
-    color: colors.textLight,
+    color: colors.textColorDarkTheme,
     fontSize: 12,
   },
   dateSection: {
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   dateTopRow: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: colors.textLight,
+    color: colors.textColorDarkTheme,
   },
   dateWrapper: {
     display: 'flex',

@@ -1,3 +1,3 @@
 export default {
-  textLight: '#fff',
+  textColorDarkTheme: '#fff',
 }
