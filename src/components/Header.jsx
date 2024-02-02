@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     gap: 8,
+    paddingLeft: 16,
   },
   dateTopRow: {
     fontSize: 16,
