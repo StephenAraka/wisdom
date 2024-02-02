@@ -19,7 +19,7 @@ export default function App() {
         })}
       </View>
       <Header />
-      <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} subQuoteLength={(quotes[0].length) - 1}>
+      <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} subQuoteLength={(quotes[0].length) - 2}>
         <View style={styles.contentContainer}>
           {quotes[0].slice(1).map((subquote, index) => {
             const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
