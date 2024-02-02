@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import jsonData from './data.json';
 import SwipeView from './src/components/SwipeView';
+import Header from './src/components/Header';
 
 const quotes = jsonData.quotes;
 
@@ -12,14 +13,15 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       {/* <StatusBar style="auto" /> */}
       <View style={styles.progressIndicators}>
-        {quotes[0].map((subquote, index) => {
-          const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
+        {quotes[0].slice(1).map((subquote, index) => {
+          const width = Math.floor((100 / quotes[0].slice(1).length) - 2).toString() + '%';
           return <View key={`indicator${index}`} style={styles.progressIndicatorBar(width, activeSubQuote === index)} />
         })}
       </View>
+      <Header />
       <SwipeView activeSubQuote={activeSubQuote} setActiveSubQuote={setActiveSubQuote} subQuoteLength={(quotes[0].length) - 1}>
         <View style={styles.contentContainer}>
-          {quotes[0].map((subquote, index) => {
+          {quotes[0].slice(1).map((subquote, index) => {
             const width = Math.floor((100 / quotes[0].length) - 2).toString() + '%';
             return (index === activeSubQuote && <Text key={`content${index}`} style={styles.text(subquote.italics)}>{subquote.message}</Text>)
           })}
