@@ -6,7 +6,24 @@ import colors from "../constants/colors";
 const Header = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const menuItems = ["Share", "Like", "Light Mode", "More Info"];
+  const menuItems = [
+    {
+      text: "Share",
+      icon: assets.shareIconDarkTheme,
+    },
+    {
+      text: "Like",
+      icon: "images",
+    },
+    {
+      text: "Light Mode",
+      icon: "image",
+    },
+    {
+      text: "More Info",
+      icon: "image",
+    },
+  ];
 
   // Function to show or hide the menu
   //-----------------------------------
@@ -41,7 +58,8 @@ const Header = () => {
         <View style={styles.modalContainer}>
           {menuItems.map((item, index) => (
             <TouchableOpacity key={index}>
-              <Text style={styles.menuText}>{item}</Text>
+              <Image source={item.icon} />
+              <Text style={styles.menuText}>{item.text}</Text>
             </TouchableOpacity>
           ))}
         </View>
@@ -88,9 +106,9 @@ const styles = StyleSheet.create({
     height: 40,
   },
   modalContainer: {
-    backgroundColor: "white",
+    backgroundColor: colors.menuBgColorDarkTheme,
   },
   menuText: {
-    color: "fff",
+    color: colors.textColorDarkTheme,
   },
 });
