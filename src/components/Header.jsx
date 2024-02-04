@@ -13,15 +13,15 @@ const Header = () => {
     },
     {
       text: "Like",
-      icon: "images",
+      icon: assets.likeIconDarkTheme,
     },
     {
       text: "Light Mode",
-      icon: "image",
+      icon: assets.lightIconDarkTheme,
     },
     {
       text: "More Info",
-      icon: "image",
+      icon: assets.infoIconDarkTheme,
     },
   ];
 
@@ -57,10 +57,15 @@ const Header = () => {
       {isModalVisible && (
         <View style={styles.modalContainer}>
           {menuItems.map((item, index) => (
-            <TouchableOpacity key={index}>
-              <Image source={item.icon} />
-              <Text style={styles.menuText}>{item.text}</Text>
-            </TouchableOpacity>
+            <View>
+              <TouchableOpacity key={index} style={styles.menuItem}>
+                <Image source={item.icon} style={styles.menuItemIcon} />
+                <Text style={styles.menuText}>{item.text}</Text>
+              </TouchableOpacity>
+              {index < menuItems.length - 1 && (
+                <View style={styles.separator}></View>
+              )}
+            </View>
           ))}
         </View>
       )}
@@ -108,7 +113,25 @@ const styles = StyleSheet.create({
   modalContainer: {
     backgroundColor: colors.menuBgColorDarkTheme,
   },
+  menuItem: {
+    display: "flex",
+    flexDirection: "row",
+    gap: 12,
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+  },
+  menuItemIcon: {
+    width: 20,
+    height: 20,
+  },
+
   menuText: {
     color: colors.textColorDarkTheme,
+    fontSize: 16,
+  },
+  separator: {
+    height: 1,
+    width: "100%",
+    backgroundColor: "#707070",
   },
 });
