@@ -33,8 +33,7 @@ const Header = () => {
 
   return (
     <View style={styles.header}>
-      {/* Calendar Icon
-        ------------------ */}
+      {/* Calendar Icon */}
       <View style={styles.dateSection}>
         <Image
           source={assets.calendarIconDarkTheme}
@@ -46,19 +45,17 @@ const Header = () => {
         </View>
       </View>
 
-      {/* Menu Icon
-      ------------------ */}
+      {/* Menu Icon */}
       <TouchableOpacity style={styles.menuSection} onPress={toggleModal}>
         <Image source={assets.menuIconDarkTheme} style={styles.menuIcon} />
       </TouchableOpacity>
 
-      {/* Menu
-      --------- */}
+      {/* Menu */}
       {isModalVisible && (
-        <View style={styles.modalContainer}>
+        <View style={[styles.modalContainer, styles.absolutePosition]}>
           {menuItems.map((item, index) => (
-            <View>
-              <TouchableOpacity key={index} style={styles.menuItem}>
+            <View key={index}>
+              <TouchableOpacity style={styles.menuItem}>
                 <Image source={item.icon} style={styles.menuItemIcon} />
                 <Text style={styles.menuText}>{item.text}</Text>
               </TouchableOpacity>
@@ -85,7 +82,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   dateSection: {
-    display: "flex",
     flexDirection: "row",
     gap: 8,
     paddingLeft: 16,
@@ -96,12 +92,10 @@ const styles = StyleSheet.create({
     color: colors.textColorDarkTheme,
   },
   dateWrapper: {
-    display: "flex",
     justifyContent: "space-between",
     paddingVertical: 4,
   },
   header: {
-    display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     paddingTop: 16,
@@ -112,9 +106,13 @@ const styles = StyleSheet.create({
   },
   modalContainer: {
     backgroundColor: colors.menuBgColorDarkTheme,
+    position: "absolute",
+    top: "130%",
+    left: 200,
+    right: 14,
+    zIndex: 1,
   },
   menuItem: {
-    display: "flex",
     flexDirection: "row",
     gap: 12,
     paddingVertical: 15,
@@ -124,7 +122,9 @@ const styles = StyleSheet.create({
     width: 20,
     height: 20,
   },
-
+  menuSection: {
+    position: "relative",
+  },
   menuText: {
     color: colors.textColorDarkTheme,
     fontSize: 16,
