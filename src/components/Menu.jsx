@@ -93,6 +93,6 @@ const styles = StyleSheet.create({
   separator: {
     height: 1,
     width: "100%",
-    backgroundColor: "#707070",
+    backgroundColor: "#504F4F",
   },
 });
