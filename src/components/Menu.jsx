@@ -62,16 +62,16 @@ const styles = StyleSheet.create({
   modalBg: {
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.4)",
+    backgroundColor: "rgba(0,0,0,0.7)",
   },
   modalContainer: {
     backgroundColor: colors.menuBgColorDarkTheme,
     position: "absolute",
-    width: "70%",
-    alignSelf: "flex-end",
-    top: "12%",
-    marginRight: 12,
-    borderRadius: 4,
+    width: "40%",
+    right: 0,
+    top: "9%",
+    marginRight: 16,
+    borderRadius: 2,
   },
   menuItem: {
     flexDirection: "row",
