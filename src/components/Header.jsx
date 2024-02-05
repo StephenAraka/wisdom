@@ -52,19 +52,28 @@ const Header = () => {
 
       {/* Menu */}
       {isModalVisible && (
-        <View style={[styles.modalContainer, styles.absolutePosition]}>
+        <TouchableOpacity
+          activeOpacity={1} // To prevent extra click events
+          onPress={toggleModal}
+          style={styles.modalContainer}
+        >
           {menuItems.map((item, index) => (
             <View key={index}>
-              <TouchableOpacity style={styles.menuItem}>
+              <TouchableOpacity
+                style={styles.menuItem}
+                onPress={() => console.log("menu item")}
+              >
                 <Image source={item.icon} style={styles.menuItemIcon} />
                 <Text style={styles.menuText}>{item.text}</Text>
               </TouchableOpacity>
+
+              {/* Separator for menu items */}
               {index < menuItems.length - 1 && (
                 <View style={styles.separator}></View>
               )}
             </View>
           ))}
-        </View>
+        </TouchableOpacity>
       )}
     </View>
   );
@@ -110,7 +119,7 @@ const styles = StyleSheet.create({
     top: "130%",
     left: 200,
     right: 14,
-    zIndex: 1,
+    zIndex: 200,
   },
   menuItem: {
     flexDirection: "row",
