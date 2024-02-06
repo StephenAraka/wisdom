@@ -10,23 +10,32 @@ import React from "react";
 import { Calendar, LocaleConfig } from "react-native-calendars";
 import colors from "../constants/colors";
 
-const DatePicker = () => {
+const DatePicker = ({ toggleCalendar }) => {
   return (
-    <View style={styles.calendarWrapper}>
-      <Calendar
-        style={styles.calendar}
-        theme={{
-          calendarBackground: colors.menuBgColorDarkTheme,
-          textSectionTitleColor: "#b6c1cd",
-        }}
-      />
-    </View>
+    <Modal transparent={true}>
+      <TouchableOpacity style={styles.datePickerBg} onPress={toggleCalendar}>
+        <View style={styles.calendarWrapper}>
+          <Calendar
+            style={styles.calendar}
+            theme={{
+              calendarBackground: colors.menuBgColorDarkTheme,
+              textSectionTitleColor: "#b6c1cd",
+            }}
+          />
+        </View>
+      </TouchableOpacity>
+    </Modal>
   );
 };
 
 export default DatePicker;
 
 const styles = StyleSheet.create({
+  datePickerBg: {
+    ...StyleSheet.absoluteFillObject,
+    position: "absolute",
+    backgroundColor: "rgba(0,0,0,0.5)",
+  },
   calendarWrapper: {
     position: "absolute",
     zindex: 600,

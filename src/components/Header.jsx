@@ -7,7 +7,7 @@ import DatePicker from "./DatePicker";
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  const [isCalendarVisible, setIsCalendarVisible] = useState(true);
+  const [isCalendarVisible, setIsCalendarVisible] = useState(false);
 
   const date = new Date().toLocaleDateString("en-GB", {
     weekday: "short",
@@ -15,16 +15,22 @@ const Header = () => {
     day: "2-digit",
   });
 
-  // Function to show or hide the menu
-  //-----------------------------------
+  /* Function to show or hide the menu
+  -------------------------------------*/
   const toggleMenu = () => {
     setIsMenuVisible(!isMenuVisible);
+  };
+
+  /* Function to show or hide Calendar
+  --------------------------------------*/
+  const toggleCalendar = () => {
+    setIsCalendarVisible(!isCalendarVisible);
   };
 
   return (
     <View style={styles.header}>
       {/* Calendar Icon */}
-      <View style={styles.dateSection}>
+      <TouchableOpacity style={styles.dateSection} onPress={toggleCalendar}>
         <Image
           source={assets.calendarIconDarkTheme}
           style={styles.calendarIcon}
@@ -33,10 +39,10 @@ const Header = () => {
           <Text style={styles.dateTopRow}>Today</Text>
           <Text style={styles.dateBottomRow}>{date}</Text>
         </View>
-      </View>
+      </TouchableOpacity>
 
       {/* Calendar */}
-      {isCalendarVisible && <DatePicker />}
+      {isCalendarVisible && <DatePicker toggleCalendar={toggleCalendar} />}
 
       {/* Menu Icon */}
       <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
