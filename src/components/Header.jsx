@@ -1,19 +1,13 @@
-import {
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Modal,
-} from "react-native";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React, { useState } from "react";
 import Menu from "./Menu";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
+import DatePicker from "./DatePicker";
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  const [isCalendarVisible, setIsCalendarVisible] = useState(false);
+  const [isCalendarVisible, setIsCalendarVisible] = useState(true);
 
   const date = new Date().toLocaleDateString("en-GB", {
     weekday: "short",
@@ -40,6 +34,9 @@ const Header = () => {
           <Text style={styles.dateBottomRow}>{date}</Text>
         </View>
       </View>
+
+      {/* Calendar */}
+      {isCalendarVisible && <DatePicker />}
 
       {/* Menu Icon */}
       <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
