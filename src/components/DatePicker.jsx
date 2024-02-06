@@ -19,13 +19,12 @@ const DatePicker = ({ toggleCalendar }) => {
             style={styles.calendar}
             theme={{
               calendarBackground: colors.menuBgColorDarkTheme,
-              textSectionTitleColor: "#fff",
+              textSectionTitleColor: colors.textColorDarkTheme,
               dayTextColor: colors.textColorDarkTheme,
-              todayTextColor: "#00d4f0",
-              textDisabledColor: "#4d4d4d",
-              monthTextColor: "#fff", // Month text color
-              arrowColor: "#fff", // Arrow color
-              textDayFontFamily: "Arial",
+              todayTextColor: colors.wisdomBlue,
+              textDisabledColor: colors.lightGreyDarkTheme,
+              monthTextColor: colors.textColorDarkTheme,
+              arrowColor: colors.wisdomBlue,
             }}
           />
         </View>
