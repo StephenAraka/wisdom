@@ -12,7 +12,8 @@ import assets from "../constants/assets";
 import colors from "../constants/colors";
 
 const Header = () => {
-  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isCalendarVisible, setIsCalendarVisible] = useState(false);
 
   const date = new Date().toLocaleDateString("en-GB", {
     weekday: "short",
@@ -22,8 +23,8 @@ const Header = () => {
 
   // Function to show or hide the menu
   //-----------------------------------
-  const toggleModal = () => {
-    setIsModalVisible(!isModalVisible);
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
   };
 
   return (
@@ -41,12 +42,12 @@ const Header = () => {
       </View>
 
       {/* Menu Icon */}
-      <TouchableOpacity style={styles.menuSection} onPress={toggleModal}>
+      <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
         <Image source={assets.menuIconDarkTheme} style={styles.menuIcon} />
       </TouchableOpacity>
 
       {/* Menu */}
-      {isModalVisible && <Menu toggleModal={toggleModal} />}
+      {isMenuVisible && <Menu toggleMenu={toggleMenu} />}
     </View>
   );
 };

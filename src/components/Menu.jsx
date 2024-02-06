@@ -10,7 +10,7 @@ import React from "react";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
 
-const Menu = ({ toggleModal }) => {
+const Menu = ({ toggleMenu }) => {
   const menuItems = [
     {
       text: "Share",
@@ -32,7 +32,7 @@ const Menu = ({ toggleModal }) => {
 
   return (
     <Modal transparent={true}>
-      <TouchableOpacity style={styles.modalBg} onPress={toggleModal}>
+      <TouchableOpacity style={styles.modalBg} onPress={toggleMenu}>
         <View style={styles.modalContainer}>
           {menuItems.map((item, index) => (
             <View key={index}>
