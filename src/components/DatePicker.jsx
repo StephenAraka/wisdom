@@ -19,7 +19,13 @@ const DatePicker = ({ toggleCalendar }) => {
             style={styles.calendar}
             theme={{
               calendarBackground: colors.menuBgColorDarkTheme,
-              textSectionTitleColor: "#b6c1cd",
+              textSectionTitleColor: "#fff",
+              dayTextColor: colors.textColorDarkTheme,
+              todayTextColor: "#00d4f0",
+              textDisabledColor: "#4d4d4d",
+              monthTextColor: "#fff", // Month text color
+              arrowColor: "#fff", // Arrow color
+              textDayFontFamily: "Arial",
             }}
           />
         </View>
@@ -34,16 +40,18 @@ const styles = StyleSheet.create({
   datePickerBg: {
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.5)",
+    backgroundColor: "rgba(0,0,0,0.7)",
   },
   calendarWrapper: {
     position: "absolute",
-    zindex: 600,
+    top: "10%",
+    left: "4%",
   },
   calendar: {
+    color: colors.textColorDarkTheme,
     borderWidth: 1,
     color: colors.textColorDarkTheme,
-    borderColor: "gray",
+    borderRadius: 4,
     backgroundColor: colors.menuBgColorDarkTheme,
     height: 350,
   },
