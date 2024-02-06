@@ -1,26 +1,61 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import assets from '../constants/assets';
-import colors from '../constants/colors';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import React, { useState } from "react";
+import Menu from "./Menu";
+import assets from "../constants/assets";
+import colors from "../constants/colors";
+import DatePicker from "./DatePicker";
 
 const Header = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isCalendarVisible, setIsCalendarVisible] = useState(false);
+
+  const date = new Date().toLocaleDateString("en-GB", {
+    weekday: "short",
+    month: "long",
+    day: "2-digit",
+  });
+
+  /* Function to show or hide the menu
+  -------------------------------------*/
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
+
+  /* Function to show or hide Calendar
+  --------------------------------------*/
+  const toggleCalendar = () => {
+    setIsCalendarVisible(!isCalendarVisible);
+  };
+
   return (
     <View style={styles.header}>
-      <View style={styles.dateSection}>
-        <Image source={assets.calendarIconDarkTheme} style={styles.calendarIcon} />
-        <View style={styles.dateWrapper} >
+      {/* Calendar Icon */}
+      <TouchableOpacity style={styles.dateSection} onPress={toggleCalendar}>
+        <Image
+          source={assets.calendarIconDarkTheme}
+          style={styles.calendarIcon}
+        />
+        <View style={styles.dateWrapper}>
           <Text style={styles.dateTopRow}>Today</Text>
-          <Text style={styles.dateBottomRow}>Wed, 24 January</Text>
+          <Text style={styles.dateBottomRow}>{date}</Text>
         </View>
-      </View>
-      <View style={styles.menuSection}>
-        <Image source={assets.menuIconDarkTheme} style={styles.menuIcon} />
-      </View>
-    </View>
-  )
-}
+      </TouchableOpacity>
 
-export default Header
+      {/* Calendar */}
+      {isCalendarVisible && <DatePicker toggleCalendar={toggleCalendar} />}
+
+      {/* Menu Icon */}
+      <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
+        <Image source={assets.menuIconDarkTheme} style={styles.menuIcon} />
+      </TouchableOpacity>
+
+      {/* Menu */}
+      {isMenuVisible && <Menu toggleMenu={toggleMenu} />}
+    </View>
+  );
+};
+
+export default Header;
 
 const styles = StyleSheet.create({
   calendarIcon: {
@@ -32,29 +67,26 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   dateSection: {
-    display: 'flex',
-    flexDirection: 'row',
+    flexDirection: "row",
     gap: 8,
     paddingLeft: 16,
   },
   dateTopRow: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: colors.textColorDarkTheme,
   },
   dateWrapper: {
-    display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: "space-between",
     paddingVertical: 4,
   },
   header: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingTop: 16,
   },
   menuIcon: {
     width: 40,
     height: 40,
-  }
+  },
 });
