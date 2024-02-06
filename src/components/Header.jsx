@@ -14,6 +14,12 @@ import colors from "../constants/colors";
 const Header = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
+  const date = new Date().toLocaleDateString("en-GB", {
+    weekday: "short",
+    month: "long",
+    day: "2-digit",
+  });
+
   // Function to show or hide the menu
   //-----------------------------------
   const toggleModal = () => {
@@ -30,7 +36,7 @@ const Header = () => {
         />
         <View style={styles.dateWrapper}>
           <Text style={styles.dateTopRow}>Today</Text>
-          <Text style={styles.dateBottomRow}>Wed, 24 January</Text>
+          <Text style={styles.dateBottomRow}>{date}</Text>
         </View>
       </View>
 
