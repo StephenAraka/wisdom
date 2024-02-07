@@ -218,6 +218,44 @@
       {
         "date": {
           "month": 1,
+          "date": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Kindness is necessary in relationships with people. If you are not kind to a person, you are not fulfilling your major obligation."
+      },
+      {
+        "type": "quote",
+        "message": "You have to respect every person, no matter how miserable or ridiculous he or she may be. You should remember that in every person lives the same spirit which lives in us.",
+        "author": "After ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "Do not be cruel of heart to those who are tempted, but try to console them, just as you would like to be comforted.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "quote",
+        "message": "(1) Do not postpone for tomorrow what you can do today. (2) Do not force another person to do what you can do by yourself. (3) Pride costs more than all that is necessary for food, drink, shelter, or dress. (4) We suffer so much, thinking about what could have happened, but not about what has actually happened. (5) If you lose your temper, count up to ten before you do or say anything. If you haven’t calmed down, then count to a hundred; and if you have not calmed down after this, count up to a thousand.",
+        "author": "After THOMAS JEFFERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The kinder and the more thoughtful a person is, the more kindness he can find in other people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Kindness enriches our life; with kindness mysterious things become clear, difficult things become easy, and dull things become cheerful."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
