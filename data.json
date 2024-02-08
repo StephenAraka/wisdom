@@ -256,6 +256,39 @@
       {
         "date": {
           "month": 1,
+          "date": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Christian teaching is so simple that even small children can understand its meaning. Those people cannot understand it, and only those, who want to seem and to be called Christians without being real Christians."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Buddha said, “A man who starts to live for his soul is like a man who brings a lantern into a dark house. The darkness disappears at once. You have to be persistent in this, and your soul will have this light.”"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Christ expressed all His teachings in His last commandment: “Love each other, as I loved you. Everyone will see that you are my disciples, if you love each other.” He did not say, “If you believe,” but “If you love.” Faith can change with time, because our knowledge is constantly changing. Love, on the contrary, never changes; love is eternal."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "My religion is love to all living beings."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to fulfill Christianity, we have to destroy its perversions and restore its purity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
