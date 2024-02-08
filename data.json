@@ -289,6 +289,39 @@
       {
         "date": {
           "month": 1,
+          "date": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Knowledge is real knowledge only when it is acquired by the efforts of your intellect, not by memory."
+      },
+      {
+        "type": "quote",
+        "message": " Only when we forget what we were taught do we start to have realknowledge.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "quote",
+        "message": "A constant flow of thoughts expressed by other people can stop and deaden your own thought and your own initiative…. That is why constant learning softens your brain…. Stopping the creation of your own thoughts to give room for the thoughts from other books reminds me of Shakespeare’s remark about his contemporaries whoz sold their land in order to see other countries.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A thought can advance your life in the right direction only when it answers questions which were asked by your soul. A thought which was first borrowed from someone else and then accepted by your mind and memory does not really much influence your life, and sometimes leads you in the wrong direction."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Read less, study less, but think more. Learn, both from your teachers and from the books which you read, only those things which you really need and which you really want to know."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
