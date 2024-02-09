@@ -102,7 +102,226 @@
     [
       {
         "date": {
-          "month": "January",
+          "month": 1,
+          "date": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Even if we don’t want to, we can’t help but feel our connection to the rest of mankind: we are connected by industry, by trade, by art, by knowledge, and most importantly, by our common mortality."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Kind people help each other even without noticing that they are doing so, and evil people act against each other on purpose.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Every person has his burden. One cannot live without the support of other people; therefore we have to support each other with consolation, advice, and mutual warnings.",
+        "author": "From the \"BOOK OF DIVINE THOUGHTS\""
+      },
+      {
+        "type": "quote",
+        "message": "All the children of Adam are members of the same body. When one member suffers, all the others suffer as well. If you are indifferent to the sufferings of others, you do not deserve to be called a man.",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The history of mankind is the movement of humanity toward greater and greater unification."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Sometimes, the damage done by our words is obvious and sometimes it isn’t, but the damage is not any smaller for our not being able to see those people who suffer from our words."
+      },
+      {
+        "type": "quote",
+        "message": "A gunshot wound may be cured, but the wound made by a tongue never heals.",
+        "author": "PERSIAN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "If any man offend not in word, the same is a perfect man…. Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!",
+        "author": "—JAMES 3: 2, 5"
+      },
+      {
+        "type": "quote",
+        "message": "When you hear people speak about the viciousness of other people, do not share in pleasure by discussing these issues. When you hear about the bad deeds of people, do not listen to the end and try to forget what you have heard. When you hear about the virtues of other people, remember them and tell them to others.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Do listen to disputes, but be not so involved in disputes yourself.",
+        "author": "NIKOLAI GOGOL"
+      },
+      {
+        "type": "scripture",
+        "message": "I said, I will take heed to my ways, that I sin not with my tongue.",
+        "verse": "PSALMS 39:1"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Be afraid to destroy the unity of people by stirring bad feelings amongst them against another with your words."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It’s important to strive to do good, and even more important to strive to abstain from evil."
+      },
+      {
+        "type": "quote",
+        "message": "Abstention should be a habit in your life; it should support you in your virtues. For he who is resolute in goodness, there is nothing that he could not overcome.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "Put at least half of your energy into making yourself free of empty wishes, and very soon you will see that in so doing you will receive much greater fulfillment and happiness.",
+        "author": " After EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "God tests everyone, one with wealth, another with poverty. A rich man is tested in whether he would extend an arm of support to those who need it; a poor man in whether he would bear all his sufferings without discontent and with obedience.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "I will call the right groom he who can stop his rage, which goes as fast as the fastest chariot. Other people have no power; they just hold the reins.",
+        "author": "—DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "No matter how many times yon aim to achieve victory over your passions, do not give tip. Every effort weakens the power of passion and makes it easier to gain victory over it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Kindness is necessary in relationships with people. If you are not kind to a person, you are not fulfilling your major obligation."
+      },
+      {
+        "type": "quote",
+        "message": "You have to respect every person, no matter how miserable or ridiculous he or she may be. You should remember that in every person lives the same spirit which lives in us.",
+        "author": "After ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "Do not be cruel of heart to those who are tempted, but try to console them, just as you would like to be comforted.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "quote",
+        "message": "(1) Do not postpone for tomorrow what you can do today. (2) Do not force another person to do what you can do by yourself. (3) Pride costs more than all that is necessary for food, drink, shelter, or dress. (4) We suffer so much, thinking about what could have happened, but not about what has actually happened. (5) If you lose your temper, count up to ten before you do or say anything. If you haven’t calmed down, then count to a hundred; and if you have not calmed down after this, count up to a thousand.",
+        "author": "After THOMAS JEFFERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The kinder and the more thoughtful a person is, the more kindness he can find in other people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Kindness enriches our life; with kindness mysterious things become clear, difficult things become easy, and dull things become cheerful."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Christian teaching is so simple that even small children can understand its meaning. Those people cannot understand it, and only those, who want to seem and to be called Christians without being real Christians."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Buddha said, “A man who starts to live for his soul is like a man who brings a lantern into a dark house. The darkness disappears at once. You have to be persistent in this, and your soul will have this light.”"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Christ expressed all His teachings in His last commandment: “Love each other, as I loved you. Everyone will see that you are my disciples, if you love each other.” He did not say, “If you believe,” but “If you love.” Faith can change with time, because our knowledge is constantly changing. Love, on the contrary, never changes; love is eternal."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "My religion is love to all living beings."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to fulfill Christianity, we have to destroy its perversions and restore its purity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Knowledge is real knowledge only when it is acquired by the efforts of your intellect, not by memory."
+      },
+      {
+        "type": "quote",
+        "message": " Only when we forget what we were taught do we start to have realknowledge.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "quote",
+        "message": "A constant flow of thoughts expressed by other people can stop and deaden your own thought and your own initiative…. That is why constant learning softens your brain…. Stopping the creation of your own thoughts to give room for the thoughts from other books reminds me of Shakespeare’s remark about his contemporaries whoz sold their land in order to see other countries.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A thought can advance your life in the right direction only when it answers questions which were asked by your soul. A thought which was first borrowed from someone else and then accepted by your mind and memory does not really much influence your life, and sometimes leads you in the wrong direction."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Read less, study less, but think more. Learn, both from your teachers and from the books which you read, only those things which you really need and which you really want to know."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
