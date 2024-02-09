@@ -5,7 +5,7 @@ import assets from "../constants/assets";
 import colors from "../constants/colors";
 import DatePicker from "./DatePicker";
 
-const Header = () => {
+const Header = ({ isDarkTheme }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isCalendarVisible, setIsCalendarVisible] = useState(false);
 
@@ -32,12 +32,12 @@ const Header = () => {
       {/* Calendar Icon */}
       <TouchableOpacity style={styles.dateSection} onPress={toggleCalendar}>
         <Image
-          source={assets.calendarIconDarkTheme}
+          source={isDarkTheme ? assets.calendarIconDarkTheme : assets.calendarIconLightTheme}
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
-          <Text style={styles.dateTopRow}>Today</Text>
-          <Text style={styles.dateBottomRow}>{date}</Text>
+          <Text style={styles.dateTopRow(isDarkTheme)}>Today</Text>
+          <Text style={styles.dateBottomRow(isDarkTheme)}>{date}</Text>
         </View>
       </TouchableOpacity>
 
@@ -46,7 +46,7 @@ const Header = () => {
 
       {/* Menu Icon */}
       <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
-        <Image source={assets.menuIconDarkTheme} style={styles.menuIcon} />
+        <Image source={isDarkTheme ? assets.menuIconDarkTheme : assets.menuIconLightTheme} style={styles.menuIcon} />
       </TouchableOpacity>
 
       {/* Menu */}
@@ -62,20 +62,20 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
   },
-  dateBottomRow: {
-    color: colors.textColorDarkTheme,
+  dateBottomRow: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.textColorDarkTheme : colors.textColorLightTheme,
     fontSize: 12,
-  },
+  }),
   dateSection: {
     flexDirection: "row",
     gap: 8,
     paddingLeft: 16,
   },
-  dateTopRow: {
+  dateTopRow: (isDarkTheme) => ({
     fontSize: 16,
     fontWeight: "bold",
-    color: colors.textColorDarkTheme,
-  },
+    color: isDarkTheme ? colors.textColorDarkTheme : colors.textColorLightTheme,
+  }),
   dateWrapper: {
     justifyContent: "space-between",
     paddingVertical: 4,
