@@ -16,11 +16,13 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
   const menuItems = [
     {
       text: "Share",
-      icon: assets.shareIconDarkTheme,
+      icon: isDarkTheme
+        ? assets.shareIconDarkTheme
+        : assets.shareIconLightTheme,
     },
     {
       text: "Like",
-      icon: assets.likeIconDarkTheme,
+      icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
@@ -29,7 +31,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     },
     {
       text: "More Info",
-      icon: assets.infoIconDarkTheme,
+      icon: isDarkTheme ? assets.infoIconDarkTheme : assets.infoIconLightTheme,
     },
   ];
 
