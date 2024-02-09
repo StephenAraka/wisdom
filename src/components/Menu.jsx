@@ -9,11 +9,10 @@ import {
 import React from "react";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
 
 const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
-
   const menuItems = [
     {
       text: "Share",
@@ -37,7 +36,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
   return (
     <Modal transparent={true}>
       <TouchableOpacity style={styles.modalBg} onPress={toggleMenu}>
-        <View style={styles.modalContainer}>
+        <View style={styles.modalContainer(isDarkTheme)}>
           {menuItems.map((item, index) => (
             <View key={index}>
               <TouchableOpacity
@@ -45,7 +44,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
                 onPress={item.onPress || (() => console.log("menu item"))}
               >
                 <Image source={item.icon} style={styles.menuItemIcon} />
-                <Text style={styles.menuText}>{item.text}</Text>
+                <Text style={styles.menuText(isDarkTheme)}>{item.text}</Text>
               </TouchableOpacity>
 
               {/* Separator for menu items */}
@@ -65,8 +64,8 @@ const mapStateToProps = (state) => ({
 });
 
 const matchDispatchToProps = {
-  toggleTheme
-}
+  toggleTheme,
+};
 
 export default connect(mapStateToProps, matchDispatchToProps)(Menu);
 
@@ -76,15 +75,17 @@ const styles = StyleSheet.create({
     position: "absolute",
     backgroundColor: "rgba(0,0,0,0.7)",
   },
-  modalContainer: {
-    backgroundColor: colors.menuBgColorDarkTheme,
+  modalContainer: (isDarkTheme) => ({
+    backgroundColor: isDarkTheme
+      ? colors.menuBgColorDarkTheme
+      : colors.menuBgColorLightTheme,
     position: "absolute",
     width: "40%",
     right: 0,
     top: "9%",
     marginRight: 16,
     borderRadius: 2,
-  },
+  }),
   menuItem: {
     flexDirection: "row",
     gap: 12,
@@ -98,10 +99,10 @@ const styles = StyleSheet.create({
   menuSection: {
     position: "relative",
   },
-  menuText: {
-    color: colors.textColorDarkTheme,
+  menuText: (isDarkMode) => ({
+    color: isDarkMode ? colors.textColorDarkTheme : colors.textColorLightTheme,
     fontSize: 16,
-  },
+  }),
   separator: {
     height: 1,
     width: "100%",
