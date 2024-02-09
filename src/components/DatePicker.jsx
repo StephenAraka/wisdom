@@ -10,10 +10,13 @@ import React from "react";
 import { Calendar, LocaleConfig } from "react-native-calendars";
 import colors from "../constants/colors";
 
-const DatePicker = ({ toggleCalendar }) => {
+const DatePicker = ({ toggleCalendar, isDarkMode }) => {
   return (
     <Modal transparent={true}>
-      <TouchableOpacity style={styles.datePickerBg} onPress={toggleCalendar}>
+      <TouchableOpacity
+        style={styles.datePickerBg(isDarkMode)}
+        onPress={toggleCalendar}
+      >
         <View style={styles.calendarWrapper}>
           <Calendar
             style={styles.calendar}
@@ -36,11 +39,11 @@ const DatePicker = ({ toggleCalendar }) => {
 export default DatePicker;
 
 const styles = StyleSheet.create({
-  datePickerBg: {
+  datePickerBg: (isDarkMode) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.7)",
-  },
+    backgroundColor: isDarkMode ? "rgba(0,0,0,0.7)" : "rgba(205,205,205,0.7)",
+  }),
   calendarWrapper: {
     position: "absolute",
     top: "10%",

@@ -37,7 +37,10 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
 
   return (
     <Modal transparent={true}>
-      <TouchableOpacity style={styles.modalBg} onPress={toggleMenu}>
+      <TouchableOpacity
+        style={styles.modalBg(isDarkTheme)}
+        onPress={toggleMenu}
+      >
         <View style={styles.modalContainer(isDarkTheme)}>
           {menuItems.map((item, index) => (
             <View key={index}>
@@ -51,7 +54,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
 
               {/* Separator for menu items */}
               {index < menuItems.length - 1 && (
-                <View style={styles.separator}></View>
+                <View style={styles.separator(isDarkTheme)}></View>
               )}
             </View>
           ))}
@@ -72,11 +75,11 @@ const matchDispatchToProps = {
 export default connect(mapStateToProps, matchDispatchToProps)(Menu);
 
 const styles = StyleSheet.create({
-  modalBg: {
+  modalBg: (isDarkMode) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.7)",
-  },
+    backgroundColor: isDarkMode ? "rgba(0,0,0,0.7)" : "rgba(205,205,205,0.7)",
+  }),
   modalContainer: (isDarkTheme) => ({
     backgroundColor: isDarkTheme
       ? colors.menuBgColorDarkTheme
@@ -105,9 +108,9 @@ const styles = StyleSheet.create({
     color: isDarkMode ? colors.textColorDarkTheme : colors.textColorLightTheme,
     fontSize: 16,
   }),
-  separator: {
+  separator: (isDarkMode) => ({
     height: 1,
     width: "100%",
-    backgroundColor: "#504F4F",
-  },
+    backgroundColor: isDarkMode ? "#504F4F" : "#CDCDCD",
+  }),
 });
