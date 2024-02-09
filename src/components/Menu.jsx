@@ -9,8 +9,11 @@ import {
 import React from "react";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
+import { connect } from 'react-redux';
+import { toggleTheme } from "../context/actions/themeActions";
 
-const Menu = ({ toggleMenu }) => {
+const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
+
   const menuItems = [
     {
       text: "Share",
@@ -21,8 +24,9 @@ const Menu = ({ toggleMenu }) => {
       icon: assets.likeIconDarkTheme,
     },
     {
-      text: "Light Mode",
-      icon: assets.lightIconDarkTheme,
+      text: isDarkTheme ? "Light Mode" : "Dark Mode",
+      icon: isDarkTheme ? assets.lightIconDarkTheme : assets.moonIcon,
+      onPress: toggleTheme,
     },
     {
       text: "More Info",
@@ -38,7 +42,7 @@ const Menu = ({ toggleMenu }) => {
             <View key={index}>
               <TouchableOpacity
                 style={styles.menuItem}
-                onPress={() => console.log("menu item")}
+                onPress={item.onPress || (() => console.log("menu item"))}
               >
                 <Image source={item.icon} style={styles.menuItemIcon} />
                 <Text style={styles.menuText}>{item.text}</Text>
@@ -56,7 +60,15 @@ const Menu = ({ toggleMenu }) => {
   );
 };
 
-export default Menu;
+const mapStateToProps = (state) => ({
+  isDarkTheme: state.theme.isDarkTheme,
+});
+
+const matchDispatchToProps = {
+  toggleTheme
+}
+
+export default connect(mapStateToProps, matchDispatchToProps)(Menu);
 
 const styles = StyleSheet.create({
   modalBg: {
