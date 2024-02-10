@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   datePickerBg: (isDarkTheme) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: isDarkTheme ? "rgba(0,0,0,0.7)" : "rgba(205,205,205,0.7)",
+    backgroundColor: isDarkTheme ? "rgba(0,0,0,0.7)" : "rgba(0,0,0,0.2)",
   }),
   calendarWrapper: {
     position: "absolute",
@@ -68,5 +68,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 4,
     height: 350,
+    borderColor: colors.lightGreyLightTheme,
   }),
 });

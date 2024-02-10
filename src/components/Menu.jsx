@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   modalBg: (isDarkMode) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: isDarkMode ? "rgba(0,0,0,0.7)" : "rgba(205,205,205,0.7)",
+    backgroundColor: isDarkMode ? "rgba(0,0,0,0.7)" : "rgba(0,0,0,0.2)",
   }),
   modalContainer: (isDarkTheme) => ({
     backgroundColor: isDarkTheme
