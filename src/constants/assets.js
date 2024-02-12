@@ -11,4 +11,5 @@ export default {
   infoIconDarkTheme: require('../assets/images/icons/info-icon-white.png'),
   infoIconLightTheme: require('../assets/images/icons/info-icon-black.png'),
   moonIcon: require('../assets/images/icons/moon-icon-black.png'),
+  quoteIcon: require('../assets/images/icons/quote-icon.png')
 }

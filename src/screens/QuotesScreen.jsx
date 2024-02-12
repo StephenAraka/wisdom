@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import globalStyles from "../assets/styles/globalStyles";
+import Quote from "../components/Quote";
 
 const quotes = jsonData.quotes;
 
@@ -42,12 +43,17 @@ const QuotesScreen = ({ isDarkTheme }) => {
               Math.floor(100 / quotes[0].length - 2).toString() + "%";
             return (
               index === activeSubQuote && (
-                <Text
+                <Quote
+                  key={`content${index}`}
+                  subquote={subquote}
+                  isDarkTheme={isDarkTheme}
+                />
+                /*                 <Text
                   key={`content${index}`}
                   style={globalStyles.quoteText(isDarkTheme, subquote.italics)}
                 >
                   {subquote.message}
-                </Text>
+                </Text> */
               )
             );
           })}
