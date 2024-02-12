@@ -322,6 +322,173 @@
       {
         "date": {
           "month": 1,
+          "date": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The basis of all education is the establishment of our relationship to the beginning of all things, and the conclusions about our behavior which may be drawn from this."
+      },
+      {
+        "type": "quote",
+        "message": "But whosoever shall offend one of these little ones who believe in me, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea.",
+        "author": "MATTHEW 18:6-7"
+      },
+      {
+        "type": "quote",
+        "message": "As we bring up our children, we have to remember that we are caretakers of the future. By improving their education, we improve the future of mankind, the future of this world.",
+        "author": "After IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "I think that the major obligation of parents and educators is to give children an understanding of the divine beginning that exists within them.",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Religious upbringing is the basis of all education."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 11
+        }
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Perfection is impossible without humility. 'Why should I strive for perfection, if I am already good enough?'"
+      },
+      {
+        "type": "quote",
+        "message": "The higher the position you occupy among other people, the more humble you should be. Many people live in height and glory, but the mysteries of this world can be revealed only to those who are humble. Do not seek out complication. Treat your duty with respect. Do not study what you should not. More things have already been revealed to you than you can understand.",
+        "author": "From APOCRYPHA"
+      },
+      {
+        "type": "quote",
+        "message": "The Son of man came not to be ministered unto, but to minister, and to give his life as ransom for many.",
+        "author": "MATTHEW 20:28"
+      },
+      {
+        "type": "quote",
+        "message": "Some of your friends praise you, and others blame and criticize you; be closer to those who blame you and further from those who praise you.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "When an arrow does not hit its target, the marksman blames himself, not another person. A wise man behaves in the same way.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Remember all the bad things which you have done, and try to avoid doing bad things again. Remembering only your good deeds will interfere with your doing good in the future."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There are people who take responsibility for making decisions for others and determining their relationship to God and to the world; and there are people, the overwhelming majority of them, who give this authority to the others, and blindly believe in everything they are told. Both groups of people commit an equal crime."
+      },
+      {
+        "type": "quote",
+        "message": "We are all like children who first repeat the unquestionable “truth” told to us by our grandmothers, then the “truth” told to us by our teachers, and then, when we become older, the “truth” told to us by prominent people.",
+        "author": "After RALPH WALDO EMERSON"
+      },
+      {
+        "type": "quote",
+        "message": "Beware of false prophets, which come to you in sheep’s clothing, but inwardly they are ravening wolves. Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit. A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit. Every tree that bringeth not forth good fruit is hewn down, and cast into the fire. Wherefore by their fruits ye shall know them.",
+        "author": "MATTHEW 7:15-20"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A man should use that spiritual heritage which he has received from the wise and holy people of the past, but he should test everything with his intellect, accepting certain things and rejecting others. Every person should define for himself his attitude to this world and to God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 13
+        }
+      },
+      {
+        "type": "intro",
+        "message": "Faith is the understanding of the meaning of life and the acceptance of those duties and responsibilities connected to it. Who is a good man? Only a man who has faith is good. What is faith? This is when your will is in consent with the world’s conscience and the world’s wisdom."
+      },
+      {},
+      {
+        "type": "quote",
+        "message": "We should do only one thing: give ourselves into the hands of God, whatever our ultimate fate. Allow that which should happen to happen. What will happen will be good.",
+        "author": "HENRY AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "They say that Judgment Day will come and that God will be furious. But a good God cannot bring anything but good. Do not be afraid: the end will be full of joy.",
+        "author": "PERSIAN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "You should not worry too much about what will happen after death. Deliver yourself to the divine creature and bless it: you know that it is love, therefore, why should you be afraid?"
+      },
+      {
+        "type": "message",
+        "message": "When Christ died, he said, “Father! I deliver my spirit into Thy hands.” Those who say these words, not with their tongue but with all their heart, do not need anything else. If my spirit returns back to its Father, this is the best place for it, and nothing can be better."
+      },
+      {
+        "type": "message",
+        "message": "Don’t think that you can find peace for your soul without faith."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 14
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "You should love only one thing in yourself, that which is the same in all of us. In loving that which is the same in all of us, you love God."
+      },
+      {
+        "type": "quote",
+        "message": "Master, which is the great commandment in the law? Jesus said until him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbor as thyself. On these two commandments hang all the law and the prophets.",
+        "author": "MATTHEW 22: 36-40"
+      },
+      {
+        "type": "quote",
+        "message": "People live by love: love of yourself is the beginning of death; love of other people and of God is the beginning of life."
+      },
+      {
+        "type": "quote",
+        "message": "God is love. And he who lives in love, lives in God, and God lives in him. If we love one another, God lives in us.",
+        "author": "I JOHN, from Chapter 4"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Love is not a source, it is a consequence of our understanding the divine, spiritual beginning which exists in all of us."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
