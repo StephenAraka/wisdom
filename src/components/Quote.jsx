@@ -5,12 +5,23 @@ import globalStyles from "../assets/styles/globalStyles";
 
 const Quote = ({ subquote, isDarkTheme }) => {
   return (
-    <View>
-      <Image source={assets.quoteIcon} style={styles.quoteImage} />
+    <View style={styles.subquoteWrapper}>
+      {/* Render quoteIcon only if it is a quote */}
+      {subquote.author && (
+        <Image source={assets.quoteIcon} style={styles.quoteImage} />
+      )}
       <Text style={globalStyles.quoteText(isDarkTheme, subquote.italics)}>
         {subquote.message}
       </Text>
-      <Text>{subquote.author}</Text>
+      {/* Render Author or Source only if the subquote has one */}
+      {subquote.author && (
+        <View style={styles.sourceWrapper}>
+          <View style={styles.sourceLine(isDarkTheme)}></View>
+          <Text style={globalStyles.sourceText(isDarkTheme)}>
+            {subquote.author}
+          </Text>
+        </View>
+      )}
     </View>
   );
 };
@@ -18,8 +29,25 @@ const Quote = ({ subquote, isDarkTheme }) => {
 export default Quote;
 
 const styles = StyleSheet.create({
-  quoteImage: {
-    height: 40,
-    width: 40,
+  subquoteWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-evenly",
   },
+  quoteImage: {
+    height: 56,
+    width: 56,
+  },
+  sourceWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignContent: "flex-start",
+    alignItems: "center",
+  },
+  sourceLine: (isDarkMode) => ({
+    height: 2,
+    width: "55%",
+    backgroundColor: isDarkMode ? "#504F4F" : "#CDCDCD",
+  }),
 });

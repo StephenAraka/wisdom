@@ -5,7 +5,6 @@ import SwipeView from "../components/SwipeView";
 import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
-import globalStyles from "../assets/styles/globalStyles";
 import Quote from "../components/Quote";
 
 const quotes = jsonData.quotes;
@@ -48,12 +47,6 @@ const QuotesScreen = ({ isDarkTheme }) => {
                   subquote={subquote}
                   isDarkTheme={isDarkTheme}
                 />
-                /*                 <Text
-                  key={`content${index}`}
-                  style={globalStyles.quoteText(isDarkTheme, subquote.italics)}
-                >
-                  {subquote.message}
-                </Text> */
               )
             );
           })}
