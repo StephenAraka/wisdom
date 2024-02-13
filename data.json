@@ -489,6 +489,157 @@
       {
         "date": {
           "month": 1,
+          "date": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The greatest truth of the teachings of Christ is the direct connection between a man (God’s son) and God (His Father)."
+      },
+      {
+        "type": "quote",
+        "message": "You ask me, what the most important feature of Christ’s character was. I will answer you: it was his confidence in the greatness of the human soul. He saw in a person the reflection of God’s image, and, therefore, he loved everyone, whoever a person was, without regard to his life or character.",
+        "author": "After WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "quote",
+        "message": "Both people and nations must get rid of prejudices. Feel yourself talking directly to God: don’t read the book, read your soul; then a small chapel will become as big as the heavenly dome itself.",
+        "author": "After RALPH WALDO EMERSON"
+      },
+      {
+        "type": "quote",
+        "message": "There are two ways of understanding God: either intellectually or spiritually, based on faith and morality. The intellectual understanding of God is not resolute enough and can be subjected to dangerous mistakes; spiritual understanding of God requires moral actions. This faith is both natural and supernatural.",
+        "author": "After IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Beware of everything which puts an obstacle between you and God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "False faith is the major cause of most of our misfortunes."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The purpose of a human life is to bring the irrational beginning of our life to a rational beginning. In order to succeed in this, two things are important: (1) to see all irrational, unwise things in life and direct your attention to them and study them; (2) to understand the possibility of a rational, wise life. The major purpose of all teachers of mankind was the understanding of the irrational and rational beginnings in our life."
+      },
+      {
+        "type": "quote",
+        "message": "We should be ready to change our views at any time, and slough off prejudices, and live with an open and receptive mind. A sailor who sets the same sails all the time, without making changes when the wind changes, will never reach his harbor.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Accept the teaching of Christ as it is, clear and simple; then you will see that we live among big lies."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Live for your soul, and without trying or even understanding that you’re doing it, you will contribute to the improvement of society."
+      },
+      {
+        "type": "quote",
+        "message": "Why do you torture yourself? You want kindness, but you do not know where to find it. Know that you cannot achieve anything without God…. God is your only Lord, your only master, and you do not need another. God will make you free.",
+        "author": "F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It would be nice if wisdom had such a quality that it could flow from one man who is full of wisdom to another man who has no wisdom, just as with two connected vessels water flows from one vessel to the other until the water level is the same in both of them. The problem is that to obtain wisdom, you must make an independent, serious effort of your own."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "If you can teach a person kindness and love, but you do not, you lose a brother.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Improve your own soul, and be confident that only in so doing can you contribute to the improvement of the larger society of which you are part."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A scholar knows many books; a well-educated person has knowledge and skills; an enlightened person understands the meaning and purpose of his life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There are a limitless number of different sciences, but without one basic science, that is, what is the meaning of life and what is good for the people, all other forms of knowledge and art become idle and harmful entertainment."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We live a senseless life, contrary to the understanding of life by the wisest people of all times. This happens because our young generations are educated in the wrong way—they are taught different sciences but they are not taught the meaning of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The only real science is the knowledge of how a person should live his life. And this knowledge is open to everyone."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
+          "date": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Society can be improved only by self-sacrifice."
+      },
+      {
+        "type": "quote",
+        "message": "Heaven and earth are eternal. They are eternal because they do not exist for themselves. In the same way, a truly holy person does not live for himself, and therefore he can become eternal, and can achieve anything.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is only one law, both in your personal and social life: if you want to improve your soul, you should be ready to sacrifice it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The improvement of man can be measured by the level of his inner freedom. The more a person becomes free from his personality, the more freedom he has."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 1,
           "date": 24
         }
       },
