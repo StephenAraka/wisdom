@@ -9,6 +9,12 @@ const themeReducer = (state = initialState, action) => {
         ...state,
         isDarkTheme: !state.isDarkTheme,
       };
+
+    case 'INITIALIZE_THEME':
+      return {
+        ...state,
+        isDarkTheme: action.payload.isDarkTheme,
+      };
   
     default:
       return state;
