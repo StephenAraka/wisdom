@@ -7,25 +7,37 @@ import {
   Modal,
 } from "react-native";
 import React from "react";
-import { Calendar, LocaleConfig } from "react-native-calendars";
+import { Calendar } from "react-native-calendars";
 import colors from "../constants/colors";
 
-const DatePicker = ({ toggleCalendar }) => {
+const DatePicker = ({ toggleCalendar, isDarkTheme }) => {
   return (
     <Modal transparent={true}>
-      <TouchableOpacity style={styles.datePickerBg} onPress={toggleCalendar}>
+      <TouchableOpacity
+        style={styles.datePickerBg(isDarkTheme)}
+        onPress={toggleCalendar}
+      >
         <View style={styles.calendarWrapper}>
           <Calendar
-            style={styles.calendar}
+            style={styles.calendar(isDarkTheme)}
             theme={{
-              calendarBackground: colors.menuBgColorDarkTheme,
-              textSectionTitleColor: "#fff",
-              dayTextColor: colors.textColorDarkTheme,
-              todayTextColor: "#00d4f0",
-              textDisabledColor: "#4d4d4d",
-              monthTextColor: "#fff", // Month text color
-              arrowColor: "#fff", // Arrow color
-              textDayFontFamily: "Arial",
+              calendarBackground: isDarkTheme
+                ? colors.menuBgColorDarkTheme
+                : colors.menuBgColorLightTheme,
+              textSectionTitleColor: isDarkTheme
+                ? colors.textColorDarkTheme
+                : colors.textColorLightTheme,
+              dayTextColor: isDarkTheme
+                ? colors.textColorDarkTheme
+                : colors.textColorLightTheme,
+              todayTextColor: colors.wisdomBlue,
+              textDisabledColor: isDarkTheme
+                ? colors.lightGreyDarkTheme
+                : colors.lightGreyLightTheme,
+              monthTextColor: isDarkTheme
+                ? colors.textColorDarkTheme
+                : colors.textColorLightTheme,
+              arrowColor: colors.wisdomBlue,
             }}
           />
         </View>
@@ -37,22 +49,25 @@ const DatePicker = ({ toggleCalendar }) => {
 export default DatePicker;
 
 const styles = StyleSheet.create({
-  datePickerBg: {
+  datePickerBg: (isDarkTheme) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.7)",
-  },
+    backgroundColor: isDarkTheme ? "rgba(0,0,0,0.7)" : "rgba(0,0,0,0.2)",
+  }),
   calendarWrapper: {
     position: "absolute",
     top: "10%",
     left: "4%",
+    width: "75%",
   },
-  calendar: {
-    color: colors.textColorDarkTheme,
+  calendar: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.textColorDarkTheme : colors.textColorLightTheme,
+    backgroundColor: isDarkTheme
+      ? colors.menuBgColorDarkTheme
+      : colors.menuBgColorLightTheme,
     borderWidth: 1,
-    color: colors.textColorDarkTheme,
     borderRadius: 4,
-    backgroundColor: colors.menuBgColorDarkTheme,
     height: 350,
-  },
+    borderColor: colors.lightGreyLightTheme,
+  }),
 });
