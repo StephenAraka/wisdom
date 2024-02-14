@@ -1,16 +1,30 @@
-import { StyleSheet, Text, View } from "react-native";
-import React, { useState } from "react";
+import { StyleSheet, View, useColorScheme } from "react-native";
+import React, { useState, useEffect } from "react";
 import jsonData from "../../data.json";
 import SwipeView from "../components/SwipeView";
 import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
+import { initializeTheme } from "../context/actions/themeActions";
+import { retrieveData } from "../utils/helpers";
 
 const quotes = jsonData.quotes;
 
-const QuotesScreen = ({ isDarkTheme }) => {
+const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
+  const theme = useColorScheme();
+  const systemIsDarkTheme = theme === 'dark';
+
+  useEffect(() => {
+    const checkForThemeInStorage = async () => {
+      const previousSavedTheme = await retrieveData('theme');
+      const previousSavedThemeIsDark = previousSavedTheme === 'dark';
+      initializeTheme(previousSavedTheme ? previousSavedThemeIsDark : systemIsDarkTheme)
+    };
+
+    checkForThemeInStorage();
+  }, [initializeTheme, systemIsDarkTheme]);
 
   return (
     <ScreenLayout>
@@ -56,11 +70,15 @@ const QuotesScreen = ({ isDarkTheme }) => {
   );
 };
 
+const matchDispatchToProps = {
+  initializeTheme,
+};
+
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
 });
 
-export default connect(mapStateToProps)(QuotesScreen);
+export default connect(mapStateToProps, matchDispatchToProps)(QuotesScreen);
 
 const styles = StyleSheet.create({
   contentContainer: {

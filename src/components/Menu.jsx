@@ -11,8 +11,14 @@ import assets from "../constants/assets";
 import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
+import { storeData } from "../utils/helpers";
 
 const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
+  const setTheme = () => {
+    storeData('theme', isDarkTheme ? 'light' : 'dark')
+    toggleTheme();
+  }
+
   const menuItems = [
     {
       text: "Share",
@@ -27,7 +33,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
       icon: isDarkTheme ? assets.lightIconDarkTheme : assets.moonIcon,
-      onPress: toggleTheme,
+      onPress: setTheme,
     },
     {
       text: "More Info",
