@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
 import { initializeTheme } from "../context/actions/themeActions";
+import { retrieveData } from "../utils/helpers";
 
 const quotes = jsonData.quotes;
 
@@ -16,8 +17,14 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
   const systemIsDarkTheme = theme === 'dark';
 
   useEffect(() => {
-    initializeTheme(systemIsDarkTheme)
-  }, []);
+    const checkForThemeInStorage = async () => {
+      const previousSavedTheme = await retrieveData('theme');
+      const previousSavedThemeIsDark = previousSavedTheme === 'dark';
+      initializeTheme(previousSavedTheme ? previousSavedThemeIsDark : systemIsDarkTheme)
+    };
+
+    checkForThemeInStorage();
+  }, [initializeTheme, systemIsDarkTheme]);
 
   return (
     <ScreenLayout>
