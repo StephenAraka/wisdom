@@ -9,35 +9,45 @@ import {
 import React from "react";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
+import { storeData } from "../utils/helpers";
 
 const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
+  const setTheme = () => {
+    storeData('theme', isDarkTheme ? 'light' : 'dark')
+    toggleTheme();
+  }
 
   const menuItems = [
     {
       text: "Share",
-      icon: assets.shareIconDarkTheme,
+      icon: isDarkTheme
+        ? assets.shareIconDarkTheme
+        : assets.shareIconLightTheme,
     },
     {
       text: "Like",
-      icon: assets.likeIconDarkTheme,
+      icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
       icon: isDarkTheme ? assets.lightIconDarkTheme : assets.moonIcon,
-      onPress: toggleTheme,
+      onPress: setTheme,
     },
     {
       text: "More Info",
-      icon: assets.infoIconDarkTheme,
+      icon: isDarkTheme ? assets.infoIconDarkTheme : assets.infoIconLightTheme,
     },
   ];
 
   return (
     <Modal transparent={true}>
-      <TouchableOpacity style={styles.modalBg} onPress={toggleMenu}>
-        <View style={styles.modalContainer}>
+      <TouchableOpacity
+        style={styles.modalBg(isDarkTheme)}
+        onPress={toggleMenu}
+      >
+        <View style={styles.modalContainer(isDarkTheme)}>
           {menuItems.map((item, index) => (
             <View key={index}>
               <TouchableOpacity
@@ -45,12 +55,12 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
                 onPress={item.onPress || (() => console.log("menu item"))}
               >
                 <Image source={item.icon} style={styles.menuItemIcon} />
-                <Text style={styles.menuText}>{item.text}</Text>
+                <Text style={styles.menuText(isDarkTheme)}>{item.text}</Text>
               </TouchableOpacity>
 
               {/* Separator for menu items */}
               {index < menuItems.length - 1 && (
-                <View style={styles.separator}></View>
+                <View style={styles.separator(isDarkTheme)}></View>
               )}
             </View>
           ))}
@@ -65,26 +75,28 @@ const mapStateToProps = (state) => ({
 });
 
 const matchDispatchToProps = {
-  toggleTheme
-}
+  toggleTheme,
+};
 
 export default connect(mapStateToProps, matchDispatchToProps)(Menu);
 
 const styles = StyleSheet.create({
-  modalBg: {
+  modalBg: (isDarkMode) => ({
     ...StyleSheet.absoluteFillObject,
     position: "absolute",
-    backgroundColor: "rgba(0,0,0,0.7)",
-  },
-  modalContainer: {
-    backgroundColor: colors.menuBgColorDarkTheme,
+    backgroundColor: isDarkMode ? "rgba(0,0,0,0.7)" : "rgba(0,0,0,0.2)",
+  }),
+  modalContainer: (isDarkTheme) => ({
+    backgroundColor: isDarkTheme
+      ? colors.menuBgColorDarkTheme
+      : colors.menuBgColorLightTheme,
     position: "absolute",
     width: "40%",
     right: 0,
     top: "9%",
     marginRight: 16,
     borderRadius: 2,
-  },
+  }),
   menuItem: {
     flexDirection: "row",
     gap: 12,
@@ -98,13 +110,13 @@ const styles = StyleSheet.create({
   menuSection: {
     position: "relative",
   },
-  menuText: {
-    color: colors.textColorDarkTheme,
+  menuText: (isDarkMode) => ({
+    color: isDarkMode ? colors.textColorDarkTheme : colors.textColorLightTheme,
     fontSize: 16,
-  },
-  separator: {
+  }),
+  separator: (isDarkMode) => ({
     height: 1,
     width: "100%",
-    backgroundColor: "#504F4F",
-  },
+    backgroundColor: isDarkMode ? "#504F4F" : "#CDCDCD",
+  }),
 });

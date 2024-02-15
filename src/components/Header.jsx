@@ -32,7 +32,11 @@ const Header = ({ isDarkTheme }) => {
       {/* Calendar Icon */}
       <TouchableOpacity style={styles.dateSection} onPress={toggleCalendar}>
         <Image
-          source={isDarkTheme ? assets.calendarIconDarkTheme : assets.calendarIconLightTheme}
+          source={
+            isDarkTheme
+              ? assets.calendarIconDarkTheme
+              : assets.calendarIconLightTheme
+          }
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
@@ -42,11 +46,18 @@ const Header = ({ isDarkTheme }) => {
       </TouchableOpacity>
 
       {/* Calendar */}
-      {isCalendarVisible && <DatePicker toggleCalendar={toggleCalendar} />}
+      {isCalendarVisible && (
+        <DatePicker toggleCalendar={toggleCalendar} isDarkTheme={isDarkTheme} />
+      )}
 
       {/* Menu Icon */}
       <TouchableOpacity style={styles.menuSection} onPress={toggleMenu}>
-        <Image source={isDarkTheme ? assets.menuIconDarkTheme : assets.menuIconLightTheme} style={styles.menuIcon} />
+        <Image
+          source={
+            isDarkTheme ? assets.menuIconDarkTheme : assets.menuIconLightTheme
+          }
+          style={styles.menuIcon}
+        />
       </TouchableOpacity>
 
       {/* Menu */}

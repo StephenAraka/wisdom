@@ -11,10 +11,17 @@ const globalStyles = StyleSheet.create({
     paddingVertical: 32,
   }),
   quoteText: (isDarkTheme, isItalics) => ({
-    color: isDarkTheme ? '#fff' : "#000",
+    color: isDarkTheme ? colors.lightGreyLightTheme : colors.lightGreyDarkTheme,
     fontSize: 20,
-    fontStyle: isItalics ? 'italic' : 'normal'
+    fontStyle: isItalics ? 'italic' : 'normal',
+    marginTop: 32,
+    marginBottom: 32
+  }),
+  sourceText: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.lightGreyLightTheme : colors.lightGreyDarkTheme,
+    fontStyle: 'italic'
   })
+
 });
 
 export default globalStyles;
