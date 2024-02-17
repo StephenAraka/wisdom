@@ -637,6 +637,136 @@
       }
     ],
     [
+      [
+        {
+          "date": {
+            "month": 1,
+            "date": 20
+          }
+        },
+        {
+          "type": "intro",
+          "italics": true,
+          "message": "Death and birth are two limits, and something similar is hidden behind each."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "When you think about what will happen to your soul after death, think also about what happened to your soul before your birth. If you plan to go somewhere, then you came from somewhere."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "Where do we go after death? We go to where we came from. There is nothing which can be called ourselves in that land; therefore, we do not remember what has happened to us there."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "When a person leads a good life, he is happy at the present moment and he does not think what will happen after this life. If he thinks of death, he looks at how well this life is laid out, and he believes that after death everything will be as good as it is now. It is much better to believe that everything which God makes for us is good than to believe in all the pleasures of paradise."
+        },
+        {
+          "type": "quote",
+          "italics": true,
+          "message": "When we die, our souls become free.",
+          "author": "After HERACLITUS"
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "A person should not think too much about what will happen after his life. Follow the will of those who sent us into this world; that will is in our minds and our hearts."
+        }
+      ],
+      [
+        {
+          "date": {
+            "month": 1,
+            "date": 21
+          }
+        },
+        {
+          "type": "intro",
+          "italics": true,
+          "message": "The more closely a person follows his intellect and controls his passions, the closer he comes to spiritual life, to love of God and of his neighbor."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "We would think a man insane who, instead of covering his house with a roof and putting windows in his window frames, goes out in stormy weather, and scolds the wind, the rain, and the clouds. But we all do the same when we scold and blame the evil in other people instead of fighting the evil which exists in us. It is possible to get rid of the evil inside of us, as it is possible to make a roof and windows for our house. This is possible. But it is not possible for us to destroy evil in this world, just as we cannot order the weather to change and the clouds to disappear. If, instead of teaching others, we would educate and improve ourselves, then there would be less evil in this world, and all people would live better lives."
+        },
+        {
+          "type": "quote",
+          "message": "Do not be embarrassed by your mistakes. Nothing can teach us better than our understanding of them. This is one of the best ways of self-education.",
+          "author": "THOMAS CARLYLE"
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "It seems to us that the most important work in the world is the work which is visible, which we can see: building a house, plowing the land, feeding cattle, gathering fruits; and that the work which is invisible, the work done by our soul, is not important. But our invisible work at the improvement of our soul is the most important work in the world, and all other visible kinds of work are useful only when we do this major work."
+        }
+      ],
+      [
+        {
+          "date": {
+            "month": 1,
+            "date": 22
+          }
+        },
+        {
+          "type": "intro",
+          "message": "No exceptions or special circumstances can justify the murder of a living person. Murder is the most vulgar violation of the Law of God as it is expressed in all religious teachings and in all people’s conscience."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "Military service makes people corrupt, because the military, in time of peace, abides in complete idleness; they lack any useful labor, they are freed of the obligations of such work. Instead, they create notions of honor of regiment, or of banner, or the complete subjugation of one person by another."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "When civilians get into these circumstances, they become ashamed of such a way of life. The military, on the contrary, are proud of it and boast of this way of life, especially during periods of war. They say: “We are ready to risk our lives at war, and therefore such a careless joyful life is necessary for us, and we have the right to lead it.”"
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "The same divine beginning lives in all people, and no single person or gathering of people has the right to destroy this connection between the divine beginning and a human body, that is, to take a human life."
+        }
+      ],
+      [
+        {
+          "date": {
+            "month": 1,
+            "date": 23
+          }
+        },
+        {
+          "type": "intro",
+          "italics": true,
+          "message": "Among all sins, there is one which completely opposes the major blessing of human life, which is your love for your brother: there is no worse sin than to destroy this major joy of life, by feeling rage and hatred for your brother."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "Seneca, a wise man from Rome, said that when you want to escape from your rage, when you feel that it grows, the best thing to do is to stop. Do not do anything: do not walk, do not move, do not speak. If your body or your tongue moves at this moment, then your rage will grow."
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "Rage is very harmful for all people, but it is most harmful for the man who experiences it. An evil person damages not only others but himself.",
+          "author": "After SOCRATES"
+        },
+        {
+          "type": "quote",
+          "message": "Your enemy will pay you back with rage, will make you suffer, but the biggest damage to you will be caused by the rage and hatred existing in your heart. Neither your father, nor your mother, nor all your family can make you more good than your heart can when it forgives and forgets its abuse.",
+          "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+        },
+        {
+          "type": "message",
+          "italics": true,
+          "message": "Your rage cannot be justified by anything. The reason for your rage is always inside you."
+        }
+      ]
+    ],
+    [
       {
         "date": {
           "month": 1,
@@ -663,8 +793,6 @@
         "message": "Your actions should be determined not by the desire of the people around you, but by the needs of all mankind."
       }
     ],
-
-
     // Starting 15th Feb
     [
       {
@@ -1134,11 +1262,7 @@
         "message": "We should believe that the goodness which exists in us and in this world will be fulfilled. This is the major condition to make it happen."
       }
     ],
-
     // End of Feb
-
-
-
     // No dates on these 2 below
     [
       {
