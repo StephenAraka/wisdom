@@ -663,6 +663,483 @@
         "message": "Your actions should be determined not by the desire of the people around you, but by the needs of all mankind."
       }
     ],
+
+
+    // Starting 15th Feb
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 15
+        }
+      },
+      {
+        "type": "intro",
+        "message": "There is simplicity of nature, and there is simplicity of wisdom. Both of them evoke love and respect."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The greatest truth is the most simple one."
+      },
+      {
+        "type": "message",
+        "message": "When people speak in a very elaborate and sophisticated way, they either want to tell a lie, or to admire themselves. You should not believe such people. Good speech is always clear, clever, and understood by all."
+      },
+      {
+        "type": "quote",
+        "message": "Simplicity is the consequence of refined emotions.",
+        "author": "JEAN D’ALEMBERT"
+      },
+      {
+        "type": "message",
+        "message": "Words can unite people. Therefore, try to speak very clearly, and tell only the truth, for nothing can unite people more than truth and simplicity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 16
+        }
+      },
+      {
+        "type": "intro",
+        "message": "The younger and the more primitive a person is, the more he or she believes that life is material and that it exists only in the body. The older and wiser a person becomes, the more he or she understands that all life originates from the spirit."
+      },
+      {
+        "type": "quote",
+        "message": "Look at the sky, and at the earth, and think that all things pass. All of the mountains and rivers you see, and all the forms of life, and all creations of nature, all pass. Then you will understand the truth; you will see what remains, what does not pass.",
+        "author": "BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Remember that you are not mortal; only your body is mortal. What is alive is not your body but the spirit living in your body. An unseen force guides your body, just as an unseen force guides the world.",
+        "author": "After MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person can understand his real destination in life only after he manages to liberate himself from the sensual, material world."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 18
+        }
+      },
+      {
+        "type": "intro",
+        "message": "Personality is a mask which disguises the divine being which lives in every person. The more one rejects personality, the more this divine beginning is manifested."
+      },
+      {
+        "type": "quote",
+        "message": "You must love only God, and you must hate only yourself.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "Therefore doth my Father love me, because I lay down my life, that I might take it again. No man taketh it from me, but I lay it down of myself. I have power to lay it down, and I have power to take it again. This commandment have I received of my Father.",
+        "author": "JOHN 10:17-18"
+      },
+      {
+        "type": "quote",
+        "message": "Only those people who deny their own personality can understand the religious teaching.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "He who wants to save his soul, will lose it; and he who wants to lose his life for me and the new testament, will save it.",
+        "author": "MARK 8:35"
+      },
+      {
+        "type": "quote",
+        "message": "Those who do not see the meaning of their life in temporary things, in their names and bodies, those people know the truth of life.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only when we forget about ourselves, when we get out of the thoughts of ourselves, can we fruitfully communicate with others, listen to them, and influence them."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is a sin not to be engaged in work, even if it is not necessary for you to make your living with everyday work."
+      },
+      {
+        "type": "quote",
+        "message": "One of the best and purest joys is having a rest after labor.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "Work all the time. Do not think that work is a disaster for you, and do not seek praise or reward for your work.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The most outstanding gifts can be destroyed by idleness.",
+        "author": "MICHEL DE MONTAIGNE"
+      },
+      {
+        "type": "message",
+        "message": "Nothing can make a person feel more noble than work. Without work, a person cannot have human dignity. It is because of this that idle people are so much concerned by the superficial, outer expression of their importance; they know that without this, other people would despise them."
+      },
+      {
+        "type": "message",
+        "message": "When we accept truth and repent our sins, we understand that nobody can have special rights, advantages, or privileges in this life. There is no end or limit to our duties and obligations. And the first and the most important obligation for us is to fight with nature for our life and for the lives of other people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 20
+        }
+      },
+      {
+        "type": "intro",
+        "message": "Humankind goes on without stopping. This movement forward is necessary for you as an individual as well. If you want to serve God, you should be a worker for the spiritual progress of humanity."
+      },
+      {
+        "type": "message",
+        "message": "The way of life of any people depends on their faith. Faith, with time, becomes more simple, more clear, and closer to the real truth, and in accordance with the simplifying and clarifying of faith, people become more and more united."
+      },
+      {
+        "type": "quote",
+        "message": "If you think it is ever warranted to stop on the path of further understanding, you are very far from the truth. The life which we received was given to us not that we might just admire it, but that we should ever look for new truth hidden from us.",
+        "author": "After JOHN MILTON"
+      },
+      {
+        "type": "message",
+        "message": "Mankind makes progress when its faith progresses. And if there is any progress in religion, it is not in the discovery of something new, but in the purifying of the truths which have been revealed and explained to us."
+      },
+      {
+        "type": "message",
+        "message": "We should not substitute real religious progress with other types of progress: technical, scholarly, and artistic. These technical, scholarly, and artistic achievements can certainly coexist with religious backwardness, as happens in our time."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you want to serve God, you should work on the side of religious progress in the fight against prejudice, toward a better understanding of the clear and pure religion."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 21
+        }
+      },
+      {
+        "type": "intro",
+        "message": "There was a time when people ate each other. They no longer do so, but they still eat animals. The time will come when more and more people will drop this terrible."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "It is a mistake to believe that we need obey no moral in our attitude to the animals, that we have no moral responsibilities to them. This way lies complete vulgarity and rudeness.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "message": "The killing and eating of animals is a prejudice accepted by those who think that animals were given to people by God to eat, so that there is nothing wrong in killing them. This is not true. It may be written in some books that it is not a sin to kill an animal, but it is written in our own hearts more clearly than in any books—that we should take pity on animals in the same way as we do on each other. And we all know this, if we do not deaden the voice of our conscience inside of us."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 22
+        }
+      },
+      {
+        "type": "quote",
+        "message": "All that is written about God, and all that people say about Him, still falls short of the mark. Certain things, which every person can understand about God, can never be expressed, things necessary for everyone, and things which cause the love of God.",
+        "author": "ANGELUS SILESIUS"
+      },
+      {
+        "type": "quote",
+        "message": "An intellect which can be understood is not an eternal intellect; a being which can be named is not an eternal being.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "There is a force which resides in all things, without which there is no heaven and no earth. This force cannot be perceived. People try to describe its qualities, to give it different names, such as “intellect” or “love,” but the being itself has no name. It is very remote from us, and it is closest to us.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "God is the limitless being which accepts only truth.",
+        "author": "MATTHEW ARNOLD"
+      },
+      {
+        "type": "message",
+        "message": "Those people who ask where God is are crazy; God is everywhere, in all of nature and in the soul of each person. There are many different religions, but there is only one God. If a person cannot understand himself, how can he understand God?",
+        "author": "INDIAN WISDOM"
+      },
+      {
+        "type": "message",
+        "message": "If your eyes become blinded by the sun, you do not say that the sun does not exist. In the same way, you should not say that God does not exist if your intellect is lost in trying to understand him.",
+        "author": "ANGELUS SILESIUS"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 23
+        }
+      },
+      {
+        "type": "intro",
+        "message": "The existing design of life corresponds neither to the requirements of conscience nor to the requirements of intellect."
+      },
+      {
+        "type": "quote",
+        "message": "Imagine a flock of pigeons in a corn field. Imagine that ninety-nine of them, instead of pecking the corn they need and using it as they need it, start to collect all they can into one big heap. Imagine that they do not leave much corn for themselves, but save this big heap of corn on behalf of the vilest and worst in their flock. Imagine that they all sit in a circle and watch this one pigeon, who squanders and wastes this wealth. And then imagine that they rush at a weak pigeon who is the most hungry among them who darest to take one grain from the heap without permission, and they punish him. If you can imagine this, then you can understand the day-to-day behavior of mankind.",
+        "author": "WILLIAM PALEY"
+      },
+      {
+        "type": "quote",
+        "message": "I see people arguing with each other, preparing different traps for each other, lying and betraying each other. I cannot see without tears that the foundations of Good and Evil are forgotten, or in some cases completely unknown.",
+        "author": "THEOGNIS"
+      },
+      {
+        "type": "message",
+        "message": "People are rational creatures. Why do they seem capable of using violence so much more easily than reason in their interactions with each other?",
+        "italics": true
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 24
+        }
+      },
+      {
+        "type": "intro",
+        "message": "For a truth to be heard, it must be spoken with kindness. Truth is kind only when it is spoken through your heart with sincerity. You should know that when a message you convey to another person is not understood by him, at least one of the following things is true: what you have said is not true, or you have conveyed it without kindness."
+      },
+      {
+        "type": "quote",
+        "message": "The only way to tell the truth is to speak with kindness. Only the words of a loving man can be heard.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "message",
+        "message": "To tell the truth is the same as to be a good tailor, or to be a good farmer, or to write beautifully. To be good at any activity requires practice: no matter how hard you try, you cannot do naturally what you have not done repeatedly. In order to get accustomed to speaking the truth, you should tell only the truth, even in the smallest of things."
+      },
+      {
+        "type": "author",
+        "message": "We lie to other people so often that we get used to it, and we start to lie to ourselves.",
+        "italics": true,
+        "author": "FRANÇOIS DE LA ROCHEFOUCAULD"
+      },
+      {
+        "type": "message",
+        "message": "Truth cannot make a person unkind, or too self-assured; the manifestations of truth telling are humility and simplicity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 25
+        }
+      },
+      {
+        "type": "intro",
+        "message": "To pray is to accept and to remember the laws of the limitless being, God, and to measure all your deeds—past, present, and future—according to His laws.",
+        "italics": true
+      },
+      {
+        "type": "quote",
+        "message": "Before you start praying, ask yourself whether at that moment you can concentrate; otherwise, do not pray at all. Those who make a habit out of prayer do not pray sincerely.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "If you ask for support from God, then you will learn how to find it in yourself. He does not change us, but we change ourselves by getting closer to Him. All ask from Him, as if He should help us, but in the end we give these things to ourselves.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "message",
+        "message": "From the ancient times, it has been known that prayer is a human necessity."
+      },
+      {
+        "type": "message",
+        "message": "People use different rituals during prayer, special addresses in special circumstances, in special places, in the ways they present their message to God and ask Him to be kind."
+      },
+      {
+        "type": "message",
+        "message": "But let there be this constant: during a prayer, forget about all external worldly things and address the divine part of your soul. Use this divine part to gain communication with that of which it is a part and when you feel yourself close to God, you deliver your soul to Him, and show Him all your deeds and wishes. Prayer does not happen according to the requirements of the world, but according to the divine part of your soul."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 26
+        }
+      },
+      {
+        "type": "intro",
+        "message": "After a long conversation, stop and try to remember what you have just discussed. Don’t be surprised if many things, sometimes even everything you have discussed, were meaningless, empty, and trivial, and sometimes even bad.",
+        "italics": true
+      },
+      {
+        "type": "quote",
+        "message": "A stupid person should keep silent. But if he knew this, he would not be a stupid person.",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "quote",
+        "message": "Only speak when your words are better than your silence.",
+        "author": "ARABIC PROVERB"
+      },
+      {
+        "type": "message",
+        "message": "For every time you regret that you did not say something, you will regret a hundred times that you did not keep your silence."
+      },
+      {
+        "type": "quote",
+        "message": "Kind people are never involved in arguments, and those who like to argue are never kind. Truthful words are not always pleasant, and pleasant words are not necessarily truthful.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "message": "If you want to be a clever person, you have to learn how to ask cleverly, how to listen attentively, how to respond quietly, and how to stop talking when there is nothing more to say.",
+        "italics": true
+      },
+      {
+        "type": "quote",
+        "message": "Many stupid things are uttered by people whose only motivation is to say something original.",
+        "author": "VOLTAIRE"
+      },
+      {
+        "type": "message",
+        "message": "If you have time to think before you start talking, think, Is it necessary to speak? Will what I have to say harm anyone?"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A charity is only then a real charity when it involves sacrifice."
+      },
+      {
+        "type": "quote",
+        "message": "Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire.",
+        "author": "JAMES 5:3"
+      },
+      {
+        "type": "message",
+        "message": "In money—in the money itself, in its acquisition, in its possession—there is something immoral."
+      },
+      {
+        "type": "quote",
+        "message": "A truly kind person cannot be rich. A rich person, without question, is not a kind one.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Then said Jesus unto his disciples, Verily I say unto you, that a rich man shall hardly enter into the kingdom of heaven. And again I say unto you, it is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
+        "author": "MATTHEW 19:23-24"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Art is one of the means of unifying people."
+      },
+      {
+        "type": "quote",
+        "message": "If beautiful art does not express moral ideas, ideas which unite people, then it is not art, but only entertainment. People need to be entertained in order to distance themselves from disappointment in their lives.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "message": "It is possible to imagine that art could die, but it is not possible to imagine that real art could live if it became a slave of wealth that laughed at the poor."
+      },
+      {
+        "type": "message",
+        "message": "Art is one of the most powerful means of convincing people of anything, both good and bad; therefore, you must be very careful in its use."
+      },
+      {
+        "type": "quote",
+        "message": "An artist is one of two things: he is either a high priest, or a more or less smart entertainer.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "message": "Meditations or discussions about art are the most useless pastimes known. Those who really know art know that art can speak well with its own language, and that to speak about art with words is useless. Most people who speak about art do not understand or feel real art."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "date": 29
+        }
+      },
+      {
+        "type": "intro",
+        "message": "To move, you must know where to go, in terms both of everyday motion and of your whole life. In order to live a good life, you must know where life leads."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Perfection is of God. To wish for perfection is of man.",
+        "author": "JOHANN WOLFGANG VON GOETHE"
+      },
+      {
+        "type": "quote",
+        "message": "Life is not given to us that we might live idly without work. No, our life is a struggle and a journey. Good should struggle with evil; truth should struggle with falsehood; freedom should struggle with slavery; love should struggle with hatred. Life is movement, a walk along the way of life to the fulfilment of those ideas which illuminate us, both in our intellect and in our hearts, with divine light.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "quote",
+        "message": "The ideal is within you, and the obstacle to reaching this ideal is also within you. You already possess all the material from which to create your ideal self.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "message",
+        "message": "We should believe that the goodness which exists in us and in this world will be fulfilled. This is the major condition to make it happen."
+      }
+    ],
+
+    // End of Feb
+
+
+
+    // No dates on these 2 below
     [
       {
         "type": "intro",
