@@ -26,3 +26,23 @@ export const retrieveData = async (key) => {
     return null;
   }
 };
+
+export const getMessageFontSize = (message) => {
+  const numberOfCharacters = message.length;
+  let messageSize;
+
+  if (numberOfCharacters < 100) messageSize = 'small';
+  if (numberOfCharacters > 100 && numberOfCharacters < 300) messageSize = 'medium';
+  if (numberOfCharacters > 300) messageSize = 'big';
+  
+  switch (messageSize) {
+    case 'small':
+      return 24;
+
+    case 'medium':
+      return 20;
+  
+    default:
+      return 16;
+  }
+}
