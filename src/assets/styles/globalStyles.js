@@ -10,9 +10,9 @@ const globalStyles = StyleSheet.create({
     backgroundColor: isDarkMode ? '#000' : '#fff',
     paddingVertical: 32,
   }),
-  quoteText: (isDarkTheme, isItalics) => ({
+  quoteText: (isDarkTheme, isItalics, textSize) => ({
     color: isDarkTheme ? colors.lightGreyLightTheme : colors.lightGreyDarkTheme,
-    fontSize: 20,
+    fontSize: textSize,
     fontStyle: isItalics ? 'italic' : 'normal',
     marginTop: 32,
     marginBottom: 32
