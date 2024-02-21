@@ -1034,6 +1034,221 @@
         "message": "The essence of the teaching of Christ is to follow his commandments. Those who just repeat, “My God, My Lord” will not get to heaven; only those who fulfill God’s will."
       }
     ],
+    //End of Jan
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is not possible to explain the origin of the spiritual from the material."
+      },
+      {
+        "type": "quote",
+        "message": "A man consists of body and soul. Thus often, especially in his youth, he is interested only in his body, but nevertheless, the most essential part of every man is not his body, but his soul. It is your soul that you must take care of, not your body. You must learn this over time, and remember that your real life is in your spirit, that is, in your soul. Save it from everyday dirt and do not let your flesh guide it; subdue your body to your soul, and then you will fulfill your destiny and live a happy life.",
+        "author": "After MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The heart of the matter is whether we believe or disbelieve in the existence of a spiritual realm. All people are divided into two groups, those who are alive and those who are dead; in other words, those who believe and those who don’t. An unbeliever says: “What is spirit! … What I ate and what I enjoyed, this is what I possess, this is material and real!” And such a person, without thinking much, takes care only of the outer things, arranging in order only his own mean, dirty affairs; he becomes a liar, a snob, a slave, and does not feel any higher needs: freedom, truth, and love. Such a person keeps away from the light of the intellect, because in fact he is dead, and this light gives life only to living things, and hardens and rots the dead things.",
+        "author": "ALEXANDR ARKHANGELSKY"
+      },
+      {
+        "type": "message",
+        "message": "The difference between the spiritual realm and the material is equally clear and obvious, both for a child and a wise man; further speculations are not necessary."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There are two different states of human existence: first, to live without thinking of death; second, to live with the thought that you approach death with every hour of your life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more you transform your life from the material to the spiritual domain, the less you become afraid of death. A person who lives a truly spiritual life has no fear of death."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you have doubts about what to do, just imagine that you might die at the end of that same day, and then all your doubts will disappear, and you will see clearly what your conscience tells you, and what is your true personal wish."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A man condemned to immediate execution will not think about the growth of his estate, or about achieving glory, or about the victory of one group over another, or about the discovery of a new planet. But one minute before his death a man may wish to console an abused person, or help an old person to stand up, or to put a bandage on someone’s injury, or to repair a toy for a child."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Kindness is for your soul as health is for your body: you do not notice it when you have it."
+      },
+      {
+        "type": "message",
+        "message": "A person becomes happy to the same extent to which he or she gives happiness to other people.",
+        "author": "JEREMY BENTHAM"
+      },
+      {
+        "type": "message",
+        "message": "The will of God for us is to live in happiness and to take an interest in the lives of others.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Love is real only when a person can sacrifice himself for another person. Only when a person forgets himself for the sake of another, and lives for another creature, only this kind of love can be called true love, and only in this love do we see the blessing and reward of life. This is the foundation of the world."
+      },
+      {
+        "type": "message",
+        "message": "Nothing can make our life, or the lives of other people, more beautiful than perpetual kindness."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A man is free only when he lives in truth, and the truth may be perceived only by the intellect."
+      },
+      {
+        "type": "quote",
+        "message": "If you throw some nuts and cookies on a road, you will eventually see children come, pick them up, and start to argue and fight for them. Adults would not fight for such things. And even children would not pick up the nuts’ empty shells. For a wise man, the wealth, the glory, and the rewards of this world are like sweets or empty shells on a road. Let the children pick them up and fight for them. Let them kiss the hands of the rich men, the rulers, and their servants. For the wise one, all these are but empty shells.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "A distinctive feature of a thinking person is submission to his fate, as opposed to the shameful struggle with it that is a characteristic feature of animals.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We are not free in this world, subdued by our passions and by the emotions of other people to the degree that we forget the requirements of our intellects. If we really want to become free, we can be so only through our intellect."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "All events, whether in the lives of human individuals, or human societies, have their beginnings in thought. Therefore, to fully understand other people and other societies, we must look beyond previous events to the thoughts which gave rise to them."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Perhaps it is even more important to know what one should not think about than what one should think about."
+      },
+      {
+        "type": "quote",
+        "message": "Our thoughts, depending on whether they are good or bad, can bring us either to paradise or to hell; this happens, neither in heaven nor under the earth, but here, in this life.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A thought seems to be free and independent, but a human being has something stronger than thought, something which could guide our thoughts."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to change the nature of things, either within yourself or in others, one should change, not the events, but those thoughts which created those events."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Sexual desire is the most all-consuming of desires. This desire is never sated, for the more it is satisfied, the more it grows."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Very often people are made proud by their control over their own desires, and by the force and passion with which they master them. What a strange delusion!"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Many people worry, and suffer, because they have been involved in so many bad things in their lives. In truth, though, good things often happen in spite of our wishes, and sometimes even in opposition to our wishes, and often after our excitement and suffering over unworthy things."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Remember how passionately you yearned in the past for many of the things which you hate or despise now."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Remember how many things you lost trying to satisfy your former desires. The same thing could happen now, with the desires which excite you at present. Try to tame your present desires, calm them; this is most beneficial, and most achievable."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Perfecting the self is both an inner and an outer work: You cannot improve yourself without communicating with other people, influencing them, and being influenced by them."
+      },
+      {
+        "type": "quote",
+        "message": "Three temptations torture people: sexual desire, pride, and lust for wealth. All the misfortunes of mankind come from these three cravings. Without them, people would live in happiness. But how can we get rid of these terrible illnesses? … Work on yourself and improve yourself; this is the answer. Start the improvement of this world from within.",
+        "author": "F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "“Be perfect, as your heavenly Father,” Christ said. This does not mean that Christ asked people to be as good as God; only that everyone should strive for perfection."
+      },
+      {
+        "type": "quote",
+        "message": " Pure perfection can be found only in God; one’s life consists of becoming closer to God. And when a person knows that good is good and that evil is evil, then he or she gets closer to good, and moves farther from evil.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is nothing more harmful to you than improving only your material, animal side of life. There is nothing more beneficial, both for you and for others, than activity directed to the improvement of your soul."
+      }
+    ],
     // Starting 15th Feb
     [
       {
