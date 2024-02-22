@@ -1249,7 +1249,230 @@
         "message": "There is nothing more harmful to you than improving only your material, animal side of life. There is nothing more beneficial, both for you and for others, than activity directed to the improvement of your soul."
       }
     ],
-    // Starting 15th Feb
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Why do people like to blame others so much? He who casts blame on another person is quick to think that he would not do the very same thing. It is the same with people who like to listen to the fault-finding of their neighbors."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When two people have a dispute, both are to blame. And therefore, a dispute will stop only when at least one person understands that he or she is guilty."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.",
+        "author": "MATTHEW 7:1-2"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Stop blaming other people, and you will feel what an alcoholic feels when he stops drinking, or what a smoker feels when he stops smoking. You will feel that you have brought relief to your soul."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The material evil caused by war is big, but it is incomparably small in comparison with the perversion or the understanding of good and bad which happens during the war, and which is put into the souls of people who do not think."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A child meets another child with a smile, displaying his friendly attitude and joy. This same behavior lives in all sincere people. But very often, a man from one nation already hates a man from another nation, and is ready to cause him sufferings and even death, even before he meets him. Those who create these feelings in nations commit a terrible crime."
+      },
+      {
+        "type": "quote",
+        "message": "The most powerful weapon known is the weapon of blessing. Therefore, a clever person relies on it. He wins with peace, not with war.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "War creates a state in which power and glory is at the end too often received by the most undeserving and vicious people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The higher the opinion a person has of himself, the more unstable is his position; the lower he moves in his self-esteem, the firmer he stands."
+      },
+      {
+        "type": "quote",
+        "message": "To be strong, you have to be like water: if there are no obstacles, it flows; if there is an obstacle it stops; if a dam is broken, then it flows further; if a vessel is square, then it has a square form; if a vessel is round, then it has a round form. Because it is so soft and flexible, it is the most necessary and the strongest thing.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "The more a person analyzes his inner self, the more insignificant he seems to himself. This is the first lesson of wisdom. Let us be humble, and we will become wise. Let us know our weakness, and it will give us power.",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "message",
+        "message": "Water does not stay on a mountaintop, but flows into the valley. In the same manner, real virtue does not remain with those people who want to be higher than the others; but virtue stays only with people who are humble.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Try to find out your potential. After you know it, do not be afraid to underestimate it. Be cautious not to exaggerate it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 11
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A person’s life is good only to the extent that it fulfills the expectations of the will of God."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Evil, in the form of suffering and death, is everywhere apparent to a person who accepts the law of his material, animal existence as the major law of his life. Only when a man lowers himself to the state of an animal does death and suffering scare him. The only road open for him to escape that fear is the road of fulfillment of the law of God, the law which is expressed in love. There is no death and no suffering for a man who lives according to the law of God."
+      },
+      {
+        "type": "quote",
+        "message": "Be as you are, as you have to be, and the rest is God’s business.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "The fulfillment of our duties and the satisfaction of our personal pleasures are two different things. Duties have their own laws, and even if we try to mix our duties with our pleasures, they will separate themselves.",
+        "author": "After IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We know the law of God, both as it is presented to us by the different religions of the world and as our own conscience, when it is not obscured by passion and prejudice, and we can easily understand the applications of this law to our life, for all real good stems from its requirements."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is obvious for everyone that death expects us all in the long run; but nevertheless we live our lives as if there will be no death."
+      },
+      {
+        "type": "quote",
+        "message": "If only God is among us, and eternity exists, then everything is different. We can distinguish good from evil, light from darkness, and despair disappears.",
+        "author": "ERASMUS"
+      },
+      {
+        "type": "quote",
+        "message": "One of the key questions we face is whether our lives end after death. Whether we believe in eternity or not determines our actions. Therefore, it is crucial that we determine what is mortal in us, and what is eternal, and that we cherish those things eternal. Most people do exactly the opposite.",
+        "author": "After BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more deeply you understand life, the less you grieve over the destruction caused by death."
+      },
+      {
+        "type": "quote",
+        "message": "Whatever name you give to the origin of man, this spiritual quality of humans to understand, feel, and exist, it is holy, it is divine, and, therefore, it should be eternal.",
+        "author": "MARCUS TULLIUS CICERO"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 13
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Religion is a philosophy which can be understood by anyone."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "A person can please God only with the godliness of his life. If an outwardly faithful person is not good, clear, and humble in his life, then he presents a big lie, he serves God falsely.",
+        "author": "After IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Religion is simple wisdom which is directed to the heart and understood by the intellect."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Religion can enlighten philosophical meditations; philosophical meditations can strengthen religion. Therefore, try to communicate both with truly religious people and truly good philosophers, alive and dead."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
+          "day": 14
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A holy spirit lives within you."
+      },
+      {
+        "type": "quote",
+        "message": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
+        "author": "JOHN 3:3"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Intellect can be enlightened only in a kind person. A person can be kind only when he has an enlightened intellect. One helps the other.",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "A merchant married a princess, and he built a palace for her, bought luxurious dresses for her, and brought her hundreds of servants to make her happy. But the princess was bored. She was missing something, and she constantly thought about her royal origin. Thus it is with a human soul: you can surround it with all the pleasures on earth, but it will still be missing its home, the beginning which is called God, the place from which it has originated.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "Even if people do not know what real kindness is, they nevertheless have it within them.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God lives in every one of us. When a person remembers this, the thought of it can save him from evil, and help him to do good."
+      }
+    ],
     [
       {
         "date": {
