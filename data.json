@@ -1942,6 +1942,254 @@
       }
     ],
     // End of Feb
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The fear of death in man is the understanding of his sins."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more spiritual a life a person leads, the less he is afraid of death. For a spiritual person death means setting the spirit free from the body. Such a person knows that the things with which he lives cannot be destroyed."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only those who do not live are not afraid of death."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If as Socrates said, death is the state in which we abide during our sleep made permanent, we all know this state, and know there is nothing terrible in it. And if death is a transfer to a better life, as many people think, then death is not evil but a blessing."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We should get ready for death, because it will come, sooner or later. The best thing to do is to live a good life. If you live a good life, you should not be afraid of death."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The more closely a person unites with the will of God, the firmer this person becomes in his actions."
+      },
+      {
+        "type": "message",
+        "message": "When a traveler starts on a trip along a road which is under the threat of robbers, he does not go alone. He waits for a friend, someone to be his escort, and then he follows him and so is protected from robbers. A wise man lives his life the same way. But there are so many troubles in this world. How can we stand all of them? What kind of a friend or escort will we find on our way, so that we may pass through our lives without fear? Where should we turn? There is only one answer, only one real friend. That is God."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "If you follow God everywhere, you will steer clear of trouble. To follow God is to want what He wants, and not to want what He does not want. How to achieve this? You have to understand and follow His laws.",
+        "author": " After EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "Do not wish for too much, nor think that the things you wish for are the only right or necessary things. You should wish only for those things for which God wishes.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "message": "The right path in life is very narrow, but it is important to find it. You can understand it, as well as we can understand it, as a walkway of wood built across a swamp; if you step off it, you will plunge into the swamp of misunderstanding and evil. A wise man returns to the true path at once, but a weak man plunges further and further into the swamp, and it becomes more and more difficult for him to get out."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "What reward should a good deed bring you? Only the joy you receive by performing it. And any other reward lessens the feeling of this joy."
+      },
+      {
+        "type": "quote",
+        "message": "He who does good to others makes the biggest gift to himself.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "quote",
+        "message": "A saint prayed to God in the following way: “O God, please be kind to evil people as much as you are to kind people. Kind people already feel good, because they are kind.”",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "quote",
+        "message": "If you do good and ask for a reward, you weaken the force of your goodness.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "quote",
+        "message": "Do not let your left hand know what your right hand is doing.",
+        "author": "MATTHEW 6:3"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "What a joy it is to do a good deed! And this joy is strongest if no one knows that you have done it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Eating to excess is a vice just as bad as many others. We often do not notice it in others, because most of us are subject to it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There are sins against others, and sins against yourself. You commit sins against others when you do not respect God’s spirit in them; you commit sins against yourself when you do not respect God’s spirit in yourself. One of the most common sins against yourself is gluttony."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person who overeats cannot fight laziness; and a lazy man cannot fight sexual dissipation. All spiritual teachings start with restrictions, with control of the appetite."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God gave food to people, and the devil gave cooks."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Socrates, a wise man, tried to abstain from all unnecessary things. He said that food should serve you in fighting your hunger, and not in developing sophisticated tastes, and he asked his students to follow his rule. He reminded his students about the wise Odysseus, whom Circe, an evil sorceress, could not subject to her magic, because he did not eat to excess. But the members of his crew, his friends, were turned into a herd of pigs by her as soon as they rushed to the abundance of sweet food."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Look at your mouth; through it, when you eat to excess, illnesses enter your body. Behave in such a way that when you finish your dinner, you want to eat a little more."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Eating to excess is not considered to be a sin by many, because it produces no noticeable harm. But there are sins which destroy human dignity, and eating to excess is one such sin."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Just as it’s folly to try to lift yourself into the air, you should not praise yourself too much. When you praise yourself, you produce the opposite effect in others, and appear lower in their eyes."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "If you want other people to speak well of you, do not speak well of yourself.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "A man who praises himself does not see anything except himself around him. It is better to be a blind man than to see only yourself and nobody else.",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "He who always listens to what other people say about him will never find inner peace."
+      },
+      {
+        "type": "quote",
+        "message": "A flatterer speaks his flattery because he has a low opinion of himself and of others.",
+        "author": "JEAN DE LA BRUYÈRE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you want to preserve your good name, do not praise yourself and do not so much as allow others to praise you."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Love of God is love in itself; it is love for the sake of love. This kind of love is the highest blessing. It does not allow the slightest possibility of treating even a single creature without love; if there is even one person whom you do not love, then you lose God’s love and blessing."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Love of your neighbor without love of God is a plant without roots. You should love God—this love is a real and firm love. It does not become weaker, only stronger, and it gives good to those who have it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Some say that you should be afraid of God. Not true; you have to love God. How can you love those whom you are afraid of? God is love, and how can you be afraid of love? No, you should not fear God, but love Him. And if you love God, then you will not be afraid of Him, or anything else in the world."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Physical work, physical exercise for your body, is a necessary condition of life. A man can force others to do things for him, but he cannot free himself from the necessity of his own physical work. And if a man does not work at necessary and good things, then he will work at unnecessary and stupid things."
+      },
+      {
+        "type": "quote",
+        "message": "Work, the process of work in itself, is the most important thing for us, and its reward should be of minor importance; if it is, you please your creator, God. If the reward is of major importance for you, and the work itself of minor importance, then you are the slave of the reward and its creator, the devil, and even the lowest and the least among all devils.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "A European praised the advantages of mechanized labor to a Chinese man: “This invention relieves a man from the need for physical work.” But the Chinese man replied, “Physical work is good. Being relieved from physical work will be an enormous disaster.”"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Every physical labor makes a man more noble. If you do not teach your son some physical skills, you teach him to rob others.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Without exercise of their muscles, neither man nor animal can live."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "So that this exercise may give you joy and satisfaction, do good physical work. This is also the best way to serve others."
+      }
+    ]
+    //Upto 7th March
     // No dates on these 2 below
     [
       {
