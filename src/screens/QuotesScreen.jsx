@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
 import { initializeTheme } from "../context/actions/themeActions";
-import { retrieveData } from "../utils/helpers";
+import { numberOfDayOfYear, retrieveData } from "../utils/helpers";
 
 const quotes = jsonData.quotes;
 
@@ -16,15 +16,8 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
   const theme = useColorScheme();
   const systemIsDarkTheme = theme === "dark";
 
-  const today = new Date();
-  const startOfYear = new Date(today.getFullYear(), 0, 0);
-  const diff = today - startOfYear;
-  const oneDay = 1000 * 60 * 60 * 24;
-  const dayOfYear = Math.floor(diff / oneDay);
-  const dateIndex = dayOfYear - 2;
-  console.log("====================================");
-  console.log(quotes.length);
-  console.log("====================================");
+  const dateIndex = numberOfDayOfYear();
+
   useEffect(() => {
     const checkForThemeInStorage = async () => {
       const previousSavedTheme = await retrieveData("theme");
@@ -59,7 +52,7 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
       <SwipeView
         activeSubQuote={activeSubQuote}
         setActiveSubQuote={setActiveSubQuote}
-        subQuoteLength={quotes[0].length - 2}
+        subQuoteLength={quotes[dateIndex].length - 2}
       >
         <View style={styles.contentContainer}>
           {quotes[dateIndex].slice(1).map((subquote, index) => {
