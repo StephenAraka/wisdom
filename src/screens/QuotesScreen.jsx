@@ -14,24 +14,35 @@ const quotes = jsonData.quotes;
 const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
   const theme = useColorScheme();
-  const systemIsDarkTheme = theme === 'dark';
+  const systemIsDarkTheme = theme === "dark";
 
+  const today = new Date();
+  const startOfYear = new Date(today.getFullYear(), 0, 0);
+  const diff = today - startOfYear;
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  const dateIndex = dayOfYear - 2;
+  console.log("====================================");
+  console.log(quotes.length);
+  console.log("====================================");
   useEffect(() => {
     const checkForThemeInStorage = async () => {
-      const previousSavedTheme = await retrieveData('theme');
-      const previousSavedThemeIsDark = previousSavedTheme === 'dark';
-      initializeTheme(previousSavedTheme ? previousSavedThemeIsDark : systemIsDarkTheme)
+      const previousSavedTheme = await retrieveData("theme");
+      const previousSavedThemeIsDark = previousSavedTheme === "dark";
+      initializeTheme(
+        previousSavedTheme ? previousSavedThemeIsDark : systemIsDarkTheme
+      );
     };
-
     checkForThemeInStorage();
   }, [initializeTheme, systemIsDarkTheme]);
 
   return (
     <ScreenLayout>
       <View style={styles.progressIndicators}>
-        {quotes[0].slice(1).map((subquote, index) => {
+        {quotes[dateIndex].slice(1).map((subquote, index) => {
           const width =
-            Math.floor(100 / quotes[0].slice(1).length - 2).toString() + "%";
+            Math.floor(100 / quotes[dateIndex].slice(1).length - 2).toString() +
+            "%";
           return (
             <View
               key={`indicator${index}`}
@@ -51,9 +62,9 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
         subQuoteLength={quotes[0].length - 2}
       >
         <View style={styles.contentContainer}>
-          {quotes[0].slice(1).map((subquote, index) => {
+          {quotes[dateIndex].slice(1).map((subquote, index) => {
             const width =
-              Math.floor(100 / quotes[0].length - 2).toString() + "%";
+              Math.floor(100 / quotes[dateIndex].length - 2).toString() + "%";
             return (
               index === activeSubQuote && (
                 <Quote
