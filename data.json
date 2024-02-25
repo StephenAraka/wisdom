@@ -1534,6 +1534,34 @@
       {
         "date": {
           "month": 2,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "All people of the world have an equal right to the privileges of this world."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Equality cannot be reached, as some people think, only by civil measures. It can be reached only by love of God and people, and this love can be reached, not by civil measures, but only as the result of spiritual learning."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "They say that equality is not possible, because some people will always be stronger or smarter than others. But it is exactly because of this, said Lichtenberg, precisely because some people are stronger and smarter than others, that the principle of equality is necessary. The advantages of the rich over the poor demonstrate not only inequality of force and intellect, but inequality of civil rights."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Christ revealed to humanity those things which their best selves already knew: that people are equal because the same spirit lives in all of them…. Learn from the small children, behave like children, and treat all people on an equal basis, with love and tenderness."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
           "date": 18
         }
       },
