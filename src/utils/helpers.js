@@ -46,3 +46,13 @@ export const getMessageFontSize = (message) => {
       return 20;
   }
 }
+
+//Getting the number of day in the year
+ export const numberOfDayOfYear = ()=> {
+  const today = new Date();
+  const startOfYear = new Date(today.getFullYear(), 0, 0);
+  const diff = today - startOfYear;
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  return dateIndex = dayOfYear - 1;
+}
