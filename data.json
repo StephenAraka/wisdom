@@ -1868,6 +1868,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "If you have time to think before you start talking, think, Is it necessary to speak? Will what I have to say harm anyone?"
       }
     ],
@@ -1890,6 +1891,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "In money—in the money itself, in its acquisition, in its possession—there is something immoral."
       },
       {
@@ -1922,10 +1924,12 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "It is possible to imagine that art could die, but it is not possible to imagine that real art could live if it became a slave of wealth that laughed at the poor."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Art is one of the most powerful means of convincing people of anything, both good and bad; therefore, you must be very careful in its use."
       },
       {
@@ -1935,6 +1939,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Meditations or discussions about art are the most useless pastimes known. Those who really know art know that art can speak well with its own language, and that to speak about art with words is useless. Most people who speak about art do not understand or feel real art."
       }
     ],
@@ -1967,6 +1972,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "We should believe that the goodness which exists in us and in this world will be fulfilled. This is the major condition to make it happen."
       }
     ],
@@ -2017,6 +2023,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "When a traveler starts on a trip along a road which is under the threat of robbers, he does not go alone. He waits for a friend, someone to be his escort, and then he follows him and so is protected from robbers. A wise man lives his life the same way. But there are so many troubles in this world. How can we stand all of them? What kind of a friend or escort will we find on our way, so that we may pass through our lives without fear? Where should we turn? There is only one answer, only one real friend. That is God."
       },
       {
@@ -2032,6 +2039,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The right path in life is very narrow, but it is important to find it. You can understand it, as well as we can understand it, as a walkway of wood built across a swamp; if you step off it, you will plunge into the swamp of misunderstanding and evil. A wise man returns to the true path at once, but a weak man plunges further and further into the swamp, and it becomes more and more difficult for him to get out."
       }
     ],
