@@ -27,6 +27,26 @@ export const retrieveData = async (key) => {
   }
 };
 
+export const getMessageFontSize = (message) => {
+  const numberOfCharacters = message.length;
+  let messageSize;
+
+  if (numberOfCharacters < 100) messageSize = 'small';
+  if (numberOfCharacters > 100 && numberOfCharacters < 300) messageSize = 'medium';
+  if (numberOfCharacters > 300) messageSize = 'big';
+  
+  switch (messageSize) {
+    case 'small':
+      return 28;
+
+    case 'medium':
+      return 24;
+  
+    default:
+      return 20;
+  }
+}
+
 //Getting the number of day in the year
  export const numberOfDayOfYear = ()=> {
   const today = new Date();

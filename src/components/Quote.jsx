@@ -2,6 +2,7 @@ import { View, Text, Image, StyleSheet } from "react-native";
 import React from "react";
 import assets from "../constants/assets";
 import globalStyles from "../assets/styles/globalStyles";
+import { getMessageFontSize } from "../utils/helpers";
 
 const Quote = ({ subquote, isDarkTheme }) => {
   return (
@@ -10,7 +11,7 @@ const Quote = ({ subquote, isDarkTheme }) => {
       {subquote.author && (
         <Image source={assets.quoteIcon} style={styles.quoteImage} />
       )}
-      <Text style={globalStyles.quoteText(isDarkTheme, subquote.italics)}>
+      <Text style={globalStyles.quoteText(isDarkTheme, subquote.italics, getMessageFontSize(subquote.message))}>
         {subquote.message}
       </Text>
       {/* Render Author or Source only if the subquote has one */}
