@@ -48,11 +48,31 @@ export const getMessageFontSize = (message) => {
 }
 
 //Getting the number of day in the year
- export const numberOfDayOfYear = ()=> {
+export const numberOfDayOfYear = () => {
   const today = new Date();
   const startOfYear = new Date(today.getFullYear(), 0, 0);
   const diff = today - startOfYear;
   const oneDay = 1000 * 60 * 60 * 24;
   const dayOfYear = Math.floor(diff / oneDay);
   return dateIndex = dayOfYear - 1;
+}
+
+export const getMessageFontSize = (message) => {
+  const numberOfCharacters = message.length;
+  let messageSize;
+
+  if (numberOfCharacters < 100) messageSize = 'small';
+  if (numberOfCharacters > 100 && numberOfCharacters < 300) messageSize = 'medium';
+  if (numberOfCharacters > 300) messageSize = 'big';
+
+  switch (messageSize) {
+    case 'small':
+      return 24;
+
+    case 'medium':
+      return 20;
+
+    default:
+      return 16;
+  }
 }
