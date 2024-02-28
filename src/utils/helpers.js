@@ -37,12 +37,12 @@ export const getMessageFontSize = (message) => {
   
   switch (messageSize) {
     case 'small':
-      return 24;
+      return 28;
 
     case 'medium':
-      return 20;
+      return 24;
   
     default:
-      return 16;
+      return 20;
   }
 }
