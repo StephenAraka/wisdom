@@ -1925,6 +1925,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Art is one of the most powerful means of convincing people of anything, both good and bad; therefore, you must be very careful in its use."
       },
       {
@@ -1934,6 +1935,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Meditations or discussions about art are the most useless pastimes known. Those who really know art know that art can speak well with its own language, and that to speak about art with words is useless. Most people who speak about art do not understand or feel real art."
       }
     ],
@@ -1966,6 +1968,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "We should believe that the goodness which exists in us and in this world will be fulfilled. This is the major condition to make it happen."
       }
     ],
@@ -2032,6 +2035,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The right path in life is very narrow, but it is important to find it. You can understand it, as well as we can understand it, as a walkway of wood built across a swamp; if you step off it, you will plunge into the swamp of misunderstanding and evil. A wise man returns to the true path at once, but a weak man plunges further and further into the swamp, and it becomes more and more difficult for him to get out."
       }
     ],
