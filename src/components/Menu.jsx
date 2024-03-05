@@ -19,6 +19,10 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     toggleTheme();
   }
 
+  const likeQuote = () => {
+    
+  }
+
   const menuItems = [
     {
       text: "Share",
@@ -29,6 +33,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "Like",
       icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
+      onPress: likeQuote
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
