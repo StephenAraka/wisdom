@@ -56,3 +56,50 @@ export const getMessageFontSize = (message) => {
   const dayOfYear = Math.floor(diff / oneDay);
   return dateIndex = dayOfYear - 1;
 }
+
+/* FAVOURITE QUOTES FUNCTIONS START */
+export const addQuoteToFavorites = async (quote) => {
+  let existingFavorites = await AsyncStorage.getItem('favoriteQuotes') || [];
+  
+  if (existingFavorites.length) {
+    existingFavorites = JSON.parse(existingFavorites);
+
+    // Check if incoming quote is already among favorites
+    const isDuplicate = existingFavorites.some(obj => {
+      return Object.keys(obj).every(key => quote[key] === obj[key]);
+    });
+
+    if (isDuplicate) return { success: false, isDuplicate: true }
+  }
+
+  existingFavorites.push(quote)
+
+  try {
+    await AsyncStorage.setItem('favoriteQuotes', JSON.stringify(existingFavorites));
+    console.log('Data stored successfully!');
+    return { success: true };
+  } catch (error) {
+    console.error('Error storing data:', error);
+    return { success: false };
+  }
+}
+
+export const getFavoriteQuotes = async () => {
+  try {
+    let list = await AsyncStorage.getItem('favoriteQuotes') || [];
+    if (list.length) list = JSON.parse(list);
+
+    if (list.length) {
+      console.log('Retrieved data:', list);
+      return list;
+    } else {
+      console.log('No favorite quotes found');
+      return null;
+    }
+  } catch (error) {
+    console.error('Error retrieving data:', error);
+    return null;
+  }
+};
+
+/* FAVOURITE QUOTES FUNCTIONS END */
