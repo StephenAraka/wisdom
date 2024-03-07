@@ -11,8 +11,8 @@ import assets from "../constants/assets";
 import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
-import { addQuoteToFavorites, getFavoriteQuotes, storeData } from "../utils/helpers";
 import { useNavigation } from "@react-navigation/native";
+import { addQuoteToFavorites, getFavoriteQuotes, storeData } from "../utils/helpers";
 
 const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   const navigation = useNavigation();
@@ -21,7 +21,12 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     toggleTheme();
   };
 
-  const testNav = () => {
+  const testNav = async () => {
+    const favQuotes = await getFavoriteQuotes();
+    console.log('====================================');
+    console.log('favQuotes = ', favQuotes.length);
+    console.log(favQuotes);
+    console.log('====================================');
     navigation.navigate("FavouriteQuotes");
   };
 
