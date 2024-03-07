@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import themeReducer from './themeReducer';
+import quotesReducer from './quotesReducer';
 
 const mainReducer = combineReducers({
-  theme: themeReducer
+  quote: quotesReducer,
+  theme: themeReducer,
 });
 
 export default mainReducer;
