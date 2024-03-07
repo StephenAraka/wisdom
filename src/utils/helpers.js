@@ -49,6 +49,7 @@ export const getMessageFontSize = (message) => {
 
 //Getting the number of day in the year
  export const numberOfDayOfYear = ()=> {
+  
   const today = new Date();
   const startOfYear = new Date(today.getFullYear(), 0, 0);
   const diff = today - startOfYear;
