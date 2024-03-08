@@ -11,6 +11,12 @@ import { Calendar } from "react-native-calendars";
 import colors from "../constants/colors";
 
 const DatePicker = ({ toggleCalendar, isDarkTheme }) => {
+  const pickDate = (date) => {
+    console.log("====================================");
+    console.log(date);
+    console.log("====================================");
+  };
+
   return (
     <Modal transparent={true}>
       <TouchableOpacity
@@ -19,6 +25,9 @@ const DatePicker = ({ toggleCalendar, isDarkTheme }) => {
       >
         <View style={styles.calendarWrapper}>
           <Calendar
+            onDayPress={(day) => {
+              pickDate(day);
+            }}
             style={styles.calendar(isDarkTheme)}
             theme={{
               calendarBackground: isDarkTheme
