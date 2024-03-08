@@ -1,5 +1,7 @@
+import { numberOfDayOfYear } from "../../utils/helpers";
+
 const initialState = {
-  dateIndex: 68
+  dateIndex: numberOfDayOfYear()
 }
 
 const dateReducer = (state = initialState, action) => {
