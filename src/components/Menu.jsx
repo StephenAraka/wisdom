@@ -26,10 +26,6 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 
   const testFavoriteQuotes = async () => {
     const favQuotes = await getFavoriteQuotes();
-    console.log('====================================');
-    console.log('favQuotes = ', favQuotes.length);
-    console.log(favQuotes);
-    console.log('====================================');
   }
 
   const menuItems = [
