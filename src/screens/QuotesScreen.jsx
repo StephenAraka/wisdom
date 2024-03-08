@@ -7,16 +7,22 @@ import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
 import { initializeTheme } from "../context/actions/themeActions";
-import { numberOfDayOfYear, retrieveData } from "../utils/helpers";
+//import { numberOfDayOfYear, retrieveData } from "../utils/helpers";
 
 const quotes = jsonData.quotes;
 
-const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
+const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
   const theme = useColorScheme();
   const systemIsDarkTheme = theme === "dark";
 
-  const dateIndex = numberOfDayOfYear();
+  console.log(dateIndex);
+
+  console.log("====================================");
+  console.log("test text");
+  console.log("====================================");
+
+  // const dateIndex = numberOfDayOfYear();
 
   useEffect(() => {
     const checkForThemeInStorage = async () => {
@@ -80,6 +86,7 @@ const matchDispatchToProps = {
 
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
+  dateIndex: state.date.dateIndex,
 });
 
 export default connect(mapStateToProps, matchDispatchToProps)(QuotesScreen);
