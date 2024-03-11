@@ -30,9 +30,6 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
   useEffect(() => {
     setActiveDateIndex(dateIndex);
   }, [dateIndex]);
-  console.log("====================================");
-  console.log(dateIndex);
-  console.log("====================================");
   return (
     <ScreenLayout>
       <View style={styles.progressIndicators}>
