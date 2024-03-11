@@ -49,7 +49,6 @@ export const getMessageFontSize = (message) => {
 
 //Getting the number of day in the year
  export const numberOfDayOfYear = ()=> {
-  
   const today = new Date();
   const startOfYear = new Date(today.getFullYear(), 0, 0);
   const diff = today - startOfYear;
@@ -110,4 +109,13 @@ export const getFavoriteQuotes = async () => {
   return dateIndex = dayOfYear -1;
  
 }
+<<<<<<< HEAD
 >>>>>>> 61cfe2f (Update displayed quote to calendar date selected)
+=======
+
+export const getDateFromDayOfYear = (dayOfYear) => {
+  var date = new Date(new Date().getFullYear(), 0); 
+  date.setDate(dayOfYear); 
+  return date;
+}
+>>>>>>> d7d05d4 (Update mapStateToProps function for DatePicker)

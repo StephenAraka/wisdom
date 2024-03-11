@@ -20,9 +20,6 @@ const DatePicker = ({ toggleCalendar, isDarkTheme, updateDateIndex }) => {
     const diff = dateObject - startOfYear;
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
-    console.log("====================================");
-    console.log(`Day of year: ${dayOfYear}`);
-    console.log("====================================");
     updateDateIndex(dayOfYear - 1);
   };
 
@@ -64,7 +61,7 @@ const DatePicker = ({ toggleCalendar, isDarkTheme, updateDateIndex }) => {
   );
 };
 const mapStateToProps = (state) => ({
-  isDarkTheme: state.theme.isDarkTheme,
+  dateIndex: state.theme.dateIndex,
 });
 const mapDispatchToProps = {
   updateDateIndex,
