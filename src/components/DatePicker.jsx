@@ -9,12 +9,21 @@ import {
 import React from "react";
 import { Calendar } from "react-native-calendars";
 import colors from "../constants/colors";
+import { connect } from "react-redux";
+import { updateDateIndex } from "../context/actions/dateActions";
 
-const DatePicker = ({ toggleCalendar, isDarkTheme }) => {
+const DatePicker = ({ toggleCalendar, isDarkTheme, updateDateIndex }) => {
+  /* Function that runs when a date is clicked on the calendar */
   const pickDate = (date) => {
+    const dateObject = new Date(date.dateString);
+    const startOfYear = new Date(dateObject.getFullYear(), 0, 0);
+    const diff = dateObject - startOfYear;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const dayOfYear = Math.floor(diff / oneDay);
     console.log("====================================");
-    console.log(date);
+    console.log(`Day of year: ${dayOfYear}`);
     console.log("====================================");
+    updateDateIndex(dayOfYear - 1);
   };
 
   return (
@@ -54,8 +63,13 @@ const DatePicker = ({ toggleCalendar, isDarkTheme }) => {
     </Modal>
   );
 };
-
-export default DatePicker;
+const mapStateToProps = (state) => ({
+  isDarkTheme: state.theme.isDarkTheme,
+});
+const mapDispatchToProps = {
+  updateDateIndex,
+};
+export default connect(mapStateToProps, mapDispatchToProps)(DatePicker);
 
 const styles = StyleSheet.create({
   datePickerBg: (isDarkTheme) => ({

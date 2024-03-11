@@ -6,23 +6,15 @@ import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
-import { initializeTheme } from "../context/actions/themeActions";
-//import { numberOfDayOfYear, retrieveData } from "../utils/helpers";
+import { initializeTheme, retrieveData } from "../context/actions/themeActions";
 
 const quotes = jsonData.quotes;
 
 const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
+  const [activeDateIndex, setActiveDateIndex] = useState(dateIndex);
   const theme = useColorScheme();
   const systemIsDarkTheme = theme === "dark";
-
-  console.log(dateIndex);
-
-  console.log("====================================");
-  console.log("test text");
-  console.log("====================================");
-
-  // const dateIndex = numberOfDayOfYear();
 
   useEffect(() => {
     const checkForThemeInStorage = async () => {
@@ -35,13 +27,20 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
     checkForThemeInStorage();
   }, [initializeTheme, systemIsDarkTheme]);
 
+  useEffect(() => {
+    setActiveDateIndex(dateIndex);
+  }, [dateIndex]);
+  console.log("====================================");
+  console.log(dateIndex);
+  console.log("====================================");
   return (
     <ScreenLayout>
       <View style={styles.progressIndicators}>
-        {quotes[dateIndex].slice(1).map((subquote, index) => {
+        {quotes[activeDateIndex].slice(1).map((subquote, index) => {
           const width =
-            Math.floor(100 / quotes[dateIndex].slice(1).length - 2).toString() +
-            "%";
+            Math.floor(
+              100 / quotes[activeDateIndex].slice(1).length - 2
+            ).toString() + "%";
           return (
             <View
               key={`indicator${index}`}
@@ -58,12 +57,13 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
       <SwipeView
         activeSubQuote={activeSubQuote}
         setActiveSubQuote={setActiveSubQuote}
-        subQuoteLength={quotes[dateIndex].length - 2}
+        subQuoteLength={quotes[activeDateIndex].length - 2}
       >
         <View style={styles.contentContainer}>
           {quotes[dateIndex].slice(1).map((subquote, index) => {
             const width =
-              Math.floor(100 / quotes[dateIndex].length - 2).toString() + "%";
+              Math.floor(100 / quotes[activeDateIndex].length - 2).toString() +
+              "%";
             return (
               index === activeSubQuote && (
                 <Quote
