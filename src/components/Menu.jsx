@@ -12,20 +12,22 @@ import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
 import { addQuoteToFavorites, getFavoriteQuotes, storeData } from "../utils/helpers";
+import { useNavigation } from "@react-navigation/native";
 
 const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
+  const navigation = useNavigation();
   const setTheme = () => {
-    storeData('theme', isDarkTheme ? 'light' : 'dark')
+    storeData("theme", isDarkTheme ? "light" : "dark");
     toggleTheme();
-  }
+  };
+
+  const testNav = () => {
+    navigation.navigate("FavouriteQuotes");
+  };
 
   const likeQuote = async () => {
     const { success, isDuplicate } = await addQuoteToFavorites(currentSubquote);
     if (isDuplicate) console.log('Already liked, relax');
-  }
-
-  const testFavoriteQuotes = async () => {
-    const favQuotes = await getFavoriteQuotes();
   }
 
   const menuItems = [
@@ -48,7 +50,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "More Info",
       icon: isDarkTheme ? assets.infoIconDarkTheme : assets.infoIconLightTheme,
-      onPress: testFavoriteQuotes,
+      onPress: testNav,
     },
   ];
 
