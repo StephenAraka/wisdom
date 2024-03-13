@@ -12,12 +12,19 @@ import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
 import { storeData } from "../utils/helpers";
+import { useNavigation } from "@react-navigation/native";
 
 const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
+  const navigation = useNavigation();
+
   const setTheme = () => {
-    storeData('theme', isDarkTheme ? 'light' : 'dark')
+    storeData("theme", isDarkTheme ? "light" : "dark");
     toggleTheme();
-  }
+  };
+
+  const testNav = () => {
+    navigation.navigate("FavouriteQuotes");
+  };
 
   const menuItems = [
     {
@@ -38,6 +45,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "More Info",
       icon: isDarkTheme ? assets.infoIconDarkTheme : assets.infoIconLightTheme,
+      onPress: testNav,
     },
   ];
 
