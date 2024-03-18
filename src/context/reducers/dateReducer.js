@@ -1,6 +1,11 @@
 import { numberOfDayOfYear } from "../../utils/helpers";
 
 const initialState = {
+  date: new Date().toLocaleDateString("en-GB", {
+    weekday: "short",
+    month: "long",
+    day: "2-digit",
+  }),
   dateIndex: numberOfDayOfYear()
 }
 
@@ -15,6 +20,13 @@ const dateReducer = (state = initialState, action) => {
 
       default:
       return state;
+
+    case 'UPDATE_DATE':
+      console.log("Payload Updated Date: ", action.payload);
+      return{
+        ...state,
+        date: action.payload
+      }
   }
 }
 

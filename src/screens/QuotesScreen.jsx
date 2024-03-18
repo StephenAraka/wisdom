@@ -10,8 +10,9 @@ import { initializeTheme, retrieveData } from "../context/actions/themeActions";
 
 const quotes = jsonData.quotes;
 
-const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
+const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex, date }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
+  const [displayedDate, setDisplayedDate] = useState(date);
   const [activeDateIndex, setActiveDateIndex] = useState(dateIndex);
   const theme = useColorScheme();
   const systemIsDarkTheme = theme === "dark";
@@ -26,6 +27,10 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
     };
     checkForThemeInStorage();
   }, [initializeTheme, systemIsDarkTheme]);
+
+  useEffect(() => {
+    setDisplayedDate(date);
+  }, [date]);
 
   useEffect(() => {
     setActiveDateIndex(dateIndex);
@@ -50,7 +55,7 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex }) => {
           );
         })}
       </View>
-      <Header isDarkTheme={isDarkTheme} />
+      <Header isDarkTheme={isDarkTheme} date={displayedDate} />
       <SwipeView
         activeSubQuote={activeSubQuote}
         setActiveSubQuote={setActiveSubQuote}
@@ -84,6 +89,7 @@ const matchDispatchToProps = {
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
   dateIndex: state.date.dateIndex,
+  date: state.date.date,
 });
 
 export default connect(mapStateToProps, matchDispatchToProps)(QuotesScreen);
