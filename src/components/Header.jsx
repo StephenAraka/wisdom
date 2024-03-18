@@ -1,19 +1,14 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { connect } from "react-redux";
 import Menu from "./Menu";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
 import DatePicker from "./DatePicker";
 
-const Header = ({ isDarkTheme }) => {
+const Header = ({ isDarkTheme, date }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isCalendarVisible, setIsCalendarVisible] = useState(false);
-
-  const date = new Date().toLocaleDateString("en-GB", {
-    weekday: "short",
-    month: "long",
-    day: "2-digit",
-  });
 
   /* Function to show or hide the menu
   -------------------------------------*/
