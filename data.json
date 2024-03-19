@@ -2725,7 +2725,95 @@
         "message": "This world, only this world, is the place of our work, and all our forces, all our efforts, should be directed toward this life."
       }
     ],
-    //Upto 14th March
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "If truth makes our life easier, then it is better to accept the truth than to hide from it. Our life can be changed, but the truth cannot be changed: it will always remain the truth, and it will expose us."
+      },
+      {
+        "type": "quote",
+        "message": "We should live our lives as if everyone could see us, as if the most secret corners of our soul were open to the sight of others. Why should we hide anything? You cannot hide anything from God. All divine and human learning can be summarized in one truth—that we are members of one big body. Nature united us in one big family, and we should live our lives together, helping each other.",
+        "author": "After LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Seek the truth: it always shows us what we should do, what we should not do, and what we should stop doing."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The earth, the air, and the sun belong to all of us; they cannot be made objects of property."
+      },
+      {
+        "type": "quote",
+        "message": "We are all visitors in this world. Wherever you go in this world, to the north, to the south, to the west, or to the east, there will always be a man waiting to tell you, “This is my property. Get out of here!” When you visit other countries in the world and you come back, you will see that there is not a single piece of free land where your wife can give birth to your child, where you can stop and start working on the land, and where your children can find rest for your bones at life’s end.",
+        "author": "After F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "quote",
+        "message": "If you leave a man on land which is someone else’s property and tell him that he is a completely free man and can work for himself, it’s as if you drop him in the middle of the Atlantic and tell him that he is free to go ashore.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who own land in amounts larger than that which is needed to feed their own families can be treated as being guilty of causing the poverty of many other people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Only the person who fulfills God’s law can understand God. The more closely he fulfills God’s law, the better he understands God."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is not a single believer who from time to time has not had some hesitations about the existence of God. But these moments of hesitation are not harmful. On the contrary, they lead us to a better understanding of God."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Seeking God with your soul is a process that has limitless sides and aspects."
+      },
+      {
+        "type": "quote",
+        "message": "Moses said to God, “Where can I find you?” God said, “If you are looking for me, you have already found me.”"
+      },
+      {
+        "type": "quote",
+        "message": "They asked a wise man, “How do you know that God exists?” He replied, “Is it necessary to have a torch in order to see the sun?” We do not have enough words to explain what God is, but we know without words that He exists.",
+        "author": "ARABIC WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Jews consider it a sin to state the name of God aloud. They are right: God is spirit, and every name is material and not spiritual."
+      }
+    ],
+    //Upto 24th March
     [
       {
         "type": "intro",
