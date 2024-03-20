@@ -32,6 +32,7 @@ const DatePicker = ({
     });
     updateDate(newDateString);
     updateDateIndex(dayOfYear - 1);
+    toggleCalendar(false);
   };
 
   return (
