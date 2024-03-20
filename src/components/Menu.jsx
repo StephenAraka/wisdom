@@ -11,20 +11,29 @@ import assets from "../constants/assets";
 import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
-import { storeData } from "../utils/helpers";
 import { useNavigation } from "@react-navigation/native";
+import { addQuoteToFavorites, getFavoriteQuotes, storeData } from "../utils/helpers";
 
-const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
+const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   const navigation = useNavigation();
-
   const setTheme = () => {
     storeData("theme", isDarkTheme ? "light" : "dark");
     toggleTheme();
   };
 
-  const testNav = () => {
+  const testNav = async () => {
+    const favQuotes = await getFavoriteQuotes();
+    console.log('====================================');
+    console.log('favQuotes = ', favQuotes.length);
+    console.log(favQuotes);
+    console.log('====================================');
     navigation.navigate("FavouriteQuotes");
   };
+
+  const likeQuote = async () => {
+    const { success, isDuplicate } = await addQuoteToFavorites(currentSubquote);
+    if (isDuplicate) console.log('Already liked, relax');
+  }
 
   const menuItems = [
     {
@@ -36,6 +45,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "Like",
       icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
+      onPress: likeQuote
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
@@ -79,6 +89,7 @@ const Menu = ({ toggleMenu, isDarkTheme, toggleTheme }) => {
 };
 
 const mapStateToProps = (state) => ({
+  currentSubquote: state.quote.activeSubquote, 
   isDarkTheme: state.theme.isDarkTheme,
 });
 

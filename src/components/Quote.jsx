@@ -3,8 +3,11 @@ import React from "react";
 import assets from "../constants/assets";
 import globalStyles from "../assets/styles/globalStyles";
 import { getMessageFontSize } from "../utils/helpers";
+import { setActiveQuote } from "../context/actions/quoteActions";
+import { connect } from "react-redux";
 
-const Quote = ({ subquote, isDarkTheme }) => {
+const Quote = ({ setActiveQuote, subquote, isDarkTheme }) => {
+  setActiveQuote(subquote)
   return (
     <View style={styles.subquoteWrapper}>
       {/* Render quoteIcon only if it is a quote */}
@@ -27,7 +30,14 @@ const Quote = ({ subquote, isDarkTheme }) => {
   );
 };
 
-export default Quote;
+const matchDispatchToProps = {
+  setActiveQuote,
+};
+
+const mapStateToProps = (state) => ({
+});
+
+export default connect(mapStateToProps, matchDispatchToProps)(Quote);
 
 const styles = StyleSheet.create({
   subquoteWrapper: {
