@@ -5,8 +5,9 @@ import Menu from "./Menu";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
 import DatePicker from "./DatePicker";
+import { numberOfDayOfYear } from "../utils/helpers";
 
-const Header = ({ isDarkTheme, date }) => {
+const Header = ({ isDarkTheme, date, dateIndex }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isCalendarVisible, setIsCalendarVisible] = useState(false);
 
@@ -35,8 +36,14 @@ const Header = ({ isDarkTheme, date }) => {
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
-          <Text style={styles.dateTopRow(isDarkTheme)}>Today</Text>
-          <Text style={styles.dateBottomRow(isDarkTheme)}>{date}</Text>
+          <Text style={styles.dateTopRow(isDarkTheme)}>
+            {numberOfDayOfYear() > dateIndex ? date : "Today"}
+          </Text>
+          <Text style={styles.dateBottomRow(isDarkTheme)}>
+            {numberOfDayOfYear() > dateIndex
+              ? `${numberOfDayOfYear() - dateIndex} days ago`
+              : date}
+          </Text>
         </View>
       </TouchableOpacity>
 

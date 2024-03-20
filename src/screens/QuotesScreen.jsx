@@ -55,7 +55,11 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex, date }) => {
           );
         })}
       </View>
-      <Header isDarkTheme={isDarkTheme} date={displayedDate} />
+      <Header
+        isDarkTheme={isDarkTheme}
+        date={displayedDate}
+        dateIndex={dateIndex}
+      />
       <SwipeView
         activeSubQuote={activeSubQuote}
         setActiveSubQuote={setActiveSubQuote}
