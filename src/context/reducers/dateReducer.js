@@ -11,6 +11,15 @@ const initialState = {
 
 const dateReducer = (state = initialState, action) => {
   switch(action.type){
+    
+    case 'UPDATE_DATE':
+      console.log("Payload Updated Date: ", action.payload);
+      console.log("Date: ", new Date());
+      return{
+        ...state,
+        date: action.payload
+      }
+    
     case 'UPDATE_DATE_INDEX':
       console.log("Payload:", action.payload);
       return{
@@ -21,12 +30,7 @@ const dateReducer = (state = initialState, action) => {
       default:
       return state;
 
-    case 'UPDATE_DATE':
-      console.log("Payload Updated Date: ", action.payload);
-      return{
-        ...state,
-        date: action.payload
-      }
+   
   }
 }
 
