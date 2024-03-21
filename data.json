@@ -2813,7 +2813,117 @@
         "message": "Jews consider it a sin to state the name of God aloud. They are right: God is spirit, and every name is material and not spiritual."
       }
     ],
-    //Upto 24th March
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "During our lives we help each other: sometimes we help other people, sometimes we are helped by others. But the world is formed so that usually some people mostly help others, and some mostly receive their help."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "As you acquire objects, and you use them, you should keep in mind that they are the products of people’s work. When you damage or destroy these objects, you damage or destroy the toil, and this part of the life, of other people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Look at all of your knowledge as a gift, as a means of helping other people."
+      },
+      {
+        "type": "quote",
+        "message": "A strong and wise person uses his gifts to support other people.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Help should be mutual. Moreover, those who accept help and assistance from their brothers should pay them back, not only with money, but with love, respect, and gratitude."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The most important change that can occur in a person’s life is a change in his faith."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Individuals die, but the wisdom they have obtained in their lives does not die with them. Mankind keeps all this wisdom, and a person uses the wisdom of those who lived before him. The education of mankind reminds me of the creation of the ancient pyramids, in that everyone who lives puts another stone in the foundation."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We are temporary visitors in this world; after we are educated, we are called to different places, and we pass away. But the general education of mankind goes on, very slowly but without interruption.",
+        "author": "After GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is a big mistake to think that faith is immutable, that it does not change over generations. The longer mankind exists y its faith becomes simpler and stronger. And the simpler and stronger our faith becomes, the better we live."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you believe that faith is the same for all times and that it cannot be changed, you might just as well believe that those fairy tales and proverbs and children’s stories which your grandmother told you when you were a small baby are real, and that you ought to believe in them all your life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The more a person believes in God, the less he is afraid of other people."
+      },
+      {
+        "type": "quote",
+        "message": "Do not despair. Do not be disappointed if you see that you cannot accomplish all the good which you would like to accomplish. If you fall, try to stand up; try to overcome the obstacle before you. Get to the heart of the matter, to the essence of things.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who fear people do not fear God; those who fear God do not fear people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "He who is not afraid of anything, and who is ready to give his life for a righteous cause, is much stronger than he whom other people fear and who has the lives of other people in his power."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Look for the better men among those who are despised."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do what you think is necessary, and do not expect reward. Remember that a stupid person is a bad judge of clever deeds."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You want to save yourself from the power of other people—give yourself to the power of God. If you see yourself as being in the power of God, then people cannot do anything to you."
+      }
+    ],
+    //Upto 27th March
     [
       {
         "type": "intro",
