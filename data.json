@@ -1562,6 +1562,34 @@
       {
         "date": {
           "month": 2,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "All people of the world have an equal right to the privileges of this world."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Equality cannot be reached, as some people think, only by civil measures. It can be reached only by love of God and people, and this love can be reached, not by civil measures, but only as the result of spiritual learning."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "They say that equality is not possible, because some people will always be stronger or smarter than others. But it is exactly because of this, said Lichtenberg, precisely because some people are stronger and smarter than others, that the principle of equality is necessary. The advantages of the rich over the poor demonstrate not only inequality of force and intellect, but inequality of civil rights."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Christ revealed to humanity those things which their best selves already knew: that people are equal because the same spirit lives in all of them…. Learn from the small children, behave like children, and treat all people on an equal basis, with love and tenderness."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 2,
           "date": 18
         }
       },
@@ -2387,6 +2415,7 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "When you appeared in this world, you cried, and all the people around you rejoiced. You have to live your life in such a way that when you leave this world, you will rejoice, and all the people around you will cry.",
         "author": "INDIAN WISDOM"
       },
@@ -2415,6 +2444,7 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "Those people who have nothing to lose are very rich.",
         "author": "CHINESE PROVERB"
       },
@@ -2448,11 +2478,13 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "Look around. What do the world’s people think about it? They think about everything except what is most important. They think about dancing, music, and singing; they think about houses, wealth, and power; they are jealous about the wealth of rich people and kings; but they do not think at all about what it means to be human.",
         "author": "After BLAISE PASCAL"
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "One of the major responsibilities of a person is to make that intellectual spark which you have received from heaven illuminate the world around you.",
         "author": "CHINESE WISDOM"
       },
@@ -2588,6 +2620,7 @@
       {
         "type": "message",
         "italics": true,
+
         "message": "If you want to correct your failings, you do not have the time to waste in blaming other people."
       },
       {
