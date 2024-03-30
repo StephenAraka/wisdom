@@ -6,15 +6,13 @@ const initialState = {
     month: "long",
     day: "2-digit",
   }),
-  dateIndex: numberOfDayOfYear()
+  dateIndex: numberOfDayOfYear(new Date())
 }
 
 const dateReducer = (state = initialState, action) => {
   switch(action.type){
     
     case 'UPDATE_DATE':
-      console.log("Payload Updated Date: ", action.payload);
-      console.log("Date: ", new Date());
       return{
         ...state,
         date: action.payload

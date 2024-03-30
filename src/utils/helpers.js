@@ -57,9 +57,3 @@ export const getMessageFontSize = (message) => {
   return dateIndex = dayOfYear -1;
  
 }
-
-export const getDateFromDayOfYear = (dayOfYear) => {
-  var date = new Date(new Date().getFullYear(), 0); 
-  date.setDate(dayOfYear); 
-  return date;
-}

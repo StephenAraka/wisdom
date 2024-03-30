@@ -2923,7 +2923,162 @@
         "message": "You want to save yourself from the power of other people—give yourself to the power of God. If you see yourself as being in the power of God, then people cannot do anything to you."
       }
     ],
-    //Upto 27th March
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Wisdom can be achieved by inner work, through solitary communication with yourself; it also can be achieved when you communicate with other people."
+      },
+      {
+        "type": "quote",
+        "message": "Listen and be attentive, but do not speak too much; and when you are asked a question, answer briefly. Do not be ashamed to accept that sometimes you do not know an answer to what you were asked. Do not get into an argument just for the sake of argument; and do not boast.",
+        "author": "SUFI WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "You can view your own drawbacks only through the eyes of other people.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "I have learned many things from my teachers; I have learned many things from my friends; and I have learned even more from my students.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "If you see a holy man, think: how could I become like him? If you see a dissipated man, think: don’t I have the same vices?",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Real love is not in words but in deeds, and only love can give you real wisdom."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you are in company, do not forget what you have found out when you were thinking in solitude; and when you are meditating in solitude, think about what you found out by communicating with other people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 29
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "If sometimes you feel that in spite of all your wishes to gain triumph over your passions, they gain victory over you, do not think that you cannot conquer them at all. You have only proven that you weren’t able to this one time. A good groom does not drop his reins when he cannot stop his horses at once but tries again to pull the reins, and eventually the horses stop. So if you could not resist the temptations once, continue your fight, and in the end not your passion but you will gain the victory."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Try to be the master over greed, sloth, lechery, and rage."
+      },
+      {
+        "type": "quote",
+        "message": "A victory over oneself is a bigger and a better victory than a victory over thousands of people in a score of battles. Those who have achieved victory over other people can be defeated in future battles, but those who have achieved victory over themselves become victors forever.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "A passion in a person’s heart is like a spider’s web. At the beginning it is an alien visitor; then it becomes a regular guest; then it becomes master of the house.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "He who has achieved victory over himself has real power.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Abstention cannot be achieved at once, but it should be a process, and a constant effort. The life of a person who makes this effort is directed not to the calming of his passions but to the mastery of them."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Time and persistence help you in these efforts."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "message": "The truth is not only a joy, it is an instrument in conflict much more powerful than violence."
+      },
+      {
+        "type": "quote",
+        "message": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times? Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven.",
+        "author": "MATTHEW 18:21-22"
+      },
+      {
+        "type": "quote",
+        "message": "If you want to demonstrate some truth to your listeners, do not be irritated, and do not say unkind or abusive words.",
+        "author": "After EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "If you notice someone in error, then correct this person and his mistake in a humble way. If he does not listen to you, blame yourself only; or, even better, do not blame anybody, but continue to be humble.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you have parted from a person, and he was not satisfied with you, or did not agree with you when you were right, he is not to blame, but probably it is you who are to blame, because you were not kind enough with this man."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 3,
+          "day": 31
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "To repent means to show your vices and weaknesses to all. Repentance means taking responsibility for all of the bad things you have done, purifying your soul, and preparing to accept goodness."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When a kind man does not accept his mistakes and tries always to justify himself, he becomes an unkind man."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do you have qualities which can be criticized and improved? Try to admit that this is so, and to find these qualities out by yourself."
+      },
+      {
+        "type": "quote",
+        "message": "Nothing can make a person’s soul softer than the understanding of his own blame, and nothing can make one harder than the desire always to be right.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "Those who cover their old sins with present-day good deeds remind me of the moonlight which illuminates this dark world on a cloudy night.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A man will always understand his sins as well as his limits in this limitless world."
+      }
+    ], //Upto End Of March
     [
       {
         "type": "intro",
