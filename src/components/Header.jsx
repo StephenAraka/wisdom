@@ -36,14 +36,30 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
-          <Text style={styles.dateTopRow(isDarkTheme)}>
-            {numberOfDayOfYear() > dateIndex ? date : "Today"}
-          </Text>
-          <Text style={styles.dateBottomRow(isDarkTheme)}>
-            {numberOfDayOfYear() > dateIndex
-              ? `${numberOfDayOfYear() - dateIndex} days ago`
-              : date}
-          </Text>
+          {numberOfDayOfYear() < dateIndex ? (
+            /* If the days Have passed
+              ____________________________ */
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>
+                {`${numberOfDayOfYear() - dateIndex} days ago`}
+              </Text>
+            </>
+          ) : numberOfDayOfYear() === dateIndex ? (
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>
+                {numberOfDayOfYear() > dateIndex ? date : "Today"}
+              </Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>{date}</Text>
+            </>
+          ) : (
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>
+                {`${numberOfDayOfYear() - dateIndex} days ahead`}
+              </Text>
+            </>
+          )}
         </View>
       </TouchableOpacity>
 
