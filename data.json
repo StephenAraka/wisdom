@@ -1856,7 +1856,7 @@
       {
         "date": {
           "month": 2,
-          "date": 26
+          "day": 26
         }
       },
       {
@@ -1903,7 +1903,7 @@
       {
         "date": {
           "month": 2,
-          "date": 27
+          "day": 27
         }
       },
       {
@@ -1936,7 +1936,7 @@
       {
         "date": {
           "month": 2,
-          "date": 28
+          "day": 28
         }
       },
       {
@@ -1974,7 +1974,7 @@
       {
         "date": {
           "month": 2,
-          "date": 29
+          "day": 29
         }
       },
       {
@@ -2620,7 +2620,6 @@
       {
         "type": "message",
         "italics": true,
-
         "message": "If you want to correct your failings, you do not have the time to waste in blaming other people."
       },
       {
@@ -3111,7 +3110,254 @@
         "italics": true,
         "message": "A man will always understand his sins as well as his limits in this limitless world."
       }
-    ], //Upto End Of March
+    ],
+    //End of March
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Science can be divided into an infinite number of disciplines, and the amount of knowledge that can be pursued in each discipline is limitless. The most critical piece of knowledge, then, is the knowledge of what is essential to learn and what isn’t."
+      },
+      {
+        "type": "quote",
+        "message": "A huge amount of knowledge is accumulated at present. Soon our abilities will be too weak, and our lives too short, to study this knowledge. We have vast treasures of knowledge at our disposal but after we study them, we often do not use them at all. It would be better not to have this burden, this unnecessary knowledge, which we do not really need.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "Too-voracious reading, begun at too early an age, fills our minds with undigested material. Our memory can become the master of our feelings and our fate; and when it does, an intellectual effort is required to reinforce our feelings with primeval innocence, to find ourselves amidst the dusty heaps of foreign thoughts and viewpoints, in order to start feeling by ourselves, and—I am ready to say—in order to live on our own.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Beware of false knowledge. All evil comes from it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Knowledge is limitless. Therefore, there is a minuscule difference between those who know a lot and those who know very little."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The only real life is one lived close to God. This does not happen by itself; you must make an effort to make this happen, and this effort will bring you joy."
+      },
+      {
+        "type": "quote",
+        "message": "A habit is never good, even a habit of doing good deeds. Good deeds, after they become habits, are no longer acts of virtue. Real good is achieved only with effort.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "When you carry your burden, you should know that it is good for you to have it. Make the best of this burden and take from it everything which is necessary for your intellectual life, as your stomach takes from food everything necessary for your flesh, or as fire burns brighter after you put some wood on it.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "Be attentive to what you do; never consider anything unworthy of your attention.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Spiritual effort and the joy that comes from understanding life go hand in hand like physical exertion and rest. Without physical exertion, there is no joy in rest; without spiritual effort, there can be no joyful understanding of life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "When I die, only one of two things can happen: either this essence which I understand as myself will transform into a different being, or I will stop being a separate individual and become a part of God. Either possibility is good."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Death is the destruction of this body with which I understand the world in this life. It is the destruction of the glass through which I look at the world. And we do not know whether this glass will be replaced by another; or whether the essence which looks through the window will integrate with the world. We cannot know this."
+      },
+      {
+        "type": "quote",
+        "message": "There is a certain limit to the appropriate length of any time in this world. Just as the fruits and vegetables are limited by the seasons of the year, everything should have its beginning, its life, and its ending, after which it should pass away. Wise people willingly submit to this order.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "quote",
+        "message": "All that I know about God brings me to the following conclusion: all that He did for us were the best things possible.",
+        "author": "After RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You should live your life so that you are not afraid of death, and at the same time do not wish to die."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Life should and can be limitless joy."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Life in this world is not a vale of tears, not a trial, but a thing that surpasses our imagination. Life could be limitless joy, if we would only take it for what it is, in the way it is given to us."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person’s unfriendly attitude to other people makes life unhappy, both for that person and for those who surround him. A friendly mood and loving attitude are as an oil which lubricates the wheels of life, making them move easily and smoothly.",
+      },
+      {
+        "type": "quote",
+        "message": "Try to live your life and be happy with your destiny, acquiring inner peace by love and good deeds.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The secret of happiness? Enjoy small pleasures.",
+        "author": "SAMUEL SMILES"
+      },
+      {
+        "type": "quote",
+        "message": "Do not seek pleasure everywhere, but always be ready to find it.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A truly wise man is always joyful."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The best way to live joyfully is to believe that life was given for joy. When joy disappears, look for your mistake."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is difficult to avoid working in life without either sinning, committing violence, being a party to violence, or by flattering and pleasing the agents of violence."
+      },
+      {
+        "type": "quote",
+        "message": "Being poor is better than living in luxury and serving the rich. Do not stand at the door of a rich man asking for favors if you hope to lead a good life.",
+        "author": "INDIAN PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "A dress presented to you as a gift by the king may be beautiful, but your own simple dress is better. Different meals from the tables of the rich may be good, but a loaf of simple bread from your own table always tastes much better.",
+        "author": "MUSLIH-UD-DlN SAADI"
+      },
+      {
+        "type": "quote",
+        "message": "To those people who do not work the land, the soil says: if you do not work me, by applying physical labor with both of your hands, then you will stand in front of the doors of others asking for help; you will always be fated to use the leftovers of the rich.",
+        "author": "ZOROASTER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You will find that people unwilling to work will either take advantage of others or be humiliated by them."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "People involve themselves in countless activities which they consider to be important, but they forget about one activity which is more important and necessary than any other, and which includes all other things: the improvement of their soul."
+      },
+      {
+        "type": "quote",
+        "message": "The biggest happiness is when at the end of the year you feel better than at the beginning.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "“Be perfect, as your Father in heaven is perfect.” This means that you should try to find the presence of the Holy Spirit in your soul."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "To improve ourselves, to move toward that goal, perfection, that puts no less a demand on us for being unattainable, requires solitude, removal from the concerns of everyday life. And yet constant solitude renders self-improvement impossible, if not pointless. A balance must be struck between meditating in solitude and then applying this to your everyday life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "To repay evil with goodness is easier, wiser, and more natural than to repay evil with evil."
+      },
+      {
+        "type": "quote",
+        "message": "Repay evil with goodness.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left. Then said Jesus, Father, forgive them; for they know not what they do.",
+        "author": "LUKE 23:33-34"
+      },
+      {
+        "type": "quote",
+        "message": "Conquer rage with humility, conquer evil with goodness, conquer greed with generosity, and conquer lies with truth.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "When we treat our neighbors as they deserve to be treated, we make them even worse; when we treat them as if they were who we wish they were, we improve them.",
+        "author": "JOHANN WOLFGANG VON GOETHE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who take joy in repaying an evil with goodness will always try to experience this joy again."
+      }
+    ] //Upto 7th April
     [
       {
         "type": "intro",
