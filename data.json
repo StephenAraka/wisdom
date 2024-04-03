@@ -3357,7 +3357,254 @@
         "italics": true,
         "message": "Those who take joy in repaying an evil with goodness will always try to experience this joy again."
       }
-    ] //Upto 7th April
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "People think that if they call mass murder “war,” then mass murder will stop being a murder, a crime."
+      },
+      {
+        "type": "quote",
+        "message": "One can deny Christ in various ways: one can blaspheme rudely, or mock his greatness. But such ways are not dangerous; religion is too precious for people, and this mockery cannot cleave them from it. But there is another way to deny Christ: this is when you call Him your master, and you claim to follow His commandments, but you suppress any free thought by quoting his words, and disguise all stupidities, all mistakes, and all sins of the people in his name. This second way is the truly dangerous one.",
+        "author": "THEODORE PARKER"
+      },
+      {
+        "type": "quote",
+        "message": "It is not true that a war against a foreign nation can be sacred. It is not true that the earth wants blood. The earth wants pure water from the sky for its rivers, pure dew from its clouds, but not blood. War is cursed by God, as are those who participate in it.",
+        "author": "ALFRED DE VIGNY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "And because lawlessness is increased, most people’s love will grow cold."
+      },
+      {
+        "type": "quote",
+        "message": "Rather, it is your crimes that separate you from God, and it is your sins that make him hide his face so that he will not hear you. For your hands are stained with blood, your fingers with guilt; your lips speak falsehood, and your tongue utters deceit.",
+        "author": "ISAIAH 59:2-3"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Murder is always a crime, no matter whom, and how it is justified."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Love of goodness and faith in immortality are inseparable."
+      },
+      {
+        "type": "quote",
+        "message": "Nobody can say that he knows what the afterlife will be. Our beliefs are based not on logical proofs but on moral ones and therefore I cannot say that God exists and I am immortal, but I can say that God exists and that my “self” is immortal. This means that my faith in God is so closely connected with my nature that this faith cannot be separated from me.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "The animal beginning disappears, the veil is taken from the future, the darkness disperses. It is then that we feel our immortality.",
+        "author": "After SAINT MARTIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We live in this world like a child who enters a room where a clever person is speaking. The child did not hear the beginning of the speech, and he leaves before the end; and there are certain things which he hears but does not understand. In the same way, the great speech of God started many, many centuries before we started learning, and it will continue for many centuries after we turn to dust. We hear only part of it, and we do not understand the biggest part of what we hear, but nevertheless, a bit vaguely, we understand something great, something important."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you truly love goodness (God), then you cannot have doubts in your immortality."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The holy spirit which exists in people is liberated more and more. This will change our existing world order."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Real science shows us how to apply our religious faith to our outer Uves. Art shows us how to apply it to our feelings."
+      },
+      {
+        "type": "quote",
+        "message": "The further any purpose the faster we should work toward it.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "quote",
+        "message": "The longer I live, the more things I must complete.",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more we understand our divine nature, the more its rules should be fulfilled in our actions."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 11
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Everything is connected more closely in the spiritual world than in the material world. Every lie brings multiple lies, every cruelty brings more cruelty."
+      },
+      {
+        "type": "quote",
+        "message": "Very often people are proud of the purity of their conscience only because their memory is too short.",
+        "author": "ZANIZAD RAFAEZSKY"
+      },
+      {
+        "type": "quote",
+        "message": "Drop after drop, water fills the vessel; in the same way those who want to be good, become filled with goodness.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Many of our vices exist only because they are supported by other vices; therefore, if we destroy our major vices, many others will disappear at once, in the same way as branches fall when you cut the trunk of a tree.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Be attentive to the appearance of evil. There is an inner voice in your soul which always tells you about approaching evil You feel unpleasant, you feel ashamed. Believe in this voice; stop and seek to improve yourself, and then you will defeat evil."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "At a certain level of self-awareness, a person understands something supernatural in himself."
+      },
+      {
+        "type": "quote",
+        "message": "God exists because we exist. You can call it any other name, but there is no doubt that the superior life which created us exists. And you can call the source of this life God, or give it any other name.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God exists only for those who look for Him. Start looking: you will find Him in you and yourself in Him."
+      },
+      {
+        "type": "quote",
+        "message": "Looking for God is like pulling a net in the water. When you pull the net, it is heavy and full of water, and yet when you pull it out, there is nothing in it. When you seek God with your intellect and your actions, God exists in you, and as soon as you decide that you have found God, and stop and become satisfied, you have lost him.",
+        "author": "FYODOR STRAKHOV"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is surprising that I could not see a very simple truth: behind and above this world and our lives, there is someone who knows why this world exists and why we exist in this world. And our lives are as bubbles in boiling water, which appear, rise to the surface, pop, and disappear."
+      },
+      {
+        "type": "quote",
+        "message": "The unity of all living beings exists in this world where everybody and everything quietly seeks God. It is only unbelieving atheists who see eternal silence.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Just because a person does not understand God, he has no right to draw the conclusion that God does not exist.",
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 13
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "We understand the divine, spiritual beginning of our life both with our intellect and with our love."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A man is wise who does three things: first, he does by himself those things which he advises others to do; secondly, he does not do anything that contravenes the truth; and thirdly, he is patient with the weaknesses of those who surround him."
+      },
+      {
+        "type": "quote",
+        "message": "Great thoughts come directly from the heart.",
+        "author": "Luc DE VAUVENARGUES"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Investigate everything: believe only in those things which exist in accordance with intellect."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A clever person cannot be evil. A kind person is always clever. Improve your kindness by exercising your intellect, and improve your intellect by exercising your kindness and love."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 14
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "We cannot hope to obtain any sort of perfection in a society which is divided into two parts: rich people who rule the world and poor people who obey their orders."
+      },
+      {
+        "type": "quote",
+        "message": "We came to strange conclusions in this world: we say that we live in society but at the same time we live lonely lives.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "quote",
+        "message": "If there are millionaires, there should be paupers.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "quote",
+        "message": "If you have an income without working hard, then someone worked hard without receiving an income.",
+        "author": "MAIMONIDES"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is worse to be an oppressive master than an obedient slave. Excessive wealth is worse than poverty."
+      }
+    ]
+    //Upto 14th April
     [
       {
         "type": "intro",
