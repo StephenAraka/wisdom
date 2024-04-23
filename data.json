@@ -3572,7 +3572,323 @@
         "message": "It is worse to be an oppressive master than an obedient slave. Excessive wealth is worse than poverty."
       }
     ],
-    //Upto 14th April
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The consequences of our notions cannot be known to us, because they ripple outward limitlessly in a limitless world."
+      },
+      {
+        "type": "quote",
+        "message": "Our efforts to penetrate the mystery of God are futile. It is enough to follow the divine law.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "A saint lives with his inner life; he denies outer life.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "message": "Our most important actions are those consequences which we will not see."
+      },
+      {
+        "type": "quote",
+        "message": "Great deeds have very remote consequences.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "message": "If you can see all of the consequences of your actions, then your actions are of no use."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "To accept the dignity of another person is an axiom. It has nothing to do with subduing, supporting, or giving charity to other people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The smallest detail can benefit the strengthening of character. Do not say that small details are not important; only a person with high morals can see their importance."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Some of the most religious people in Russia have an interesting habit: they make a low bow to persons to whom they are introduced for the first time. They say they do this to acknowledge the divine spirit that every person has within himself. This is not a widespread tradition, but its foundations are very deep."
+      },
+      {
+        "type": "quote",
+        "message": "A man is humble. He can hardly say: I exist, I can think.",
+        "author": "After RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "message": "A person should know that he performs true charity not in front of other persons, but before the eternal law of God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Christianity is the study of the divine beginning in a person."
+      },
+      {
+        "type": "quote",
+        "message": "Christianity is a very simple thing: love other persons, as you love God. Be as perfect as your father in heaven. Live in the spirit of God, making the best things, in the best possible way, for the best purposes. Even a small child can understand these ideas, and even a great mind cannot improve upon them.",
+        "author": "THEODORE PARKER"
+      },
+      {
+        "type": "message",
+        "message": "Without the clear understanding of the meaning of one’s life, without faith, a person can at any minute deny good and start worshiping evil."
+      },
+      {
+        "type": "message",
+        "message": "A person cannot have complete understanding of the meaning of life. A person can only know its direction."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "The essence of all religious teachings is love. What is special in Christianity is teachings about love, the clear and exact statement of the major condition of love: nonresistance to evil and violence."
+      },
+      {
+        "type": "message",
+        "message": "If you want to be quiet and strong, work and improve your faith."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "What is important is not the quantity of your knowledge, but its quality. You can know many things without knowing that which is most important."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Ignorance in itself is neither shameful nor harmful. Nobody can know everything. But pretending that you know what you actually do not know is both shameful and harmful."
+      },
+      {
+        "type": "quote",
+        "message": "There are two types of ignorance, the pure, natural ignorance into which all people are born, and the ignorance of the so-called wise. You will see that many among those who call themselves scholars do not know real life, and they despise simple people and simple things.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "The truth should often overcome thousands of obstacles, until it is accepted.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "quote",
+        "message": "The scholar who thinks but does not create is like the cloud which does not give rain.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Vague and complex terminology was created by false scholars. Real, truthful knowledge does not need vague terms."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A man who does not understand the benefit of suffering does not live a clever and true life."
+      },
+      {
+        "type": "quote",
+        "message": "Mankind has never achieved greatness but through suffering.",
+        "author": "F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Without suffering, spiritual growth cannot happen. Suffering often accompanies death, but suffering is also a useful, beneficial condition of life. It is said that God loves those who experience suffering."
+      },
+      {
+        "type": "quote",
+        "message": "Religion gives a person the understanding of the meaning of his existence and his destination.",
+        "author": "ANATOLE FRANCE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person who lives a spiritual life cannot help but see that suffering brings him closer to God. Seen in this light, suffering loses its bitter side and becomes bliss."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 20
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "For a person who leads a spiritual life, self-sacrifice brings a bliss that far transcends the pleasure of a person who lives by the self-indulgent satisfaction of his animal passions."
+      },
+      {
+        "type": "quote",
+        "message": "He who is kind does good for other people. And if a person suffers while he does kind deeds, he becomes an even better person.",
+        "author": "JEAN DE LA BRUYÈRE"
+      },
+      {
+        "type": "quote",
+        "message": "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me.",
+        "author": "MATTHEW 10:37"
+      },
+      {
+        "type": "quote",
+        "message": "There is no higher blessing for a person than to do charitable work for the benefit and well-being of others.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Just as fire blows out candles, good deeds for the benefit of others destroy a selfish life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The dark spot in the sunlight that falls on us is the shadow created by our own personalities. We live for ourselves only when we live for others. It may seem strange, but try it, and you will see it from your own experience."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "In the future, the order of the social life of the Christian world will be changed by the replacement of violence and its fears with love and blessing."
+      },
+      {
+        "type": "quote",
+        "message": "Thus I command you, to love one another.",
+        "author": "JOHN 15:17-19"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is a mistake to think that there are times when you can safely address a person without love. You can work with objects without love—cutting wood, baking bricks, making iron—but you cannot work with people without love. In the same way as you cannot work with bees without being cautious, you cannot work with people without being mindful of their humanity. It is the quality of people as it is of bees: if you are not very cautious with them, then you harm both yourself and them. It cannot be otherwise, because mutual love is the major law of our existence."
+      },
+      {
+        "type": "quote",
+        "message": "Until I can see that the major commandment of Christ—love your enemies—is being fulfilled, I will continue to believe that many people are not real Christians, but only pretend to be Christians.",
+        "author": "GOTTHOLD EPHRAIM LESSING"
+      },
+      {
+        "type": "quote",
+        "message": "The worst mistake which was ever made in this world was the separation of political science from ethics.",
+        "author": "PERCY BYSSHE SHELLEY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You should live so that it is possible to create the kingdom of love on earth. You should live a life based not on violence but on love."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The greatest knowledge is self-knowledge. He who understands himself will understand God."
+      },
+      {
+        "type": "quote",
+        "message": "Jesus cried and said, He that believeth on me, believeth not on me, but on him that sent me. And he that seeth me seeth him that sent me. I am come a light into the world, that whosoever believeth on me should not abide in darkness. And if any man hear my words, and believe not, I judge him not: for I came not to judge the world, but to save the world. He that rejecteth me, and receiveth not my words, hath one that judgeth him: the word that I have spoken, the same shall judge him in the last day. For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak. And I know that this commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.",
+        "author": "JOHN 12:44-50"
+      },
+      {
+        "type": "quote",
+        "message": "Without purity of soul, how can you say, I will glorify God? That light, like a morning star, which lives in the heart of every person, this light is our salvation.",
+        "author": "WABANA PURANA, INDIAN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person can transform his personality, his inner self, from the domain of suffering and subduing into the domain which is always steady and joyful, that is, the domain of understanding his spiritual and divine essence."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Real goodness is always simple."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Simplicity is so attractive and so profitable that it is strange that so few people lead truly simple lives."
+      },
+      {
+        "type": "quote",
+        "message": "Do not seek happiness elsewhere. Give thanks to God, who made necessary things simple, and complicated things unnecessary.",
+        "author": "GREGORY SKOVORODA"
+      },
+      {
+        "type": "quote",
+        "message": "Most of our spending is done to forward our efforts to look like others.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Every great thing is done in a quiet, humble, simple way; to plow the land, to build houses, to breed cattle, even to think—you cannot do such things when there are thunder and lightning around you. Great and true things are always simple and humble."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "No one looks less simple than those people who artificially strive to seem so. Artificial simplicity is the most unpleasant of all artificial things."
+      }
+    ],
+    //Upto 23rd April
     [
       {
         "type": "intro",
