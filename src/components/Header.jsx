@@ -1,19 +1,15 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { connect } from "react-redux";
 import Menu from "./Menu";
 import assets from "../constants/assets";
 import colors from "../constants/colors";
 import DatePicker from "./DatePicker";
+import { numberOfDayOfYear } from "../utils/helpers";
 
-const Header = ({ isDarkTheme }) => {
+const Header = ({ isDarkTheme, date, dateIndex }) => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isCalendarVisible, setIsCalendarVisible] = useState(false);
-
-  const date = new Date().toLocaleDateString("en-GB", {
-    weekday: "short",
-    month: "long",
-    day: "2-digit",
-  });
 
   /* Function to show or hide the menu
   -------------------------------------*/
@@ -40,8 +36,30 @@ const Header = ({ isDarkTheme }) => {
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
-          <Text style={styles.dateTopRow(isDarkTheme)}>Today</Text>
-          <Text style={styles.dateBottomRow(isDarkTheme)}>{date}</Text>
+          {numberOfDayOfYear() < dateIndex ? (
+            /* If the days Have passed
+              ____________________________ */
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>
+                {`${numberOfDayOfYear() - dateIndex} days ago`}
+              </Text>
+            </>
+          ) : numberOfDayOfYear() === dateIndex ? (
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>
+                {numberOfDayOfYear() > dateIndex ? date : "Today"}
+              </Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>{date}</Text>
+            </>
+          ) : (
+            <>
+              <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
+              <Text style={styles.dateBottomRow(isDarkTheme)}>
+                {`${numberOfDayOfYear() - dateIndex} days ahead`}
+              </Text>
+            </>
+          )}
         </View>
       </TouchableOpacity>
 

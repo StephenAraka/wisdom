@@ -6,17 +6,16 @@ import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
-import { initializeTheme } from "../context/actions/themeActions";
-import { numberOfDayOfYear, retrieveData } from "../utils/helpers";
+import { initializeTheme, retrieveData } from "../context/actions/themeActions";
 
 const quotes = jsonData.quotes;
 
-const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
+const QuotesScreen = ({ isDarkTheme, initializeTheme, dateIndex, date }) => {
   const [activeSubQuote, setActiveSubQuote] = useState(0);
+  const [displayedDate, setDisplayedDate] = useState(date);
+  const [activeDateIndex, setActiveDateIndex] = useState(dateIndex);
   const theme = useColorScheme();
   const systemIsDarkTheme = theme === "dark";
-
-  const dateIndex = numberOfDayOfYear();
 
   useEffect(() => {
     const checkForThemeInStorage = async () => {
@@ -29,13 +28,21 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
     checkForThemeInStorage();
   }, [initializeTheme, systemIsDarkTheme]);
 
+  useEffect(() => {
+    setDisplayedDate(date);
+  }, [date]);
+
+  useEffect(() => {
+    setActiveDateIndex(dateIndex);
+  }, [dateIndex]);
   return (
     <ScreenLayout>
       <View style={styles.progressIndicators}>
-        {quotes[dateIndex].slice(1).map((subquote, index) => {
+        {quotes[activeDateIndex].slice(1).map((subquote, index) => {
           const width =
-            Math.floor(100 / quotes[dateIndex].slice(1).length - 2).toString() +
-            "%";
+            Math.floor(
+              100 / quotes[activeDateIndex].slice(1).length - 2
+            ).toString() + "%";
           return (
             <View
               key={`indicator${index}`}
@@ -48,16 +55,21 @@ const QuotesScreen = ({ isDarkTheme, initializeTheme }) => {
           );
         })}
       </View>
-      <Header isDarkTheme={isDarkTheme} />
+      <Header
+        isDarkTheme={isDarkTheme}
+        date={displayedDate}
+        dateIndex={dateIndex}
+      />
       <SwipeView
         activeSubQuote={activeSubQuote}
         setActiveSubQuote={setActiveSubQuote}
-        subQuoteLength={quotes[dateIndex].length - 2}
+        subQuoteLength={quotes[activeDateIndex].length - 2}
       >
         <View style={styles.contentContainer}>
           {quotes[dateIndex].slice(1).map((subquote, index) => {
             const width =
-              Math.floor(100 / quotes[dateIndex].length - 2).toString() + "%";
+              Math.floor(100 / quotes[activeDateIndex].length - 2).toString() +
+              "%";
             return (
               index === activeSubQuote && (
                 <Quote
@@ -80,6 +92,8 @@ const matchDispatchToProps = {
 
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
+  dateIndex: state.date.dateIndex,
+  date: state.date.date,
 });
 
 export default connect(mapStateToProps, matchDispatchToProps)(QuotesScreen);
