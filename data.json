@@ -3920,7 +3920,106 @@
         "message": "No one looks less simple than those people who artificially strive to seem so. Artificial simplicity is the most unpleasant of all artificial things."
       }
     ],
-    //Upto 23rd April
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "In any struggle true bravery lies within those who know that God is their ally."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Whatever happens, do not lose faith. Nothing bad can happen to you as a human being."
+      },
+      {
+        "type": "quote",
+        "message": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
+        "author": "JOHN 16:33"
+      },
+      {
+        "type": "quote",
+        "message": "Everything is indefinite, misty, and transient; only virtue is clear, and it cannot be destroyed by any force.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only a person who renounces his personality becomes truly powerful. As soon as one denies his personality, it is not he but God who acts through him."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Once upon a time, a Roman empress lost her precious jewelry. It was announced across the empire that whoever found her lost stones before thirty days would receive a big reward, but any who returned the jewelry after thirty days would be executed. Samuel, a Jewish rabbi, found the precious stones, but he returned them after thirty days had passed. “Have you been abroad?” the Roman empress asked him. “No, I was at home.” “Maybe you did not know what was proclaimed?” “No, I knew,” said Samuel. “Then why did you not return these things before the expiry of the thirty days? Now you have to be executed.” “I wanted to show you that I returned your lost jewelry, not because of fear of your punishment, but because of fear of God.”"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A person can understand himself as a material or a spiritual being. When you understand yourself as a spiritual being, then you are free."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "What is “love of God,” if it is not the effort to add part of yourself to the higher creative flow of energy in this world? Divine force exists in everything, but the greatest manifestation of it in this world is in humanity, and in order to put it to work, one must understand it and accept it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If a person does not believe himself capable of doing the best things in the world, then he starts to create the worst things."
+      },
+      {
+        "type": "quote",
+        "message": "I know that the sky knows everything, and that its laws are constant. I know that it sees everything, it gets into everything, and it is present in everything. The heavens can get into the depths of all human hearts in the same way that the daylight can lighten a dark room. We should try to reflect this heavenly light.",
+        "author": "CHINESE WISDOM"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 4,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The understanding of the existence of God is accessible to everybody; the complete understanding of the essence of God is not accessible to any person."
+      },
+      {
+        "type": "quote",
+        "message": "All the nations of the world name and respect God. Different people give him different names, and put different clothes on him; but there is only one God under all these different manifestations.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "quote",
+        "message": "Faith in God is as natural to men as their ability to walk on two feet. This faith can be modified, and it can even disappear in some individuals; but as a rule, it is necessary for intellectual life in society.",
+        "author": "After GEORGE LICHTENBERG"
+      },
+      {
+        "type": "quote",
+        "message": "There are some statements which cannot be fathomed: God exists or he does not exist; the soul exists in the body, or we do not have a soul; the world was created or the world was not created.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Live in God, live together with God, by understanding Him in you, and do not try to define Him with words."
+      }
+    ],
+    //Upto 26th April
     [
       {
         "type": "intro",
