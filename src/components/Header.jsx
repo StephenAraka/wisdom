@@ -45,7 +45,9 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
             <>
               <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
               <Text style={styles.dateBottomRow(isDarkTheme)}>
-                {`${numberOfDayOfYear() - dateIndex} days ago`}
+                {numberOfDayOfYear() - dateIndex == 1
+                  ? `Yesterday`
+                  : `${numberOfDayOfYear() - dateIndex} days ago`}
               </Text>
             </>
           ) : numberOfDayOfYear() === dateIndex ? (
@@ -59,7 +61,9 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
             <>
               <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
               <Text style={styles.dateBottomRow(isDarkTheme)}>
-                {`${dateIndex - numberOfDayOfYear()} days ahead`}
+                {dateIndex - numberOfDayOfYear() == 1
+                  ? `Tomorrow`
+                  : `${dateIndex - numberOfDayOfYear()} days ahead`}
               </Text>
             </>
           )}
