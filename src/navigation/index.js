@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <SafeAreaProvider>
     <NavigationContainer>
-       <Navigator initialRouteName='Quotes'>
+       <Navigator initialRouteName='Quotes' screenOptions={{headerShown: false}}>
         <Screen
           name="Quotes"
           component={QuotesScreen}
