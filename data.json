@@ -4128,7 +4128,254 @@
         "message": "If you do not know your place in the world and the meaning of your life, you should know that there is something to blame; and it is not the social system, or your intellect, but the way in which you directed your intellect."
       }
     ],
-    //Upto End of April
+    //End of April
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "He who sees his life as a process of spiritual perfection does not fear external events."
+      },
+      {
+        "type": "quote",
+        "message": "Abu Ganifakh died in a prison in Baghdad in which he’d been put by Caliph al-Mansur for refusing to accept the teaching of Kaad. Once, before his death, when this famous spiritual teacher received a heavy blow from a guard, he told the man who hit him, “I could render you an injury after you have done an injury to me. I could complain to the Caliph, but I will not complain. In my prayers, I could tell God about this offense which you have done to me, but I will refrain from this. During the day of the Final Judgment I could ask divine revenge for your act, but even if this day comes today, and even if I knew that my prayer would be heard, even then I would enter paradise only with you.”",
+        "author": "Persian Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "Do not think that courage lies only in boldness and power. The highest courage is the courage to be higher than your rage and to love a person who has offended you.",
+        "author": "Persian Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "Criticize yourself, but do not feel desperate about it.",
+        "author": "Epictetus"
+      },
+      {
+        "type": "quote",
+        "message": "What I tell you in darkness, that speak ye in light: and what ye hear in the ear, that preach ye upon the housetops. And fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell.",
+        "author": "MATTHEW 10:27-28"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "People very often do not accept the truth, because they do not like the form in which the truth is presented to them."
+      },
+      {
+        "type": "quote",
+        "message": "The beginning of a quarrel is like a flood which breaks through a dam. As soon as it rushes through, you cannot stop it.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "One should avoid disputes; when afire becomes too big, it is difficult to quell it."
+      },
+      {
+        "type": "quote",
+        "message": "During an argument, make your words very soft, and your heart hard. Do not try to lash out at your opponent, but try to convince him.",
+        "author": "GEORGE WILKINS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you know the truth, or if you think that you know the truth, try to pass it on to the others, as simply as you can, along with the feeling of love for those persons to whom you pass it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The life of Jesus Christ is very important for us as an example of a life of one who could not see the fruits of his work during his lifetime."
+      },
+      {
+        "type": "quote",
+        "message": "Clever people study in order to know more. Undeserving people study to be more known.",
+        "author": "Eastern Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "In order to reach spiritual perfection, you should first of all take care of the purity of your soul. This can be reached when the heart looks for truth, and strives for wholeness, and depends on true knowledge.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "quote",
+        "message": "If you would like to know how to recognize a prophet, look to him who gives you the knowledge of your own heart.",
+        "author": "Persian Wisdom"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Every person has only one purpose: to find perfection in goodness. Therefore, only that knowledge is necessary which leads us to this."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 4
+        }
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Every thought which is expressed by words is a force, and this force is limitless."
+      },
+      {
+        "type": "quote",
+        "message": "Good thoughts which originate from the hearts of men are as useful as good examples.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "quote",
+        "message": "Strong thoughts which are expressed in a powerful way aid the improvement of life.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "message": "A thought is an intellectual and vital energy of life, and it can be either a curse or a blessing, depending on its quality.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Truth expressed in words is the greatest force there is in the lives of people. We do not understand this force completely, because its consequences are never seen at once."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Use good thoughts of wise people; if you cannot create similar kind and wise thoughts, then at least do not distribute the false thoughts expressed by you and by others."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Religious teaching, that is, the explanation of the purpose and meaning of life, should be the basis of any education."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "People think that it is no crime to lie to children, and that to lie to children is not really very wrong, but even sometimes necessary. But it is clear that with children you should be especially careful and honest about what you say to them."
+      },
+      {
+        "type": "quote",
+        "message": "You should always be truthful, especially with a child. You should always do what you have promised him, otherwise you will teach him to lie.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "Man, whose teacher is nature, should not be a piece of wax on which an elevated image of some professor is to be carved.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not say to a child whom you teach that there is a final truth, if you do not believe in something completely, or if you have some doubts. To do such a thing is a great crime."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Compassion for animals is so natural to us that we can become insensitive to their suffering and death only through traditions or hypnosis."
+      },
+      {
+        "type": "quote",
+        "message": "Compassion for animals is so closely connected with kindness that you can truly say that a person cannot be kind if he is cruel to animals. Compassion for animals comes from the same source as compassion toward people.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "Fear God, do not torture animals. Let them serve you, and let them rest when they are tired; provide enough food and drink for those creatures which cannot speak.",
+        "author": "MOHAMMED"
+      },
+      {
+        "type": "quote",
+        "message": "A person is not higher than other animals because he can mercilessly torture them, but because he can take pity on them.",
+        "author": "Buddhist Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "Do not allow your children to kill insects; this is the first step along a road which can lead to the killing of people.",
+        "author": "PYTHAGORAS"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 7
+        }
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "A person who tries to find good outside himself, either in this life or in the one to come, is making a mistake."
+      },
+      {
+        "type": "quote",
+        "message": "I went along all the earth, searching for a guiding light. I went all over without rest, at night and during the day, and then I heard from a preacher, who opened the truth to me, that the answer is inside my soul, and that the light which I was looking for everywhere in the world is inside me.",
+        "author": "Eastern Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "There are no coincidences, either in life or in one’s fate. A man creates his own destiny.",
+        "author": "Abel Villemain"
+      },
+      {
+        "type": "quote",
+        "message": "You either make evil for yourself, or you escape sin and purify yourself; you are bad or evil, or you are pure; and nobody can save you except for yourself.",
+        "author": "Dhammapada, a book of Buddhist Wisdom"
+      },
+      {
+        "type": "quote",
+        "message": "Your body is a city which is full of good and evil; and you are the king of this city and your intellect is your best counselor.",
+        "author": "Saint Luke"
+      },
+      {
+        "type": "quote",
+        "message": "The happiness or unhappiness of a man does not depend upon the amount of property or gold he owns. Happiness or misery is in one’s soul. A wise man feels at home in every country. The whole universe is the home of a noble soul.",
+        "author": "Democritus"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Nothing can give a man strength when he is looking for salvation other than his own effort."
+      }
+    ],
+    //Upto May 7th
     [
       {
         "type": "intro",
