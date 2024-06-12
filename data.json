@@ -5168,11 +5168,17 @@
         "message": "You should not respect a rich person, for wealth, not even the most innocent wealth, necessarily results from a society where people abuse one another."
       }
     ],
-    //Upto May 28th
     [
       {
+        "date": {
+          "month": 5,
+          "day": 29
+        }
+      },
+      {
         "type": "intro",
-        "message": "Life is the understanding of a holy spirit in yourself; a holy spirit which is put into some limits"
+        "italics": true,
+        "message": "Life is the understanding of a holy spirit in yourself; a holy spirit which is put into some limits."
       },
       {
         "type": "quote",
@@ -5202,7 +5208,14 @@
     ],
     [
       {
+        "date": {
+          "month": 5,
+          "day": 30
+        }
+      },
+      {
         "type": "intro",
+        "italics": true,
         "message": "Our land, like our character, cannot be the object of buying and selling. Behind the buying and selling of earth is the hidden process of buying and selling a personality."
       },
       {
@@ -5225,6 +5238,45 @@
         "italics": true,
         "message": "People strive in this world, not for those things which are truly good, but for the possession of many things which they can call their property."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 5,
+          "day": 31
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A person who is not used to luxury, but who acquired luxury quite by chance, often pretends, in order to become more important in his own eyes and in the eyes of other people, that luxury is natural for him, that he is not surprised by it, that he neglects it. In the same way a stupid person pretends that he is bored with life, and that he can find something more interesting."
+      },
+      {
+        "type": "quote",
+        "message": "The joy of your spirit is the indication of your strength.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You must believe in the possibility of happiness in order to be happy."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Take from a person who follows the divine law everything which other people think of as comfort and wealth, and nevertheless such a person will remain happy."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person who has spoiled his stomach will criticize his meals saying that the food is bad; the same thing happens with people who are not satisfied with their lives in this world."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We do not have the right to be unhappy with our life. If it seems to us that we are not satisfied with life, we should see this as a reason to be unsatisfied with ourselves."
+      }
     ]
+    //End of May
   ]
 }
