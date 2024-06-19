@@ -6,7 +6,8 @@ import Header from "../components/Header";
 import { connect } from "react-redux";
 import ScreenLayout from "../components/ScreenLayout";
 import Quote from "../components/Quote";
-import { initializeTheme, retrieveData } from "../context/actions/themeActions";
+import { initializeTheme } from "../context/actions/themeActions";
+import { retrieveData } from "../utils/helpers";
 
 const quotes = jsonData.quotes;
 
