@@ -23,6 +23,9 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
     setIsCalendarVisible(!isCalendarVisible);
   };
 
+  console.log(`number of date: ${numberOfDayOfYear()}`);
+  console.log(`Today: ${dateIndex}`);
+
   return (
     <View style={styles.header}>
       {/* Calendar Icon */}
@@ -36,13 +39,15 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
           style={styles.calendarIcon}
         />
         <View style={styles.dateWrapper}>
-          {numberOfDayOfYear() < dateIndex ? (
+          {dateIndex < numberOfDayOfYear() ? (
             /* If the days Have passed
               ____________________________ */
             <>
               <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
               <Text style={styles.dateBottomRow(isDarkTheme)}>
-                {`${numberOfDayOfYear() - dateIndex} days ago`}
+                {numberOfDayOfYear() - dateIndex == 1
+                  ? `Yesterday`
+                  : `${numberOfDayOfYear() - dateIndex} days ago`}
               </Text>
             </>
           ) : numberOfDayOfYear() === dateIndex ? (
@@ -56,7 +61,9 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
             <>
               <Text style={styles.dateTopRow(isDarkTheme)}>{date}</Text>
               <Text style={styles.dateBottomRow(isDarkTheme)}>
-                {`${numberOfDayOfYear() - dateIndex} days ahead`}
+                {dateIndex - numberOfDayOfYear() == 1
+                  ? `Tomorrow`
+                  : `${dateIndex - numberOfDayOfYear()} days ahead`}
               </Text>
             </>
           )}
