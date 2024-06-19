@@ -58,10 +58,16 @@ export const getMessageFontSize = (message) => {
   return dateIndex = dayOfYear - 1;
 }
 
+function stripNulls(array) {
+  return array.filter(item => item !== null);
+}
+
 /* FAVOURITE QUOTES FUNCTIONS START */
 export const addQuoteToFavorites = async (quote) => {
-  let existingFavorites = await AsyncStorage.getItem('favoriteQuotes') || [];
-  
+  const favorites = await AsyncStorage.getItem('favoriteQuotes') || [];
+
+  let existingFavorites = stripNulls(JSON.parse(favorites));    // Strip possible null values from array
+ 
   if (existingFavorites.length) {
     existingFavorites = JSON.parse(existingFavorites);
 
@@ -87,8 +93,8 @@ export const addQuoteToFavorites = async (quote) => {
 
 export const getFavoriteQuotes = async () => {
   try {
-    let list = await AsyncStorage.getItem('favoriteQuotes') || [];
-    if (list.length) list = JSON.parse(list);
+    const favQuotes = await AsyncStorage.getItem('favoriteQuotes') || [];
+    let list = stripNulls(JSON.parse(favQuotes));    // Strip possible null values from array
 
     if (list.length) {
       console.log('Retrieved data:', list);
