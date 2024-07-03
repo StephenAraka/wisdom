@@ -23,9 +23,6 @@ const Header = ({ isDarkTheme, date, dateIndex }) => {
     setIsCalendarVisible(!isCalendarVisible);
   };
 
-  console.log(`number of date: ${numberOfDayOfYear()}`);
-  console.log(`Today: ${dateIndex}`);
-
   return (
     <View style={styles.header}>
       {/* Calendar Icon */}
