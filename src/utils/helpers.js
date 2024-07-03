@@ -68,10 +68,8 @@ export const addQuoteToFavorites = async (quote) => {
   const favorites = await AsyncStorage.getItem('favoriteQuotes') || [];
 
   let existingFavorites = stripNulls(JSON.parse(favorites));    // Strip possible null values from array
- 
-  if (existingFavorites.length) {
-    existingFavorites = JSON.parse(existingFavorites);
 
+  if (existingFavorites.length) {
     // Check if incoming quote is already among favorites
     const isDuplicate = existingFavorites.some(obj => {
       return Object.keys(obj).every(key => quote[key] === obj[key]);
