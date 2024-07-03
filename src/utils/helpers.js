@@ -54,8 +54,9 @@ export const getMessageFontSize = (message) => {
   const startOfYear = new Date(today.getFullYear(), 0, 0);
   const diff = today - startOfYear;
   const oneDay = 1000 * 60 * 60 * 24;
-  const dayOfYear = Math.floor(diff / oneDay);
-  return dateIndex = dayOfYear - 1;
+
+  const dayOfYear = Math.floor( diff / oneDay);
+  return dateIndex = dayOfYear -1;
 }
 
 function stripNulls(array) {

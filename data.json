@@ -1562,7 +1562,7 @@
       {
         "date": {
           "month": 2,
-          "date": 18
+          "day": 18
         }
       },
       {
@@ -2387,6 +2387,7 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "When you appeared in this world, you cried, and all the people around you rejoiced. You have to live your life in such a way that when you leave this world, you will rejoice, and all the people around you will cry.",
         "author": "INDIAN WISDOM"
       },
@@ -2415,6 +2416,7 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "Those people who have nothing to lose are very rich.",
         "author": "CHINESE PROVERB"
       },
@@ -2448,11 +2450,13 @@
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "Look around. What do the world’s people think about it? They think about everything except what is most important. They think about dancing, music, and singing; they think about houses, wealth, and power; they are jealous about the wealth of rich people and kings; but they do not think at all about what it means to be human.",
         "author": "After BLAISE PASCAL"
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "One of the major responsibilities of a person is to make that intellectual spark which you have received from heaven illuminate the world around you.",
         "author": "CHINESE WISDOM"
       },
@@ -5849,7 +5853,7 @@
       {
         "type": "message",
         "italics": true,
-        "message": "There can be only one way to fight the general evil of life: it is in the moral, religious, and spiritual perfection of your own life.",
+        "message": "There can be only one way to fight the general evil of life: it is in the moral, religious, and spiritual perfection of your own life."
       }
     ],
     [
@@ -5988,6 +5992,497 @@
         "italics": true,
         "message": "In our time, the killing of animals for pleasure or food is almost a crime, and hunting and eating meat are not just trivial things, but bad actions, which like any other bad actions lead to many other actions which are worse."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The misery of the unintellectual life brings us to the need for an intellectual life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Before, I lived in sin, and I saw that the majority of people around me lived in the same way. Like a robber, I knew I was unhappy and I suffered, and that people around me were unhappy and they suffered; and I didn’t see any way out of this situation except for suicide or death. Life seemed terrible to me. And then I heard the words of Christ and I understood them. And life ceased to seem an evil, and instead of desperation I felt a happiness for life which surpasses even death."
+      },
+      {
+        "type": "quote",
+        "message": "We can understand wisdom in three ways: first, by meditation; this is the most noble way. Secondly, by being influenced by someone or following someone; this is the easiest way. Third is the way of experience; this is the most difficult way.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you suffer, think not on how you can escape suffering, but concentrate your efforts on what kind of inner moral and spiritual perfection this suffering requires."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "All the misfortunes of mankind collectively and individually are not useless; they bring people and individuals and nations in different ways closer to the purpose which is set before them: the appearance of God, for every person in himself, and in all mankind."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There is only one true religion for all of mankind."
+      },
+      {
+        "type": "quote",
+        "message": "The difference between religions—what a strange expression. Certainly there can be different faiths, and beliefs in historical events which are passed from one generation to another to strengthen religion; in the same way there can be different religious books—the Sutras, Vedas, Koran, etc. But there can be only one religion, and it is real for all times.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We can believe in a thing, we can know that it exists, even if we cannot understand it with our intellect, or explain it with words."
+      },
+      {
+        "type": "quote",
+        "message": "If you are a Muslim, go and live as a Christian; if you are a Christian live as a Jew; if you are Catholic, live as an Orthodox—whatever religion you have, hold the same respect for people of different religions. If your speech together does not arouse or excite you to indignation and if you can freely communicate with them, you have achieved peace. It is said that the object of every religion is the same: all people look for love, and all the world is a place of love. Then why should we speak about the difference between the Muslim church and the Christian church?",
+        "author": "ISLAMIC WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not fear hesitations but study the different faiths and religions intellectually."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Only he who accepts that the essence or meaning of his life is not material but spiritual can be free."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A slave who is happy with his state is a slave twice over, because not only his body but his soul is enslaved."
+      },
+      {
+        "type": "quote",
+        "message": "O God, while I stay on this earth I want to be that which I am.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "Peace is a great blessing if it can be reached, but if peace is reached by slavery, it becomes a misfortune and not a blessing. Peace is the freedom which is based on the acceptance of every person’s rights, and slavery is the negation of rights, and of human dignity. Therefore, we should sacrifice everything to achieve peace, but even more, to get rid of slavery.",
+        "author": "After MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "quote",
+        "message": "Remember that you are more free if you change your opinion and follow those who have corrected your mistakes, than if you are stubborn about your mistakes.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "There is only one real knowledge: that which helps us to be free. Every other type of knowledge is mere amusement.",
+        "author": "VISHNU PURANA, INDIAN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is no middle way: either be a slave of people or of God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Understanding or mindfulness of death teaches one to choose the things which are complete or could be completed; and those things are the most important."
+      },
+      {
+        "type": "quote",
+        "message": "You could die very quickly; but yet you have time to rid yourself of your passions. Be humble to everyone.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "A wise person thinks more about life than about death.",
+        "author": "BENEDICTUS SPINOZA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is no death for the spirit; therefore, a person who lives a spiritual life is freed from death."
+      },
+      {
+        "type": "quote",
+        "message": "Do you worry about the moment when you die? Our life is only a moment in eternity. Think and you will see that you have eternity behind you and before you, and between these two huge abysses, what difference does it make whether you live three days or three centuries?",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Whenever you ask whether you should behave in this way or the other, ask yourself, what would you do if you knew that you could die this evening, and nobody would find out about your action? Death spurs people to finish their affairs; among all actions, there is only one type which is complete, and that is love which seeks no reward."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is very useful to notice the impression which our life and deeds make upon other people."
+      },
+      {
+        "type": "quote",
+        "message": "You should live so that other people think well of you and you think well of yourself.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "quote",
+        "message": "The very shortcomings which make others difficult and unbearable mean less in yourself. You do not see them, and when you speak of other people having these drawbacks, you do not notice that you are describing yourself.",
+        "author": "JEAN DE LA BRUYÈRE"
+      },
+      {
+        "type": "quote",
+        "message": "The simplest, quickest, and surest means to becoming known as a virtuous person is to work on yourself, to actually be virtuous. Examine each virtue, and you will see that they all were achieved with work and exercise.",
+        "author": "SOCRATES"
+      },
+      {
+        "type": "quote",
+        "message": "One man keeps silence, and people discuss him. Another speaks a lot, and people discuss him. A third speaks a little, and people discuss him. There is no such thing as a person who is not being discussed or scolded.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Do you call a person happy if he finds his strength in his children or in his friends, or in other things which are impermanent? In one second, his prosperity can be ruined. Seek no other support than your inner self and God.",
+        "author": "DEMOSTHENES"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Never try to justify your deeds."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Love provides a person with the purpose of his life. Intellect shows him the means to achieve that purpose."
+      },
+      {
+        "type": "quote",
+        "message": "In the scheme of the world, a person is no more than a pine cone, or a weak herb, or a bit of swamp grass, but he is a grass which possesses some intellect.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "Man differs from other animals only in his intellect; some people try to develop it and others neglect it, just as they try to reject those other qualities which differentiate them from the animals.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "I praise Christianity because it develops, strengthens, and elevates my intellectual nature.",
+        "author": "WILLIAM ELLLERY CHANNING"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If a person lacks intellect, he can not distinguish bad from good, and so he can neither truly seek nor truly have real goodness."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A good life is given only to those who make efforts to achieve it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to have a good life, you should not be afraid of any good deeds. You should have no less power or strength for small acts than for the biggest and greatest good deed."
+      },
+      {
+        "type": "message",
+        "message": "In order not to pour out a vessel full of water, you should hold it evenly. In order to have a razor sharp, you should sharpen it. The same should happen with your soul if you are looking for real goodness.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "If there is something great in you, it will not appear on your first call. It will not appear and come to you easily, without any work and effort.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "quote",
+        "message": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you: for every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened.",
+        "author": "MATTHEW 7:7-8"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Try to live a good life in accord with the virtues that are set before you. Perhaps this is a difficult thing, but with time it becomes more and more joyful."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you need goodness, follow God’s law. And to follow the law of God is possible only by making an effort. Not only is this effort rewarded with a happy life, but even the effort itself gives the biggest blessing of life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The family relationship is only good and firm and giving of virtue to people when it goes beyond family and is also religious, and all the members of the family believe in one God and His law. Otherwise, the family is the source not of pleasure but of suffering."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "One of the most common explanations for bad deeds is the family name. People steal, make bribes, do many other nasty things in life, all of which can be explained by their love for their family."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Family love is a selfish feeling, and therefore it can justify bad, unworthy actions."
+      },
+      {
+        "type": "quote",
+        "message": "And it was told him by certain, which said, Thy mother and thy brethren stand without, desiring to see thee. And he answered and said unto them, My mother and my brethren are these which hear the word of God, and do it.",
+        "author": "LUKE 8:20-21"
+      },
+      {
+        "type": "quote",
+        "message": "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me.",
+        "author": "MATTHEW 10:37"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In family love, in the moral high meaning, there is nothing good or bad, just as in self-love. Both are natural. Love of your family, as well as of yourself, when it surpasses its limits, can be a vice, but it can never be a virtue, because it’s a natural feeling."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 29
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Depression is a state of the soul in which you can see no sense either in your own life or in the life of the world. This state is not only painful for the people around you, but it can influence them, and a truly good person deals with this unpleasantness when he is alone. When you have bad spirits or are in a low mood, or you are irritated, you should be so in solitude."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When everything you see appears in dark, gloomy shades, and seems baleful, and you want to tell others only bad and unpleasant things, do not trust your perceptions. Treat yourself as though you were drunk. Take no steps and actions until this state has disappeared."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You should never feel depressed."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A man should always feel happy; if he is unhappy, it means he is guilty."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "O Lord, help me to be always happy and to rejoice following and fulfilling your will."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Both our physical sufferings and periods of depression are part of our life in this world, and we should patiently wait until they are over, or our life is over."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 6,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "As soon as a person asks himself the question, “How do I live my life in the best way?” then all other questions are answered."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Real living takes place not in the domain of outward change, but in the inner domain, where changes can hardly be observed, in our spiritual life."
+      },
+      {
+        "type": "quote",
+        "message": "And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good pan, which shall not be taken away from her.",
+        "author": "LUKE 10:41-42"
+      },
+      {
+        "type": "quote",
+        "message": "Instead of saving humanity, every person should save himself.",
+        "author": "ALEXANDER HERZEN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more people believe that others can improve their lives, the slower any improvement will occur."
+      }
+    ],
+    //Upto End of June
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The human soul is divine."
+      },
+      {
+        "type": "quote",
+        "message": "Every truth has its origin in God. When it is manifested in a man, this is not because it comes from him, but because he has such a quantity of transparency that he can reveal it.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "When after the rain, water flows from the roof through pipes, it seems to us that water flows out of these pipes, but in reality, it falls from the sky. The same phenomenon can be seen with the religious teachings taught to us by holy people. It seems to us that this teaching comes from them, but in reality, these teachings come from God.",
+        "author": "THE GOSPEL OF SRI RAMAKRISHNA"
+      },
+      {
+        "type": "quote",
+        "message": "A person’s purpose on this earth is to be in harmony with eternity. It is only then that the universal flow of love and intellect can be channeled through this person, as if through a clear pathway.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Life is given to us in the same way as a child is given to a nanny, so that it can be raised to maturity."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Keep yourself in purity, far from evil, so that divine power may come through you. And in this flow of divine power through you, there is great bliss."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There is no other domain where the words of our language are so misused as in the criticism of art, especially of false art."
+      },
+      {
+        "type": "quote",
+        "message": "A work of art makes a great impression on us only when it gives us something which, even with all the efforts of our intellect, we cannot understand completely.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "Art has such an impact on people that many strange things can happen in their souls: mysteries become clearer; opaque things become evident; complicated things become simple; what is probable becomes necessary. A real artist always simplifies.",
+        "author": "After HENRI AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "Remember that you cannot do anything wonderful driven by competition; you cannot do anything noble from pride.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There are two very clear indications of real science and real art: the first inner sign is that a scholar or an artist works not for profit, but for sacrifice, for his calling; the second, outer sign is that his works are understandable to all people. Real science studies and makes accessible that knowledge which people at that period of history think important, and real art transfers this truth from the domain of knowledge to the domain of feelings."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Creating art is not as elevated a thing as many people guess, but certainly it is a useful and kind thing to do, especially if it brings people together and arouses kind feelings in them."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A person is enslaved to the extent he believes that his life has only a physical beginning."
+      },
+      {
+        "type": "quote",
+        "message": "Nothing can be done without faith. Hesitation can kill a person, or it can destroy whole nations. Why is it so difficult to give liberation to people? Because when people do not have a deep faith they are not completely sure about their rights.",
+        "author": "F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "quote",
+        "message": "They say that the highest good is freedom. And if freedom is goodness, then how can a free person be unhappy? If you see a person who is not happy you should know that he is not a free man; he is a slave of something. In order to be completely free, you should be ready to give to God all those things which you have received from him. You should be ready to unite your will with that of God.",
+        "author": "After EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "When you have no freedom, then your life becomes the life of an animal.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "quote",
+        "message": "Human dignity and freedom are our constant necessities. So, let us keep them with us, or let us die with dignity.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you feel that you are not free, look for the reason inside you."
+      }
     ]
+    //Upto 3rd July
   ]
 }

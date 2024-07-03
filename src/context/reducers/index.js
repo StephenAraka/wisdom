@@ -4,9 +4,9 @@ import quotesReducer from './quotesReducer';
 import dateReducer from './dateReducer';
 
 const mainReducer = combineReducers({
-  quote: quotesReducer,
   theme: themeReducer,
-  date: dateReducer
+  date: dateReducer,
+  quote: quotesReducer,
 });
 
 export default mainReducer;
