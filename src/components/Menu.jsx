@@ -23,10 +23,6 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 
   const testNav = async () => {
     const favQuotes = await getFavoriteQuotes();
-    console.log('====================================');
-    console.log('favQuotes = ', favQuotes.length);
-    console.log(favQuotes);
-    console.log('====================================');
     navigation.navigate("FavouriteQuotes");
   };
 

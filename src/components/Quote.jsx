@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet } from "react-native";
-import React from "react";
+import React, { useEffect } from "react";
 import assets from "../constants/assets";
 import globalStyles from "../assets/styles/globalStyles";
 import { getMessageFontSize } from "../utils/helpers";
@@ -7,7 +7,10 @@ import { setActiveQuote } from "../context/actions/quoteActions";
 import { connect } from "react-redux";
 
 const Quote = ({ setActiveQuote, subquote, isDarkTheme }) => {
-  setActiveQuote(subquote)
+  useEffect(() => {
+    setActiveQuote(subquote)
+  }, []);
+  
   return (
     <View style={styles.subquoteWrapper}>
       {/* Render quoteIcon only if it is a quote */}

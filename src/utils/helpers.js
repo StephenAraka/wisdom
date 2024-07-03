@@ -49,6 +49,7 @@ export const getMessageFontSize = (message) => {
 
 //Getting the number of day in the year
  export const numberOfDayOfYear = ()=> {
+  
   const today = new Date();
   const startOfYear = new Date(today.getFullYear(), 0, 0);
   const diff = today - startOfYear;
@@ -58,14 +59,17 @@ export const getMessageFontSize = (message) => {
   return dateIndex = dayOfYear -1;
 }
 
+function stripNulls(array) {
+  return array.filter(item => item !== null);
+}
 
 /* FAVOURITE QUOTES FUNCTIONS START */
 export const addQuoteToFavorites = async (quote) => {
-  let existingFavorites = await AsyncStorage.getItem('favoriteQuotes') || [];
-  
-  if (existingFavorites.length) {
-    existingFavorites = JSON.parse(existingFavorites);
+  const favorites = await AsyncStorage.getItem('favoriteQuotes') || [];
 
+  let existingFavorites = stripNulls(JSON.parse(favorites));    // Strip possible null values from array
+
+  if (existingFavorites.length) {
     // Check if incoming quote is already among favorites
     const isDuplicate = existingFavorites.some(obj => {
       return Object.keys(obj).every(key => quote[key] === obj[key]);
@@ -88,8 +92,8 @@ export const addQuoteToFavorites = async (quote) => {
 
 export const getFavoriteQuotes = async () => {
   try {
-    let list = await AsyncStorage.getItem('favoriteQuotes') || [];
-    if (list.length) list = JSON.parse(list);
+    const favQuotes = await AsyncStorage.getItem('favoriteQuotes') || [];
+    let list = stripNulls(JSON.parse(favQuotes));    // Strip possible null values from array
 
     if (list.length) {
       console.log('Retrieved data:', list);
@@ -105,4 +109,3 @@ export const getFavoriteQuotes = async () => {
 };
 
 /* FAVOURITE QUOTES FUNCTIONS END */
-
