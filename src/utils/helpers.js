@@ -67,7 +67,7 @@ function stripNulls(array) {
 export const addQuoteToFavorites = async (quote) => {
   const favorites = await AsyncStorage.getItem('favoriteQuotes') || [];
 
-  let existingFavorites = stripNulls(JSON.parse(favorites));    // Strip possible null values from array
+  let existingFavorites = favorites.length ? stripNulls(JSON.parse(favorites)) : [];    // Strip possible null values from array
 
   if (existingFavorites.length) {
     // Check if incoming quote is already among favorites
