@@ -40,8 +40,8 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   const shareQuote = async () => {
     try {
       Share.share({
-        message: ` " ${currentSubquote.message} " \n\n ${
-          currentSubquote.author ? currentSubquote.author : ""
+        message: ` " ${currentSubquote.message} " ${
+          currentSubquote.author ? "\n\n" + currentSubquote.author : ""
         }`,
       });
     } catch (error) {
