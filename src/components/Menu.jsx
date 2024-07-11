@@ -5,6 +5,7 @@ import {
   TouchableOpacity,
   View,
   Modal,
+  Share,
 } from "react-native";
 import React from "react";
 import assets from "../constants/assets";
@@ -12,7 +13,11 @@ import colors from "../constants/colors";
 import { connect } from "react-redux";
 import { toggleTheme } from "../context/actions/themeActions";
 import { useNavigation } from "@react-navigation/native";
-import { addQuoteToFavorites, getFavoriteQuotes, storeData } from "../utils/helpers";
+import {
+  addQuoteToFavorites,
+  getFavoriteQuotes,
+  storeData,
+} from "../utils/helpers";
 
 const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   const navigation = useNavigation();
@@ -28,8 +33,21 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 
   const likeQuote = async () => {
     const { success, isDuplicate } = await addQuoteToFavorites(currentSubquote);
-    if (isDuplicate) console.log('Already liked, relax');
-  }
+    if (isDuplicate) console.log("Already liked, relax");
+  };
+
+  /* FUNCTION TO SHARE QUOTE */
+  const shareQuote = async () => {
+    try {
+      Share.share({
+        message: ` " ${currentSubquote.message} " ${
+          currentSubquote.author ? "\n\n" + currentSubquote.author : ""
+        }`,
+      });
+    } catch (error) {
+      console.log(`There was an error: ${error}`);
+    }
+  };
 
   const menuItems = [
     {
@@ -37,11 +55,12 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
       icon: isDarkTheme
         ? assets.shareIconDarkTheme
         : assets.shareIconLightTheme,
+      onPress: shareQuote,
     },
     {
       text: "Like",
       icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
-      onPress: likeQuote
+      onPress: likeQuote,
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
@@ -85,7 +104,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 };
 
 const mapStateToProps = (state) => ({
-  currentSubquote: state.quote.activeSubquote, 
+  currentSubquote: state.quote.activeSubquote,
   isDarkTheme: state.theme.isDarkTheme,
 });
 
