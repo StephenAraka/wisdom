@@ -49,6 +49,11 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     }
   };
 
+  const gotoMoreInfoScreen = () => {
+    navigation.navigate("MoreInfo");
+    toggleMenu();
+  }
+
   const menuItems = [
     {
       text: "Share",
@@ -63,6 +68,11 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
       onPress: likeQuote,
     },
     {
+      text: "My Favorites", // TODO: Change icon (and maybe position of item)
+      icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
+      onPress: testNav,     // TODO: Rename testNav Function
+    },
+    {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
       icon: isDarkTheme ? assets.lightIconDarkTheme : assets.moonIcon,
       onPress: setTheme,
@@ -70,7 +80,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "More Info",
       icon: isDarkTheme ? assets.infoIconDarkTheme : assets.infoIconLightTheme,
-      onPress: testNav,
+      onPress: gotoMoreInfoScreen,
     },
   ];
 
