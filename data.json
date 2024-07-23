@@ -6620,7 +6620,244 @@
         "italics": true,
         "message": "Life in this world goes according to somebody’s will—someone performs special actions upon all life in this world, and touches all our lives. That which performs these actions is what we call God."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "That feeling which solves all of the contradictions of human life and gives one the greatest bliss is known to all people: this feeling is love."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Pay bad people with your goodness; fight their hatred with your kindness. Even if you do not achieve victory over other people, you will conquer yourself.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Love destroys death and makes it empty; it gives meaning to senseless things; from unhappiness, love makes real happiness."
+      },
+      {
+        "type": "quote",
+        "message": "Fire purifies everything in the material world; love purifies everything in the spiritual world.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The less love a person has, the more he suffers."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you are in a difficult situation, a low mood, if you are afraid of other people and of yourself, if you are tormented, then tell yourself: 'I will love everyone whom I meet in this life.' Try to follow this rule; and you will see that everything will find its way, and everything will seem simple, and you will no longer have doubts or fears."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "People mistakenly think that virtue lies in the knowledge of many things. What is important is not the quantity but the quality of knowledge."
+      },
+      {
+        "type": "quote",
+        "message": "Socrates thought that stupidity was incompatible with wisdom, but he never said that ignorance was stupidity.",
+        "author": "XENOPHON"
+      },
+      {
+        "type": "quote",
+        "message": "We live in the age of philosophy, science, and intellect. Huge libraries are open for everyone. Everywhere we have schools, colleges, and universities which give us the wisdom of the people from many previous millennia. And what then? Have we become wiser for all this? Do we better understand our life, or the meaning of our existence? Do we know what is good for our life?",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "quote",
+        "message": "Reading too much is harmful to your independence of thought. The greatest thinkers I’ve met among scholars are people who do not read too much.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not fear the lack of knowledge, fear false knowledge. All evil in this world comes from false knowledge."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Knowledge born in argument and discussion is to be doubted."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "In the world today, real faith has in most cases been replaced by public opinion. People do not believe in God, but they believe in many minor things which are taught by other people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "People’s misfortunes are caused not because they do not know their duties, but because they misunderstand their duties."
+      },
+      {
+        "type": "quote",
+        "message": "God gives a choice to every soul between truth and peace.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Faith is not achieved by a majority of votes."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The major reason for the evil that exists today is the absence of faith in people of our time."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 11
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Truly virtuous is the person who gives his love to the weak."
+      },
+      {
+        "type": "quote",
+        "message": "Power is given to a person, not to oppress the weak, but to support and to help the weak.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "Give to every man that asketh of thee; and of him that taketh away thy goods ask them not again. And as ye would that men should do to you, do ye also to them likewise.",
+        "author": "LUKE 6:30-31"
+      },
+      {
+        "type": "quote",
+        "message": "Every kind thing is a virtue. To give water to a thirsty person, or to pick up a stone from a road, or to convince your neighbors and friends that they should be virtuous, or to show a traveler his way, or to smile looking into your neighbor’s face—all this is virtue.",
+        "author": "MOHAMMED"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If a rich person could be truly virtuous, then he would stop being rich very quickly."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The foundation of love is in each person’s understanding of the unity of the divine spark which lives in all people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "All that brings unification to people is goodness and beauty; all that brings separation among them is evil. All people know this: it is firmly inscribed on our hearts."
+      },
+      {
+        "type": "quote",
+        "message": "Every good or charitable action, every unprofitable assistance which supports other people in need, when we come to its origins and foundations, becomes a mysterious and unexplainable thing, because it comes out of the mysterious understanding of the unity of all living beings, and it can be explained by nothing else.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We are separate beings, it seems, but in our inner life we are closely connected with all living things."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We can feel some of the vibrations of this spiritual world; some of them have not reached us yet, but they are moving, as the vibrations of light from the distant stars are moving across the universe; they move, though they are not yet visible to our eyes."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 13
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The existing order of things can he improved."
+      },
+      {
+        "type": "quote",
+        "message": "Wise consumption is much more complicated than wise production. What five people will produce, one person can very easily consume, and the question for each individual and for every nation is not how are we to produce, but how our products are to be consumed.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "You can torture people; you can treat them as if they were animals; you can abuse them in all ways; you can kill them as if they were summer flies. But people will remain free in the highest sense because they have eternal souls.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to fulfill the law of God as we understand it, a joint effort must be made by many people. Then, maybe slowly, we will move to an understanding of this divine law."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 7,
+          "day": 14
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "God’s kingdom is the fulfillment among mankind of God’s will, according to the measure in which it is revealed to us."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In the life of the world, thousands of years look like one year. Therefore, we should work hard at the fulfillment of eternity, and we should wait for the day when religion will enlighten this world completely."
+      },
+      {
+        "type": "quote",
+        "message": "The kingdom of God on earth is the final purpose and desire of humankind.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "In religious services we should understand, not the rituals, not unnatural things which can be performed only by a priest; in religion, we should understand love for God and for our neighbor.",
+        "author": "ALEXANDR ARKHANGELSKY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The kingdom of God is inside us; therefore look for the kingdom of God inside you and the rest will take care of itself, in the best possible way."
+      }
     ]
-    //Upto 7th July
+    //Upto 14th July
   ]
 }
