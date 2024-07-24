@@ -96,16 +96,23 @@ export const getFavoriteQuotes = async () => {
     let list = stripNulls(JSON.parse(favQuotes));    // Strip possible null values from array
 
     if (list.length) {
-      console.log('Retrieved data:', list);
+      /* console.log('Retrieved data:', list); */
       return list;
     } else {
       console.log('No favorite quotes found');
       return null;
     }
   } catch (error) {
-    console.error('Error retrieving data:', error);
+    console.error('Error retrieving data: ', error);
     return null;
   }
 };
+
+export const removeFavoriteQuote = async(item) => {
+  let favQuotes = await AsyncStorage.getItem('favoriteQuotes');
+  favQuotes = JSON.parse(favQuotes);
+  const updatedFavQuotes = favQuotes.filter((quote) => quote.message !== item.message);
+  await AsyncStorage.setItem('favoriteQuotes', JSON.stringify(updatedFavQuotes));  
+}
 
 /* FAVOURITE QUOTES FUNCTIONS END */

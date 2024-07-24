@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
-import { getFavoriteQuotes } from "../utils/helpers";
+import { getFavoriteQuotes, removeFavoriteQuote } from "../utils/helpers";
 import ScreenLayout from "../components/ScreenLayout";
 import colors from "../constants/colors";
 
@@ -18,6 +18,17 @@ const FavouriteQuotes = () => {
   const fetchFavQuotes = async () => {
     const favQuotes = await getFavoriteQuotes();
     setFavoriteQuotes(favQuotes);
+  };
+
+  const shareQuote = () => {
+    console.log("====================================");
+    console.log(`Quote Shared`);
+    console.log("====================================");
+  };
+
+  const removeFavQuote = async (item) => {
+    await removeFavoriteQuote(item);
+    fetchFavQuotes();
   };
 
   const isFocused = useIsFocused();
@@ -39,13 +50,13 @@ const FavouriteQuotes = () => {
         <View style={styles.flexRow}>
           <Text style={styles.date}>7 January</Text>
           <View style={styles.flexRow}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={shareQuote}>
               <Image
                 source={require("../assets/images/icons/forward-icon-white.png")}
                 style={styles.icon}
               />
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => removeFavQuote(item)}>
               <Image
                 source={require("../assets/images/icons/delete-icon-white.png")}
                 style={styles.icon}
