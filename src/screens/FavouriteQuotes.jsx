@@ -8,7 +8,11 @@ import {
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
-import { getFavoriteQuotes, removeFavoriteQuote } from "../utils/helpers";
+import {
+  getFavoriteQuotes,
+  removeFavoriteQuote,
+  shareQuote,
+} from "../utils/helpers";
 import ScreenLayout from "../components/ScreenLayout";
 import colors from "../constants/colors";
 
@@ -20,10 +24,8 @@ const FavouriteQuotes = () => {
     setFavoriteQuotes(favQuotes);
   };
 
-  const shareQuote = () => {
-    console.log("====================================");
-    console.log(`Quote Shared`);
-    console.log("====================================");
+  const shareFavQuote = (quote) => {
+    shareQuote(quote);
   };
 
   const removeFavQuote = async (item) => {
@@ -50,12 +52,15 @@ const FavouriteQuotes = () => {
         <View style={styles.flexRow}>
           <Text style={styles.date}>7 January</Text>
           <View style={styles.flexRow}>
-            <TouchableOpacity onPress={shareQuote}>
+            {/* Icon to share a quote */}
+            <TouchableOpacity onPress={() => shareFavQuote(item)}>
               <Image
                 source={require("../assets/images/icons/forward-icon-white.png")}
                 style={styles.icon}
               />
             </TouchableOpacity>
+
+            {/* Icon to remove quote from favorites */}
             <TouchableOpacity onPress={() => removeFavQuote(item)}>
               <Image
                 source={require("../assets/images/icons/delete-icon-white.png")}

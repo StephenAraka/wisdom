@@ -1,3 +1,4 @@
+import { Share } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Storing data to async storage
@@ -96,7 +97,6 @@ export const getFavoriteQuotes = async () => {
     let list = stripNulls(JSON.parse(favQuotes));    // Strip possible null values from array
 
     if (list.length) {
-      /* console.log('Retrieved data:', list); */
       return list;
     } else {
       console.log('No favorite quotes found');
@@ -108,11 +108,25 @@ export const getFavoriteQuotes = async () => {
   }
 };
 
+//Remove quote from async storage
 export const removeFavoriteQuote = async(item) => {
-  let favQuotes = await AsyncStorage.getItem('favoriteQuotes');
-  favQuotes = JSON.parse(favQuotes);
+  let favQuotes = JSON.parse(await AsyncStorage.getItem('favoriteQuotes'));
   const updatedFavQuotes = favQuotes.filter((quote) => quote.message !== item.message);
   await AsyncStorage.setItem('favoriteQuotes', JSON.stringify(updatedFavQuotes));  
 }
 
 /* FAVOURITE QUOTES FUNCTIONS END */
+
+//Function to share a quote
+export const shareQuote = async (quote) => {
+  try {
+    Share.share({
+      message: ` " ${quote.message} " ${
+        quote.author ? "\n\n" + quote.author : ""
+      }`,
+    });
+  } catch (error) {
+    console.log(`There was an error: ${error}`);
+  }
+
+}

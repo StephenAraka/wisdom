@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
   Modal,
-  Share,
 } from "react-native";
 import React from "react";
 import assets from "../constants/assets";
@@ -17,6 +16,7 @@ import {
   addQuoteToFavorites,
   getFavoriteQuotes,
   storeData,
+  shareQuote,
 } from "../utils/helpers";
 
 const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
@@ -36,23 +36,10 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     if (isDuplicate) console.log("Already liked, relax");
   };
 
-  /* FUNCTION TO SHARE QUOTE */
-  const shareQuote = async () => {
-    try {
-      Share.share({
-        message: ` " ${currentSubquote.message} " ${
-          currentSubquote.author ? "\n\n" + currentSubquote.author : ""
-        }`,
-      });
-    } catch (error) {
-      console.log(`There was an error: ${error}`);
-    }
-  };
-
   const gotoMoreInfoScreen = () => {
     navigation.navigate("MoreInfo");
     toggleMenu();
-  }
+  };
 
   const menuItems = [
     {
@@ -60,7 +47,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
       icon: isDarkTheme
         ? assets.shareIconDarkTheme
         : assets.shareIconLightTheme,
-      onPress: shareQuote,
+      onPress: () => shareQuote(currentSubquote),
     },
     {
       text: "Like",
@@ -70,7 +57,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "My Favorites", // TODO: Change icon (and maybe position of item)
       icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
-      onPress: testNav,     // TODO: Rename testNav Function
+      onPress: testNav, // TODO: Rename testNav Function
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
