@@ -16,7 +16,9 @@ import {
 import ScreenLayout from "../components/ScreenLayout";
 import colors from "../constants/colors";
 
-const FavouriteQuotes = () => {
+import { connect } from "react-redux";
+
+const FavouriteQuotes = ({ isDarkTheme }) => {
   const [favoriteQuotes, setFavoriteQuotes] = useState([]);
 
   const fetchFavQuotes = async () => {
@@ -41,8 +43,13 @@ const FavouriteQuotes = () => {
 
   const renderFavoriteItem = ({ item, index }) => {
     const { message } = item;
-    const backgroundColor =
-      index % 2 === 0 ? colors.cardBgColorLightTheme : colors.cardBgGrey;
+    const backgroundColor = isDarkTheme
+      ? index % 2 === 0
+        ? colors.cardBgBlueDarkTheme
+        : colors.cardBgGreyDarkTheme
+      : index % 2 === 0
+      ? colors.cardBgGrey
+      : colors.cardBgColorLightTheme;
 
     return (
       <View style={[styles.card, { backgroundColor }]}>
@@ -75,8 +82,10 @@ const FavouriteQuotes = () => {
 
   return (
     <ScreenLayout>
-      <View style={styles.headingWrapper}>
-        <Text style={styles.screenHeading}>My Favourite Quotes</Text>
+      <View style={styles.headingWrapper(isDarkTheme)}>
+        <Text style={styles.screenHeading(isDarkTheme)}>
+          My Favourite Quotes
+        </Text>
       </View>
       <View style={styles.listContainer}>
         <FlatList data={favoriteQuotes} renderItem={renderFavoriteItem} />
@@ -85,11 +94,14 @@ const FavouriteQuotes = () => {
   );
 };
 
-export default FavouriteQuotes;
+const mapStateToProps = (state) => ({
+  isDarkTheme: state.theme.isDarkTheme,
+});
+
+export default connect(mapStateToProps)(FavouriteQuotes);
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: colors.cardBgColorLightTheme,
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 12,
@@ -115,20 +127,23 @@ const styles = StyleSheet.create({
     width: 24,
     marginHorizontal: 8,
   },
-  headingWrapper: {
-    backgroundColor: colors.lightGreyLightTheme,
+  headingWrapper: (isDarkTheme) => ({
+    backgroundColor: isDarkTheme
+      ? colors.menuBgColorDarkTheme
+      : colors.lightGreyLightTheme,
     display: "flex",
     alignItems: "center",
     paddingVertical: 8,
-  },
+  }),
   listContainer: {
     display: "flex",
     alignItems: "center",
     paddingHorizontal: 8,
     paddingVertical: 8,
   },
-  screenHeading: {
+  screenHeading: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.white : "",
     fontSize: 16,
     fontWeight: "bold",
-  },
+  }),
 });
