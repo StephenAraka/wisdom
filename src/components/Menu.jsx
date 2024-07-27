@@ -19,7 +19,13 @@ import {
   shareQuote,
 } from "../utils/helpers";
 
-const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
+const Menu = ({
+  currentSubquote,
+  toggleMenu,
+  isDarkTheme,
+  toggleTheme,
+  date,
+}) => {
   const navigation = useNavigation();
   const setTheme = () => {
     storeData("theme", isDarkTheme ? "light" : "dark");
@@ -32,7 +38,8 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   };
 
   const likeQuote = async () => {
-    const { success, isDuplicate } = await addQuoteToFavorites(currentSubquote);
+    let quoteToLike = { ...currentSubquote, date };
+    const { success, isDuplicate } = await addQuoteToFavorites(quoteToLike);
     if (isDuplicate) console.log("Already liked, relax");
   };
 
@@ -103,6 +110,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 const mapStateToProps = (state) => ({
   currentSubquote: state.quote.activeSubquote,
   isDarkTheme: state.theme.isDarkTheme,
+  date: state.date.date,
 });
 
 const matchDispatchToProps = {

@@ -42,7 +42,7 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
   }, [isFocused]);
 
   const renderFavoriteItem = ({ item, index }) => {
-    const { message } = item;
+    const { message, date } = item;
     const backgroundColor = isDarkTheme
       ? index % 2 === 0
         ? colors.cardBgBlueDarkTheme
@@ -57,7 +57,7 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
           {message}
         </Text>
         <View style={styles.flexRow}>
-          <Text style={styles.date}>7 January</Text>
+          <Text style={styles.date}>{date}</Text>
           <View style={styles.flexRow}>
             {/* Icon to share a quote */}
             <TouchableOpacity onPress={() => shareFavQuote(item)}>
