@@ -20,8 +20,14 @@ const globalStyles = StyleSheet.create({
   sourceText: (isDarkTheme) => ({
     color: isDarkTheme ? colors.lightGreyLightTheme : colors.lightGreyDarkTheme,
     fontStyle: 'italic'
+  }),
+  normalText: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.lightGreyLightTheme : colors.textColorLightTheme,
+  }),
+  smallText: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.lightGreyLightTheme : colors.textColorLightTheme,
+    fontSize: 12,
   })
-
 });
 
 export default globalStyles;
