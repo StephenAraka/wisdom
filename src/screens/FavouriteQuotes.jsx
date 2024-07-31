@@ -88,7 +88,14 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
         </Text>
       </View>
       <View style={styles.listContainer}>
-        <FlatList data={favoriteQuotes} renderItem={renderFavoriteItem} />
+        {favoriteQuotes ? (
+          <FlatList data={favoriteQuotes} renderItem={renderFavoriteItem} />
+        ) : (
+          <Text style={styles.emptyListMessage(isDarkTheme)}>
+            You don't have any liked quotes. Like a quote to see your liked
+            quotes here.
+          </Text>
+        )}
       </View>
     </ScreenLayout>
   );
@@ -142,8 +149,13 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   screenHeading: (isDarkTheme) => ({
-    color: isDarkTheme ? colors.white : "",
+    color: isDarkTheme ? colors.white : "#000000",
     fontSize: 16,
     fontWeight: "bold",
+  }),
+  emptyListMessage: (isDarkTheme) => ({
+    color: isDarkTheme ? colors.white : "#000000",
+    fontSize: 16,
+    fontWeight: "light",
   }),
 });
