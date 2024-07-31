@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
   Modal,
-  Share,
 } from "react-native";
 import React from "react";
 import assets from "../constants/assets";
@@ -17,9 +16,16 @@ import {
   addQuoteToFavorites,
   getFavoriteQuotes,
   storeData,
+  shareQuote,
 } from "../utils/helpers";
 
-const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
+const Menu = ({
+  currentSubquote,
+  toggleMenu,
+  isDarkTheme,
+  toggleTheme,
+  date,
+}) => {
   const navigation = useNavigation();
   const setTheme = () => {
     storeData("theme", isDarkTheme ? "light" : "dark");
@@ -32,27 +38,15 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
   };
 
   const likeQuote = async () => {
-    const { success, isDuplicate } = await addQuoteToFavorites(currentSubquote);
+    let quoteToLike = { ...currentSubquote, date };
+    const { success, isDuplicate } = await addQuoteToFavorites(quoteToLike);
     if (isDuplicate) console.log("Already liked, relax");
-  };
-
-  /* FUNCTION TO SHARE QUOTE */
-  const shareQuote = async () => {
-    try {
-      Share.share({
-        message: ` " ${currentSubquote.message} " ${
-          currentSubquote.author ? "\n\n" + currentSubquote.author : ""
-        }`,
-      });
-    } catch (error) {
-      console.log(`There was an error: ${error}`);
-    }
   };
 
   const gotoMoreInfoScreen = () => {
     navigation.navigate("MoreInfo");
     toggleMenu();
-  }
+  };
 
   const menuItems = [
     {
@@ -60,7 +54,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
       icon: isDarkTheme
         ? assets.shareIconDarkTheme
         : assets.shareIconLightTheme,
-      onPress: shareQuote,
+      onPress: () => shareQuote(currentSubquote),
     },
     {
       text: "Like",
@@ -70,7 +64,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
     {
       text: "My Favorites", // TODO: Change icon (and maybe position of item)
       icon: isDarkTheme ? assets.likeIconDarkTheme : assets.likeIconLightTheme,
-      onPress: testNav,     // TODO: Rename testNav Function
+      onPress: testNav, // TODO: Rename testNav Function
     },
     {
       text: isDarkTheme ? "Light Mode" : "Dark Mode",
@@ -116,6 +110,7 @@ const Menu = ({ currentSubquote, toggleMenu, isDarkTheme, toggleTheme }) => {
 const mapStateToProps = (state) => ({
   currentSubquote: state.quote.activeSubquote,
   isDarkTheme: state.theme.isDarkTheme,
+  date: state.date.date,
 });
 
 const matchDispatchToProps = {
