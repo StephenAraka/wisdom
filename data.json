@@ -7433,7 +7433,261 @@
         "italics": true,
         "message": "A person must completely close his eyes on his morals, that in a Christian society so filled with people in need, there are other people who are so proud to have great wealth."
       }
-    ]
+    ],
     //End of July
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 1
+        }
+      },
+      {
+        "type": "intro",
+        "message": "The intellect can liberate a person; the less of an intellectual life one has, the less liberated one is."
+      },
+      {
+        "type": "quote",
+        "message": "If you wish to do no evil then there is not a single good deed which you cannot do.",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "message",
+        "message": "A wise person lives in accordance with his desires, because he wants only that which is attainable. Such a person is free."
+      },
+      {
+        "type": "quote",
+        "message": "Diogenes said, 'A wise man becomes free when he is ready to die at any moment.' He wrote to the Persian king, 'You cannot enslave truly free people, just as you cannot enslave a fish. You may capture them, but you cannot force them to serve; they prefer to die as captives. So, what would it profit you to imprison them?' This is a speech of a really free man, a man who recognizes his own freedom.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "message",
+        "message": "We have created a way of life which is contrary to mankind’s moral and physical nature, and yet we want to be free while living this kind of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Freedom cannot be achieved by looking for it, but in looking for truth. Freedom should not be a purpose, but a consequence."
+      },
+      {
+        "type": "message",
+        "message": "Freedom cannot be granted to you by others. Each person can liberate only himself."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 2
+        }
+      },
+      {
+        "type": "message",
+        "message": "If you are a material being, then death is the end of everything. But if you are a spiritual being, then the body limits your spiritual being, and death is only a change."
+      },
+      {
+        "type": "message",
+        "message": "Our body limits the spiritual divine spark which we call our soul. In the way that a vessel gives form to the liquid or gas which is put into it, our body gives form to our spiritual being. If the vessel is broken, that which was in it no longer retains the form it had and flows out. Does it receive a new form? Is it united with other beings? We know nothing of this. After death the soul becomes something different, something indescribable."
+      },
+      {
+        "type": "quote",
+        "message": "Death is one step in a continuous development.",
+        "author": "THEODORE PARKER"
+      },
+      {
+        "type": "quote",
+        "message": "Our last day does not bring destruction, only a change.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "message": "Death is a liberation of the soul from the material personality in which it existed in this world."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "For those who live a spiritual life, there is no death."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 3
+        }
+      },
+      {
+        "type": "message",
+        "message": "We expect rewards for goodness, and punishments for the bad things which we do. Often, they are not immediately forthcoming. Both evil and good exist in the life of the spirit, though, which is outside time, and though we may not see clear indications of reward or punishment, nevertheless, we feel reward or punishment with our conscience."
+      },
+      {
+        "type": "quote",
+        "message": "You should be in a hurry to do good works, even small ones, and to avoid sin. One good thing leads to another, and one sin causes another. The reward for virtue is virtue, and the punishment for vice is more vice.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "message",
+        "message": "The worst punishment is the understanding that you failed to properly use those good things which were given to you. Do not expect a big punishment. There can be no harder punishment than this remorse."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "You seek the cause of evil, and it is only in yourself.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "message",
+        "message": "Doing good is the only sure path to bliss."
+      },
+      {
+        "type": "message",
+        "message": "Do not expect some tangible reward for your goodness; your actions are their own reward. In the same way, do not think that you can hope to avoid punishment of your evil acts, for your punishment already lies in your soul. You are mistaken if you think that the pain in your soul was caused by anything else."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 4
+        }
+      },
+      {
+        "type": "message",
+        "message": "Self-abnegation is not the rejection of your entire self, just the rejection of your animal being."
+      },
+      {
+        "type": "quote",
+        "message": "Every person has within himself the capability to understand the life of all humanity. This capability is hidden deep in the soul, but it exists, and sooner or later, a person will find it.",
+        "author": "EDWARD CARPENTER"
+      },
+      {
+        "type": "message",
+        "message": "The greatest bliss a person can know is the state of complete freedom and happiness that can come only through self-sacrifice and love."
+      },
+      {
+        "type": "message",
+        "message": "Deny your personality, and you will come to understand the highest good in life: love."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Real life starts with self-sacrifice.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "message",
+        "message": "The more a person gives to other people, and the less he asks for himself, the better for him. The less he gives to others, and the more he wants for himself, the worse for him. Our contemporaries think it the reverse."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 5
+        }
+      },
+      {
+        "type": "message",
+        "message": "For the most part, false and harmful opinions are distributed and supported by influence. We are too likely to accept the views and thoughts of other people without trying to investigate them deeper and further ourselves. Unimportant people are those who accept other people’s thoughts without developing them themselves."
+      },
+      {
+        "type": "message",
+        "message": "Your thought is easily influenced by the presence of another soul; a person can be completely free only when he is alone."
+      },
+      {
+        "type": "message",
+        "message": "Nothing is more harmful than a bad example set by others. They bring into our life notions which never would have occurred to us without an example."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Do not allow yourself to be infected by the mood or spirit of those who abuse you; do not step onto their path.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "message": "A person can easily grow accustomed to living a lie, especially if he sees everyone around him living in the same way."
+      },
+      {
+        "type": "message",
+        "message": "False ideas which gain currency can easily be recognized by the loud fanfare with which they are accompanied. Real truth does not need any outer embellishments."
+      },
+      {
+        "type": "message",
+        "message": "The possibility of influencing others causes a person with high morals to be more strict about his words and actions which could influence other people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 6
+        }
+      },
+      {
+        "type": "message",
+        "message": "The intellect is the only fit guide for human life."
+      },
+      {
+        "type": "quote",
+        "message": "The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when thine eye is evil, thy body also is full of darkness. Take heed therefore that the light which is in thee be not darkness.",
+        "author": "LUKE 11:34-35"
+      },
+      {
+        "type": "message",
+        "message": "A man who lives an intellectual life is like a man who carries a lantern in front of him to light his way. Such a person will never come to a dark place, because the light of his intellect moves before him. There is no fear of death in this kind of life, because the lantern which moves before you lights your way to your last minute, and you follow it to the end as calmly and quietly as you have all of your life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Some people live and act according to their own thoughts, and some according to the thoughts of others; this is a crucial distinction between people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 8,
+          "date": 7
+        }
+      },
+      {
+        "type": "message",
+        "message": "Vanity has no limits."
+      },
+      {
+        "type": "quote",
+        "message": "A person filled with vanity is so involved with himself that there is no room inside him for anyone or anything else.",
+        "author": "PAN"
+      },
+      {
+        "type": "quote",
+        "message": "As rules go, 'You should behave just as other people behave' is among the most dangerous; it almost always results in your behaving badly.",
+        "author": "JEAN DE LA BRUYÈRE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You could choose no worse way to guide your life than to follow the opinions of other people."
+      },
+      {
+        "type": "quote",
+        "message": "When we praise other people it is because we think that they look like us; often to respect a person means to put him on the same level as oneself.",
+        "author": "JEAN DE LA BRUYÈRE"
+      },
+      {
+        "type": "quote",
+        "message": "Real virtue never looks back on its shadow, fame.",
+        "author": "JOHANN WOLFGANG VON GOETHE"
+      },
+      {
+        "type": "message",
+        "message": "It’s not wise to be interested in fame and the appreciation of others, because no two people’s opinions about what is good are the same."
+      }
+    ]
+    
+    
+        
+    
+        
   ]
 }
