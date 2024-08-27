@@ -7444,6 +7444,7 @@
       },
       {
         "type": "intro",
+        "italics": true,
         "message": "The intellect can liberate a person; the less of an intellectual life one has, the less liberated one is."
       },
       {
@@ -7453,6 +7454,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "A wise person lives in accordance with his desires, because he wants only that which is attainable. Such a person is free."
       },
       {
@@ -7462,6 +7464,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "We have created a way of life which is contrary to mankind’s moral and physical nature, and yet we want to be free while living this kind of life."
       },
       {
@@ -7471,6 +7474,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Freedom cannot be granted to you by others. Each person can liberate only himself."
       }
     ],
@@ -7482,11 +7486,13 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "If you are a material being, then death is the end of everything. But if you are a spiritual being, then the body limits your spiritual being, and death is only a change."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Our body limits the spiritual divine spark which we call our soul. In the way that a vessel gives form to the liquid or gas which is put into it, our body gives form to our spiritual being. If the vessel is broken, that which was in it no longer retains the form it had and flows out. Does it receive a new form? Is it united with other beings? We know nothing of this. After death the soul becomes something different, something indescribable."
       },
       {
@@ -7501,6 +7507,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Death is a liberation of the soul from the material personality in which it existed in this world."
       },
       {
@@ -7517,16 +7524,19 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "We expect rewards for goodness, and punishments for the bad things which we do. Often, they are not immediately forthcoming. Both evil and good exist in the life of the spirit, though, which is outside time, and though we may not see clear indications of reward or punishment, nevertheless, we feel reward or punishment with our conscience."
       },
       {
         "type": "quote",
+        "italics": true,
         "message": "You should be in a hurry to do good works, even small ones, and to avoid sin. One good thing leads to another, and one sin causes another. The reward for virtue is virtue, and the punishment for vice is more vice.",
         "author": "The TALMUD"
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The worst punishment is the understanding that you failed to properly use those good things which were given to you. Do not expect a big punishment. There can be no harder punishment than this remorse."
       },
       {
@@ -7537,10 +7547,12 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Doing good is the only sure path to bliss."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Do not expect some tangible reward for your goodness; your actions are their own reward. In the same way, do not think that you can hope to avoid punishment of your evil acts, for your punishment already lies in your soul. You are mistaken if you think that the pain in your soul was caused by anything else."
       }
     ],
@@ -7552,7 +7564,8 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "Self-abnegation is not the rejection of your entire self, just the rejection of your animal being."
       },
       {
@@ -7562,10 +7575,12 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The greatest bliss a person can know is the state of complete freedom and happiness that can come only through self-sacrifice and love."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Deny your personality, and you will come to understand the highest good in life: love."
       },
       {
@@ -7576,6 +7591,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The more a person gives to other people, and the less he asks for himself, the better for him. The less he gives to others, and the more he wants for himself, the worse for him. Our contemporaries think it the reverse."
       }
     ],
@@ -7587,15 +7603,18 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "For the most part, false and harmful opinions are distributed and supported by influence. We are too likely to accept the views and thoughts of other people without trying to investigate them deeper and further ourselves. Unimportant people are those who accept other people’s thoughts without developing them themselves."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Your thought is easily influenced by the presence of another soul; a person can be completely free only when he is alone."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "Nothing is more harmful than a bad example set by others. They bring into our life notions which never would have occurred to us without an example."
       },
       {
@@ -7606,14 +7625,17 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "A person can easily grow accustomed to living a lie, especially if he sees everyone around him living in the same way."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "False ideas which gain currency can easily be recognized by the loud fanfare with which they are accompanied. Real truth does not need any outer embellishments."
       },
       {
         "type": "message",
+        "italics": true,
         "message": "The possibility of influencing others causes a person with high morals to be more strict about his words and actions which could influence other people."
       }
     ],
@@ -7625,7 +7647,8 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "The intellect is the only fit guide for human life."
       },
       {
@@ -7635,6 +7658,7 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "A man who lives an intellectual life is like a man who carries a lantern in front of him to light his way. Such a person will never come to a dark place, because the light of his intellect moves before him. There is no fear of death in this kind of life, because the lantern which moves before you lights your way to your last minute, and you follow it to the end as calmly and quietly as you have all of your life."
       },
       {
@@ -7651,7 +7675,8 @@
         }
       },
       {
-        "type": "message",
+        "type": "intro",
+        "italics": true,
         "message": "Vanity has no limits."
       },
       {
@@ -7681,13 +7706,9 @@
       },
       {
         "type": "message",
+        "italics": true,
         "message": "It’s not wise to be interested in fame and the appreciation of others, because no two people’s opinions about what is good are the same."
       }
     ]
-    
-    
-        
-    
-        
   ]
 }
