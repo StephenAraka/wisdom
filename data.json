@@ -4947,7 +4947,7 @@
         "message": "All really great things are happening in slow and inconspicuous ways."
       },
       {
-        "type": "quoute",
+        "type": "quote",
         "message": "The process of life should be the birth of a soul. This is the highest alchemy, and this justifies our presence on earth. This is our calling and our virtue.",
         "author": "HENRI AMIEL"
       },
@@ -9031,6 +9031,257 @@
         "type": "message",
         "italics": true,
         "message": "All violence is contrary to love: do not participate in violence."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The biggest obstacles to understanding the truth are lies disguised as truth."
+      },
+      {
+        "type": "quote",
+        "message": "In real life, illusions can only transform our life for a moment, but in the domain of thoughts and the intellect, misconceptions may be accepted as truth for thousands of years, and make a laughingstock of whole nations, mute the noble wishes of mankind, make slaves from people and lie to them. These misconceptions are the enemies with which the wisest men in the history of mankind try to struggle. The force of the truth is great, but its victory is difficult. However, once you receive this victory, it can never be taken from you.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The exposure of a lie is as valuable to a community as a clearly expressed truth."
+      },
+      {
+        "type": "quote",
+        "message": "Freeing a person from misconceptions, false truths, and lies does not take anything from him; it gives him something important.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The progress of mankind is in revealing obstacles which are hiding from us."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Doubts do not destroy truth; they strengthen it."
+      },
+      {
+        "type": "quote",
+        "message": "Disbelief is not when a person believes or does not believe in something. It is when he prophesies those things in which he does not believe.",
+        "author": "HARRIET MARTINEAU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You will have moments in which you no longer believe in the existence of the spiritual dimension of life. Look at these moments as events in the development of your faith. A person who understands the spiritual nature of life may still at some point become afraid of death, usually for a short period of time, in the same way that you can see as you watch a scene at the theater and forget that you are watching a play, and become scared by what you are seeing as if it were real."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "So it is in real life: in moments of self-delusion, a religious person forgets that what happens in his physical life cannot interfere with what happens in his spiritual life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In these periods, when your spirits have fallen, you have to treat yourself as an ill man."
+      },
+      {
+        "type": "quote",
+        "message": "A wise man has doubts even in his best moments. Real truth is always accompanied by hesitations. If I could not hesitate, I could not believe.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "quote",
+        "message": "He who hesitates is not distanced from God; it is he who believes unhesitatingly in someone else’s word that God exists or does not exist who is far from God.",
+        "author": "HENRY DAVID THOREAU"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The individual ownership of large areas of land is as unjust as the ownership of other people."
+      },
+      {
+        "type": "quote",
+        "message": "You cannot say that the existing laws regarding the possession of land are lawful. Violence, crime, and power have their source in these laws.",
+        "author": "HERBERT SPENCER"
+      },
+      {
+        "type": "quote",
+        "message": "Private ownership of land came to be, not out of any natural relationships between people, but through robbery.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The injustice of owning big pieces of land as private property, like any other injustice, is necessarily linked with many other injustices which are used to protect it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Life’s essence lies, not in your body, but in your conscience."
+      },
+      {
+        "type": "quote",
+        "message": "The divine spark lives in all of us, and perpetually strives toward its origin.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "quote",
+        "message": "When you see that everything around you is impermanent, then you will perceive other, permanent and eternal things.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "You cannot see the soul, but only the soul can truly see the essence of things.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "I call spirit that part of man which has independent existence and gives us the understanding of life.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Let your spiritual side guide your material side, and not the other way around. In order to improve his state, a person should strive for spiritual not physical perfection."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Nothing can enlighten people’s lives and ease their burdens more than the understanding that they should serve God."
+      },
+      {
+        "type": "quote",
+        "message": "Religious disbelief and neglect is a great evil, but prejudice and lies are even worse.",
+        "author": "PLUTARCHUS"
+      },
+      {
+        "type": "quote",
+        "message": "Life is short. Do not forget about the most important things in our life, living for other people and doing good for them.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The Son of man came not to be ministered unto, but to minister, and to give his life as a ransom for many.",
+        "author": "MATTHEW 20:28"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Pay goodness for evil. We should be like trees that give fruits to those who throw stones at them."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "You should accept yourself, not as a master, but as a servant, and then all your bad feelings, your anxiety, alarm, uncertainty, and dissatisfaction will be changed into calmness and peace. You will be filled inside with a clear vision of your purpose, and with a great joy."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 20
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "All good things can be achieved only with effort."
+      },
+      {
+        "type": "quote",
+        "message": "Bad things are easy to do, good things are done only with work and effort.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Enter by the narrow gate; for the gate is wide, and the way is broad that leads to destruction, and many are those who enter by it. For the gate is small, and the way is narrow that leads to life, and few are those who find it.",
+        "author": "MATTHEW 7:13-14"
+      },
+      {
+        "type": "quote",
+        "message": "The way to true knowledge does not go through soft grass covered with flowers. To find it, a person must climb steep mountains.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "Look for the truth; it wants to be found.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you find that you have become free from desires and thoughts that have enslaved you and made you unhappy, then you will find yourself."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The most important and necessary expression of freedom is to give your thought a specific direction."
+      },
+      {
+        "type": "quote",
+        "message": "Work toward the purification of your thoughts. Without bad thoughts you will be incapable of bad deeds.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Everything is in heaven’s power, except for our choice of whether to serve God or ourselves."
+      },
+      {
+        "type": "quote",
+        "message": "We cannot prevent birds from flying over our heads, but we can keep them from making nests on top of our heads. Similarly, bad thoughts sometimes appear in our mind, but we can choose whether we allow them to live there, to create a nest for themselves, and to breed evil deeds.",
+        "author": "MARTIN LUTHER"
+      },
+      {
+        "type": "quote",
+        "message": "It is a sin, not only to do bad things, but even to think about bad things.",
+        "author": "ZOROASTER"
       }
     ]
   ]
