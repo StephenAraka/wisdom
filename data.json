@@ -9283,6 +9283,303 @@
         "message": "It is a sin, not only to do bad things, but even to think about bad things.",
         "author": "ZOROASTER"
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Faith in the existence of eternity is our exclusively human quality."
+      },
+      {
+        "type": "quote",
+        "message": "The soul does not live in the body as in a house, but as in a tent, a place of temporary dwelling.",
+        "author": "INDIAN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "Who brought me into this world? According to whose command do I find myself at this exact place, during this particular time? Life is the remembrance of a very short day we spent visiting this world.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "Mortal people cannot live long; we have only a few moments. But our soul does not age. It believes in eternal things, and it will live for all eternity.",
+        "author": "TORICLIDIS"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Death is the destruction of the bodily organs with which I see my world during my life; the destruction of the glass through which I look at this world. The destruction of this glass does not mean the destruction of the eye itself."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Our understanding of eternity is the voice of God who lives within us."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "No matter how big mankind’s store of knowledge seems to me in comparison with our previous ignorance, it is only an infinitely small part of all possible knowledge."
+      },
+      {
+        "type": "quote",
+        "message": "Socrates did not have the weakness of many scholars, the desire to know about all possible things, to learn the origins and explanations of things—what the Sophists call 'the nature of things'—and to uncover the origins of the celestial bodies. Socrates said, 'Is it true that people are so concerned with these earthly things? People wrongly think that they should know everything. They think that they can despise the most necessary and important fields of knowledge, and penetrate the mysteries that do not belong to us.'",
+        "author": "XENOPHON"
+      },
+      {
+        "type": "quote",
+        "message": "Not only is real science not hostile to religion, in fact real science always supports it.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "Knowledge is limitless, and the most scholarly and educated person is as far from true knowledge as an uneducated peasant.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "We cannot imagine the scope of our ignorance, just as a blind man cannot imagine darkness until he can see.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "It is better to know less than necessary than to know more than necessary. Do not fear the lack of knowledge, but truly fear unnecessary knowledge which is acquired only to please vanity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "It would be possible to eat meat if it were justified by any serious considerations. But it isn’t; and meat eating is simply a bad thing that exists without any justification at all."
+      },
+      {
+        "type": "quote",
+        "message": "What nature of struggle for existence or kind of madness forces you to shed blood with your hands in order to eat animals? Why do this, if you have all the comforts of life?",
+        "author": "PLUTARCH"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "If it were not so blindly accepted as a part of our customs and traditions, how could any sensitive person accept the thought that in order to feed ourselves we should kill such a huge number of animals, in spite of the fact that our earth gives us so many different treasures from plants?"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "There is a big difference between, on the one hand, a person who does not have access to any food except meat, and on the other, an educated person of today who lives in a country which has vegetables and milk in abundance, and who is instructed against meat eating. The educated person sins greatly if he continues to behave in a way he knows is wrong."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Work is not a virtue, but it is the necessary condition of a virtuous life."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Hurried work done in irritation attracts the unfavorable attention of others. Real work is always quiet, constant, and inconspicuous."
+      },
+      {
+        "type": "quote",
+        "message": "It is not enough to be a hardworking person. Think: what do you work at?",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "For every idle person, there is another person who works too much."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "For every person who eats to excess, there is another person somewhere who is hungry."
+      },
+      {
+        "type": "quote",
+        "italics": "true",
+        "message": "Much of the activity of idle people who pretend that they are busy with work is merely entertaining; it just adds a burden to other people. This can be said of all luxuriant entertainments."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "All true wisdom and all true faith are clearly expressed in the same moral law."
+      },
+      {
+        "type": "quote",
+        "message": "All the world is subject to one law, and all thinking beings have the same basic intellect. Therefore, all wise men share the same idea of perfection.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The more I dedicate my time to two things, the more they fill my life with ever-increasing pleasure. The first is the sky above me, and the second is the moral law within me.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.",
+        "author": "MATTHEW 7:12"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Moral law is so obvious and clear that even people who do not know the law have no excuse for violating it. They have only one recourse: to deny their intellect, which they do."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Blaming others is an entertainment which some people like and cannot restrain themselves from. When you see all the harm this blaming causes, you see that it is a sin not to stop people from practicing this entertainment."
+      },
+      {
+        "type": "quote",
+        "message": "If you want to blame me, you should not be with me. You should be inside me.",
+        "author": "ADAM MICKIEWICZ"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Truth is achieved through discussion, but the wiser man stops the arguments."
+      },
+      {
+        "type": "quote",
+        "message": "Our greatest imperfections are in our inner vision. We are so shortsighted that we cannot see bad things in others, but we cannot find bad things in ourselves as well.",
+        "author": "EDWARD BROWN"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "As soon as you start blaming a person, stop yourself. Remember not to say something bad about someone, even if you know it to be true, and especially if you are not certain but are only repeating gossip."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Most people act, not according to their meditations, and not according to their feelings, but as if hypnotized, based on some senseless repetition of patterns."
+      },
+      {
+        "type": "quote",
+        "message": "You should be brave enough to use your own intellect, in life and in your education.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "If, among the many voices which speak in my soul, I could only recognize my soul’s true voice, then I would never make mistakes, and never do evil. This is why it is necessary to know yourself."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "If you see that you are not behaving according to your inner desires, but because of some outer influence, stop and consider whether what drives you is good or bad."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 29
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Worse than all the troubles and horrors of war is the perversion of minds it causes. Armies exist and the cost of war exists, and people must wrestle to find explanations for what exists. War cannot be explained with the intellect, so to justify it, people create intellectual perversions."
+      },
+      {
+        "type": "quote",
+        "message": "Is there anything more absurd than a person having a right to kill me because we live on two opposite banks of the river, and our kings quarrel with each other?",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "The time will come when people will understand the stupidities of war.",
+        "author": "CHARLES RICHE"
+      },
+      {
+        "type": "quote",
+        "message": "European countries have about four million people serving in the army. Two thirds of their budget are spent on military spending.",
+        "author": "GUSTAVE DE MOLINARI"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Do not try to justify war or the existence of the military. If you try to apply logical thought to explain things that are evil, the effort will only prevent your intellect and poison your heart."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 9,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "The more lonely a person is, the more clearly he can hear the voice of God."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "The will to accomplish your good intentions depends on whether you voice them. You remember the things of which you spoke in your youth as if they were flowers that you tore out of a flower bed and threw away, and then saw lying on the earth, faded into the dirt."
+      },
+      {
+        "type": "quote",
+        "message": "In the important questions of life, we are always alone. Our deepest inner thoughts cannot be understood by others. The best part of the drama that goes on deep in our soul is a monologue, or, better to say, a very sincere conversation between God, our conscience, and ourself.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Temporary solitude from all things in this life, the meditation within yourself about the divine, is food as necessary for your soul as material food is for your body."
+      }
     ]
   ]
 }
