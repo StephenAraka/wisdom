@@ -9580,6 +9580,243 @@
         "italics": "true",
         "message": "Temporary solitude from all things in this life, the meditation within yourself about the divine, is food as necessary for your soul as material food is for your body."
       }
+    ],
+    //End of September
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "A sage is not afraid of lack of knowledge: he is not afraid of hesitations, or hard work, but he is afraid of only one thing—to pretend to know the things which he does not know."
+      },
+      {
+        "type": "quote",
+        "message": "You should study more to understand that you know little.",
+        "author": "MICHEL DE MONTAIGNE"
+      },
+      {
+        "type": "quote",
+        "message": "Never be ashamed to admit what you do not know.",
+        "author": "ARABIC PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Put everything to the test, hold fast to that which is good.",
+        "author": "I THESSALONIANS 5:21"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Real wisdom comes, not from knowing what is good and what should be done, but from knowing which is the better thing and which is the worse, and therefore, what should be done and what should be done later."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "To be wise one must study both good and bad thoughts and acts, but one should study the bad first. You should first know what is not clever, what is not just, and what is not necessary to do."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Religion is that which tells a person who he is and what the nature of the world in which he lives is."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "We should teach our children those principles that are common to all religions—Buddhist, Muslim, Christian, Jewish, and so on, that is, for the moral science of love and the unification of all people."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Most people do not listen to God but adore him. It is better not to adore but to listen."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Moral teaching is not complete if it is not religious, but religious teaching is useless if it is not based on morality, that is, if it does not lead to a good life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Big wealth will not give you satisfaction. The more your wealth grows, the more your requirements grow with it."
+      },
+      {
+        "type": "quote",
+        "message": "It is difficult if not impossible to find some reasonable limit for acquiring more and more property.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "You should acquire the kind of wealth which cannot be stolen from you by thieves, which people in power cannot take from you, which will stay with you even after your death, never diminishing and never disappearing. This wealth is your soul.",
+        "author": "INDIAN PROVERB"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "There are two ways not to suffer from poverty. The first is to acquire more wealth. The second is to limit your requirements. The first is not always within our power, but the second is always in our power."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Real love refers not just to love for a particular person but to the spiritual state of loving everyone."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "To love means to live within the lives of those whom you love."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Do not force others to love you; just love others, and you will be loved."
+      },
+      {
+        "type": "quote",
+        "message": "A holy person lives in the world, but he is concerned most of all about his attitude to people. He can feel all people, and he can sense all people, and all people turn their ears and eyes to him.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "quote",
+        "message": "Without love nothing can bring you goodness, and every action inspired with love, even if it seems small and unimportant, will bring you some fruits afterward.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "quote",
+        "message": "Religion is the highest form of love.",
+        "author": "THEODORE PARKER"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "The more a person expresses his love, the more people love him; and the more people love him, the easier it is for him to love others. In this way, love is eternal."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Your spirit must constantly assert itself because your body is constantly exerting itself. As soon as you stop working at your spirit, then your body will have complete power over you."
+      },
+      {
+        "type": "quote",
+        "message": "What is not clear should be cleared up. What is not easy to do should be done with great persistence.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "quote",
+        "message": "We suffer from our vices, and try to struggle with them, and the reason for this struggle is that we are not perfect. But our salvation is in this struggle with vices, and if God were to take away our ability to fight our vices, then we would be left with them forever.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "A good thing is always done with an effort, and when the effort is repeated several times, then a good thing becomes a habit."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Do not detest any action which helps you to achieve good, or even more importantly—which can prevent you from doing evil."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "Illness should be viewed as a natural condition of life."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Neglecting your health can prevent you from serving people, and too much attention to your body and its health can bring the same results. In order to find the middle way, you should take care of your body only to the extent that doing so helps you to serve others, and does not stop you from serving them."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "No illness can prevent a person from what he has to do. If you cannot work, then give your love to people."
+      },
+      {
+        "type": "quote",
+        "message": "Illnesses of the mind are much more dangerous than illnesses of the body.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "Do not be afraid of illness, and do not think that being ill frees you from your moral requirements."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": "true",
+        "message": "You can call God by various names, you can avoid his name altogether, but you cannot avoid accepting his existence. Nothing exists here if God does not exist."
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "All I know I know because there is God, and I know Him because He gives me the knowledge of everything."
+      },
+      {
+        "type": "quote",
+        "message": "Let us think about God, remember Him, and talk to Him as often as we can.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "God is not an idol; he is an ideal which we should strive for in our everyday life.",
+        "author": "LUCY MALLORY"
+      },
+      {
+        "type": "message",
+        "italics": "true",
+        "message": "It is very important to remember God, not necessarily with words, but in the sense of being aware of Him following your actions, supporting them or criticizing them. Russian peasants have a saying: “Do you remember God?”"
+      }
     ]
   ]
 }
