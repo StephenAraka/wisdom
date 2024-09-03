@@ -59,6 +59,21 @@ export const getMessageFontSize = (message) => {
   const dayOfYear = Math.floor( diff / oneDay);
   return dateIndex = dayOfYear -1;
 }
+ export const numberOfDay = (date)=> {
+  console.log(date);
+  
+  const today = new Date()
+  let dateToCheck = new Date(date)
+  
+  const startOfYear = new Date(today.getFullYear(), 0, 0);
+  const diff = dateToCheck - startOfYear;
+  const oneDay = 1000 * 60 * 60 * 24;
+
+  const dayOfYear = Math.floor( diff / oneDay);
+  console.log(dayOfYear);
+  
+  return dateIndex = dayOfYear -1;
+}
 
 function stripNulls(array) {
   return array.filter(item => item !== null);

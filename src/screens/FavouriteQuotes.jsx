@@ -10,6 +10,7 @@ import React, { useEffect, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
 import {
   getFavoriteQuotes,
+  numberOfDay,
   removeFavoriteQuote,
   shareQuote,
 } from "../utils/helpers";
@@ -35,6 +36,12 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
     fetchFavQuotes();
   };
 
+  const handlePress = (item) => {
+    numberOfDay(item.date);
+
+    //console.log(item);
+  };
+
   const isFocused = useIsFocused();
 
   useEffect(() => {
@@ -52,31 +59,33 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
       : colors.cardBgColorLightTheme;
 
     return (
-      <View style={[styles.card, { backgroundColor }]}>
-        <Text style={styles.message} numberOfLines={3} ellipsizeMode="tail">
-          {message}
-        </Text>
-        <View style={styles.flexRow}>
-          <Text style={styles.date}>{date}</Text>
+      <TouchableOpacity onPress={() => handlePress(item)}>
+        <View style={[styles.card, { backgroundColor }]}>
+          <Text style={styles.message} numberOfLines={3} ellipsizeMode="tail">
+            {message}
+          </Text>
           <View style={styles.flexRow}>
-            {/* Icon to share a quote */}
-            <TouchableOpacity onPress={() => shareFavQuote(item)}>
-              <Image
-                source={require("../assets/images/icons/forward-icon-white.png")}
-                style={styles.icon}
-              />
-            </TouchableOpacity>
+            <Text style={styles.date}>{date}</Text>
+            <View style={styles.flexRow}>
+              {/* Icon to share a quote */}
+              <TouchableOpacity onPress={() => shareFavQuote(item)}>
+                <Image
+                  source={require("../assets/images/icons/forward-icon-white.png")}
+                  style={styles.icon}
+                />
+              </TouchableOpacity>
 
-            {/* Icon to remove quote from favorites */}
-            <TouchableOpacity onPress={() => removeFavQuote(item)}>
-              <Image
-                source={require("../assets/images/icons/delete-icon-white.png")}
-                style={styles.icon}
-              />
-            </TouchableOpacity>
+              {/* Icon to remove quote from favorites */}
+              <TouchableOpacity onPress={() => removeFavQuote(item)}>
+                <Image
+                  source={require("../assets/images/icons/delete-icon-white.png")}
+                  style={styles.icon}
+                />
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   };
 
