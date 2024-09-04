@@ -16,10 +16,13 @@ import {
 } from "../utils/helpers";
 import ScreenLayout from "../components/ScreenLayout";
 import colors from "../constants/colors";
+import { useNavigation } from "@react-navigation/native";
 
 import { connect } from "react-redux";
+import { updateDate, updateDateIndex } from "../context/actions/dateActions";
 
-const FavouriteQuotes = ({ isDarkTheme }) => {
+const FavouriteQuotes = ({ isDarkTheme, updateDate, updateDateIndex }) => {
+  const navigation = useNavigation();
   const [favoriteQuotes, setFavoriteQuotes] = useState([]);
 
   const fetchFavQuotes = async () => {
@@ -36,10 +39,10 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
     fetchFavQuotes();
   };
 
-  const handlePress = (item) => {
-    numberOfDay(item.date);
-
-    //console.log(item);
+  const seeQuoteSource = (item) => {
+    updateDate(item.date);
+    updateDateIndex(numberOfDay(item.date));
+    navigation.navigate("Quotes");
   };
 
   const isFocused = useIsFocused();
@@ -59,7 +62,7 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
       : colors.cardBgColorLightTheme;
 
     return (
-      <TouchableOpacity onPress={() => handlePress(item)}>
+      <TouchableOpacity onPress={() => seeQuoteSource(item)}>
         <View style={[styles.card, { backgroundColor }]}>
           <Text style={styles.message} numberOfLines={3} ellipsizeMode="tail">
             {message}
@@ -112,9 +115,15 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
 
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
+  dateIndex: state.theme.dateIndex,
 });
 
-export default connect(mapStateToProps)(FavouriteQuotes);
+const mapDispatchToProps = {
+  updateDate,
+  updateDateIndex,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(FavouriteQuotes);
 
 const styles = StyleSheet.create({
   card: {
