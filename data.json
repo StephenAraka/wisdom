@@ -5058,12 +5058,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There is no worse harm for a person with a strong intellect than the temptation to make witty remarks that blame and mock his neighbors"
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Making jokes and blaming and mocking others is like covering a dead body with a nice sauce and presenting it as a meal. Without the sauce, you would turn away, but with it, you find you can easily eat this distasteful meal."
       },
       {
@@ -5158,7 +5158,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "The possession of great wealth is a school of pride, cruelty, self-admiration, and dissipation."
       },
       {
@@ -5168,7 +5168,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "You should not respect a rich person, for wealth, not even the most innocent wealth, necessarily results from a society where people abuse one another."
       }
     ],
@@ -9293,7 +9293,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Faith in the existence of eternity is our exclusively human quality."
       },
       {
@@ -9313,12 +9313,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Death is the destruction of the bodily organs with which I see my world during my life; the destruction of the glass through which I look at this world. The destruction of this glass does not mean the destruction of the eye itself."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Our understanding of eternity is the voice of God who lives within us."
       }
     ],
@@ -9331,7 +9331,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "No matter how big mankind’s store of knowledge seems to me in comparison with our previous ignorance, it is only an infinitely small part of all possible knowledge."
       },
       {
@@ -9356,7 +9356,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "It is better to know less than necessary than to know more than necessary. Do not fear the lack of knowledge, but truly fear unnecessary knowledge which is acquired only to please vanity."
       }
     ],
@@ -9369,7 +9369,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "It would be possible to eat meat if it were justified by any serious considerations. But it isn’t; and meat eating is simply a bad thing that exists without any justification at all."
       },
       {
@@ -9379,12 +9379,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "If it were not so blindly accepted as a part of our customs and traditions, how could any sensitive person accept the thought that in order to feed ourselves we should kill such a huge number of animals, in spite of the fact that our earth gives us so many different treasures from plants?"
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There is a big difference between, on the one hand, a person who does not have access to any food except meat, and on the other, an educated person of today who lives in a country which has vegetables and milk in abundance, and who is instructed against meat eating. The educated person sins greatly if he continues to behave in a way he knows is wrong."
       }
     ],
@@ -9397,12 +9397,12 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Work is not a virtue, but it is the necessary condition of a virtuous life."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Hurried work done in irritation attracts the unfavorable attention of others. Real work is always quiet, constant, and inconspicuous."
       },
       {
@@ -9412,17 +9412,17 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "For every idle person, there is another person who works too much."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "For every person who eats to excess, there is another person somewhere who is hungry."
       },
       {
         "type": "quote",
-        "italics": "true",
+        "italics": true,
         "message": "Much of the activity of idle people who pretend that they are busy with work is merely entertaining; it just adds a burden to other people. This can be said of all luxuriant entertainments."
       }
     ],
@@ -9435,7 +9435,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "All true wisdom and all true faith are clearly expressed in the same moral law."
       },
       {
@@ -9455,7 +9455,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Moral law is so obvious and clear that even people who do not know the law have no excuse for violating it. They have only one recourse: to deny their intellect, which they do."
       }
     ],
@@ -9468,7 +9468,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Blaming others is an entertainment which some people like and cannot restrain themselves from. When you see all the harm this blaming causes, you see that it is a sin not to stop people from practicing this entertainment."
       },
       {
@@ -9478,7 +9478,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Truth is achieved through discussion, but the wiser man stops the arguments."
       },
       {
@@ -9488,7 +9488,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "As soon as you start blaming a person, stop yourself. Remember not to say something bad about someone, even if you know it to be true, and especially if you are not certain but are only repeating gossip."
       }
     ],
@@ -9501,7 +9501,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Most people act, not according to their meditations, and not according to their feelings, but as if hypnotized, based on some senseless repetition of patterns."
       },
       {
@@ -9511,12 +9511,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "If, among the many voices which speak in my soul, I could only recognize my soul’s true voice, then I would never make mistakes, and never do evil. This is why it is necessary to know yourself."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "If you see that you are not behaving according to your inner desires, but because of some outer influence, stop and consider whether what drives you is good or bad."
       }
     ],
@@ -9529,7 +9529,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Worse than all the troubles and horrors of war is the perversion of minds it causes. Armies exist and the cost of war exists, and people must wrestle to find explanations for what exists. War cannot be explained with the intellect, so to justify it, people create intellectual perversions."
       },
       {
@@ -9549,7 +9549,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Do not try to justify war or the existence of the military. If you try to apply logical thought to explain things that are evil, the effort will only prevent your intellect and poison your heart."
       }
     ],
@@ -9562,12 +9562,12 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "The more lonely a person is, the more clearly he can hear the voice of God."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "The will to accomplish your good intentions depends on whether you voice them. You remember the things of which you spoke in your youth as if they were flowers that you tore out of a flower bed and threw away, and then saw lying on the earth, faded into the dirt."
       },
       {
@@ -9577,7 +9577,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Temporary solitude from all things in this life, the meditation within yourself about the divine, is food as necessary for your soul as material food is for your body."
       }
     ],
@@ -9591,7 +9591,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "A sage is not afraid of lack of knowledge: he is not afraid of hesitations, or hard work, but he is afraid of only one thing—to pretend to know the things which he does not know."
       },
       {
@@ -9611,12 +9611,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Real wisdom comes, not from knowing what is good and what should be done, but from knowing which is the better thing and which is the worse, and therefore, what should be done and what should be done later."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "To be wise one must study both good and bad thoughts and acts, but one should study the bad first. You should first know what is not clever, what is not just, and what is not necessary to do."
       }
     ],
@@ -9629,22 +9629,22 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Religion is that which tells a person who he is and what the nature of the world in which he lives is."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "We should teach our children those principles that are common to all religions—Buddhist, Muslim, Christian, Jewish, and so on, that is, for the moral science of love and the unification of all people."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Most people do not listen to God but adore him. It is better not to adore but to listen."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Moral teaching is not complete if it is not religious, but religious teaching is useless if it is not based on morality, that is, if it does not lead to a good life."
       }
     ],
@@ -9657,7 +9657,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Big wealth will not give you satisfaction. The more your wealth grows, the more your requirements grow with it."
       },
       {
@@ -9672,7 +9672,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There are two ways not to suffer from poverty. The first is to acquire more wealth. The second is to limit your requirements. The first is not always within our power, but the second is always in our power."
       }
     ],
@@ -9685,17 +9685,17 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Real love refers not just to love for a particular person but to the spiritual state of loving everyone."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "To love means to live within the lives of those whom you love."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Do not force others to love you; just love others, and you will be loved."
       },
       {
@@ -9715,7 +9715,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "The more a person expresses his love, the more people love him; and the more people love him, the easier it is for him to love others. In this way, love is eternal."
       }
     ],
@@ -9728,7 +9728,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Your spirit must constantly assert itself because your body is constantly exerting itself. As soon as you stop working at your spirit, then your body will have complete power over you."
       },
       {
@@ -9743,12 +9743,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "A good thing is always done with an effort, and when the effort is repeated several times, then a good thing becomes a habit."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Do not detest any action which helps you to achieve good, or even more importantly—which can prevent you from doing evil."
       }
     ],
@@ -9761,17 +9761,17 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Illness should be viewed as a natural condition of life."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Neglecting your health can prevent you from serving people, and too much attention to your body and its health can bring the same results. In order to find the middle way, you should take care of your body only to the extent that doing so helps you to serve others, and does not stop you from serving them."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "No illness can prevent a person from what he has to do. If you cannot work, then give your love to people."
       },
       {
@@ -9781,7 +9781,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Do not be afraid of illness, and do not think that being ill frees you from your moral requirements."
       }
     ],
@@ -9794,12 +9794,12 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "You can call God by various names, you can avoid his name altogether, but you cannot avoid accepting his existence. Nothing exists here if God does not exist."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "All I know I know because there is God, and I know Him because He gives me the knowledge of everything."
       },
       {
@@ -9814,7 +9814,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "It is very important to remember God, not necessarily with words, but in the sense of being aware of Him following your actions, supporting them or criticizing them. Russian peasants have a saying: “Do you remember God?”"
       }
     ],
@@ -9827,12 +9827,12 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Only people who have never thought about life’s most important issues can believe that everything is possible for the human intellect."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There are three types of people. First, there are people who do not believe in anything; then, there are people who believe only in those teachings they were brought up to believe. Finally, there are people who believe in those things which they understand with their hearts, and this last group of people is the wisest and most resolute."
       },
       {
@@ -9847,7 +9847,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Do not pretend to understand something that you do not. It is one of the worst possible things to do."
       }
     ],
@@ -9860,7 +9860,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "A person who comes into an understanding of the life of his spiritual self cannot fear evil, either in life or in death."
       },
       {
@@ -9880,7 +9880,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Salvation in all things lies in their spirituality. Evil cannot touch a person who knows his spirituality."
       }
     ],
@@ -9893,27 +9893,27 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "A man is both an animal and a spiritual being at the same time. As an animal, a man is afraid of death; as a spiritual being he does not experience death."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "In the last moments before death, the soul leaves the body. It unites with the limitless, timeless, and eternal soul and transforms into another form, we know not which. After death, our body is left behind, and it becomes only an object for observation."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Death marks a change, it marks the disappearance of the dwelling place of your conscience. The conscience itself cannot be destroyed by death, in the same way as the change of a theater set cannot destroy a spectator."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Perhaps you fear the changes that death will bring?"
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "But a similar great change already happened at the time of your birth, and nothing bad came out of it."
       }
     ],
@@ -9926,32 +9926,32 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "Most people are proud, not of those things which arouse respect, but of those which are unnecessary, or even harmful: fame, power, and wealth."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There is no worse scoundrel than he who, when he looks around himself at other people, can always find an even worse scoundrel than himself; and therefore, can be quite satisfied with himself."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "A person who loves himself has the advantage of having very few competitors."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "There is no wisdom in he who thinks that he is wise."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "A selfish person is always limited. And one is connected with the other: he is selfish because he is limited; he is limited because he is selfish."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "A proud person initially causes other people to think that he has more importance than he actually has, but when this influence disappears, as it always does, he becomes only the object of jokes."
       }
     ],
@@ -9969,7 +9969,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "A society says to a man: “Think as we think, believe in what we believe, eat and drink what we eat and drink, and dress in the way we dress.”"
       },
       {
@@ -9979,7 +9979,7 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "It is bad to irritate people by stepping back from their customs and traditions, but it is even worse to deny the requirements of your conscience and intellect by following the customs of the crowd."
       }
     ],
@@ -9992,7 +9992,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "A state system, no matter what kind of state system it is, functions at a far remove from the requirements of Christianity."
       },
       {
@@ -10002,12 +10002,12 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "State violence cannot be destroyed by decree, only by truth and love Maybe state violence was necessary for previous generations; maybe it is even necessary now, but people should conceive of a kind of future government in which violence will not be necessary."
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "You should live in such a way that violence is not necessary for you."
       }
     ],
@@ -10020,7 +10020,7 @@
       },
       {
         "type": "intro",
-        "italics": "true",
+        "italics": true,
         "message": "People are taught to speak, but their major concern should be how to keep silent."
       },
       {
@@ -10040,8 +10040,554 @@
       },
       {
         "type": "message",
-        "italics": "true",
+        "italics": true,
         "message": "Keep silent. Give rest to your tongue more often than to your hands. You will never regret that you have kept silent but you will often regret that you spoke too much."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Your chief task in life is the care of your soul. You should care for your soul and work to improve it, and you can improve it only with love."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The meaning of life lies in two major areas: your personal perfection and service to other people. You can serve while you are moving toward perfection, and you can move toward perfection by serving people."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When I talk of moving toward perfection, I mean moving from a material to a spiritual plane, a plane of goodness, without time or death."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only one step lies between a five-year-old child and a man of my age. Between a newborn baby and a five-year-old child lies a huge distance. Between a fetus and a newborn baby lies an abyss; and between nonexistence and a fetus lies not only an abyss, but a gulf that surpasses comprehension."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "From childhood to death, humans, no matter their lot in life, should strive to grow to get closer and closer to the spiritual life. Strive to learn what God wants, and your life will become filled with freedom and joy."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "God is in all of us, and it is possible for all of us to find and understand him there."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "To know yourself is to discover the good that lies within."
+      },
+      {
+        "type": "quote",
+        "message": "God is close to us; he is with us: the divine spirit is inside of us. If he were not, the power to be good would be beyond our reach. A person cannot be good without God.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you are going through a hard time, work harder to understand God; as soon as you understand Him, all difficult things will become easy, and you will feel love and joy."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If a person does not feel a divine force within himself, this does not mean that a divine force does not exist in him, but that he has not yet learned how to recognize it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "If there are people and there is God, then there are relationships between God and people. These relationships are changing with time, and mankind’s religious conceptions are constantly evolving, constantly improving, becoming more clear and easily understood with the passage of time."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Religious conscience of mankind is not rigid, it is changing all the time, becoming purer and clearer."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God is spirit and part of this spirit lives inside me and gives sense to my life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is much good to be learned from the Koran, from the Buddhists, from Confucius, from the Old Testament, from the Indian Upanishads, and from the New Testament. But the closer a religious thinker or philosopher is to us in time, the more he can help us draw from these teachings in the light of our present-day lives."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The past no longer exists; the future has not yet come; there is only the present. And only in the present can the divine nature of the free human soul be manifested."
+      },
+      {
+        "type": "quote",
+        "message": "Then Jesus said unto them, Yet a little while is the light with you. Walk while ye have the light, lest darkness come upon you: for he that walketh in darkness knoweth not whither he goeth.",
+        "author": "JOHN 12:35"
+      },
+      {
+        "type": "quote",
+        "message": "Everyone knows that our habits are improved and strengthened through their exercise. In order to be a good walker, you need to walk a lot; in order to be a strong runner, you need to run frequently; in order to be a perceptive reader, you ought to read as much as you can. The same is true of your soul: if you become angry, you must know that you not only perform evil, but you also create an evil habit, and you increase your potential for further evil.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you want to do a good deed, do it now. The time will pass, and you will not have the chance again."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The meaning of life is revealed to those who are ready to accept the things which will be revealed. And it is he who has already decided that he will accept the truth as it is, and not the truth itself, which will change the way of life he has been accustomed to."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Who am I? What should I do? What should I believe in and what should I hope for? All of philosophy is in these questions, said the philosopher Lichtenberg. But among all these questions, the most important one is that which is in the middle. If a person knows what he should do, he will understand everything which he should know."
+      },
+      {
+        "type": "quote",
+        "message": "Woe to the people who look without understanding, who do not know their foundations.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "Every bird always knows where to make her nest. And if she knows how and where to make her nest, this means that she knows her purpose in life. And why does man, who is the wisest among all creatures, not know that which any bird knows, that is, his purpose in life?",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The real meaning of life is not possible to embrace, if you are looking for the universal meaning of life. And at the same time, it is so simple that it can be explained to fools and to infants when what to know is what you should do as an individual."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 20
+        }
+      },
+      {
+        "type": "quote",
+        "message": "The life of man is filled with intellect only when the fulfillment of your duty is understood. We all know for sure that death waits for us. We do not know when, just as we do not know where we came from.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "quote",
+        "message": "Virtue is a service which a person should do for himself. If there were no heaven and no God who ruled this world, even then virtue would be the necessary law of life.",
+        "author": "INDIAN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you approach a man, you should think not about how he can help you, but how you might serve and help him."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We have the necessary law for all our actions, and this law cannot be restricted by any power. The fulfillment of this law is possible even in prison, and under the threat of tortures and death."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Look for a kind life which is in harmony with the will of God, and then you will fulfill the duty of your life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "In the same way as the storm troubles and muddies the waters, so too passions trouble our souls and interfere with our understanding of this life."
+      },
+      {
+        "type": "quote",
+        "message": "People with great and wonderful souls are always quiet and happy. Those people who do not have spirituality are always unhappy.",
+        "author": "CHINESE PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Do not be concerned too much with what will happen. Everything which happens will be good and useful for you.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "A person will understand his place in the world only when he understands his soul.",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Real power is not in momentary desires, but in complete calmness."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Complete outer calmness is impossible. But when there are some calm periods, we should appreciate them and make them last longer. This is the time when useful thoughts appear; they become stronger and guide us in life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 22
+        }
+      },
+      {
+        "type": "message",
+        "message": "Make sure that you do not gossip about your brother."
+      },
+      {
+        "type": "message",
+        "message": "Time passes, but the words which you say will remain."
+      },
+      {
+        "type": "message",
+        "message": "To stop your tongue from talking too much is a sign of great virtue."
+      },
+      {
+        "type": "quote",
+        "message": "The human soul, not by itself, but by some power, is pushed closer and closer to truth and goodness, and the better we understand this, the more humble we will be.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you think that it is necessary to judge your neighbor, then say this looking directly into his eyes, and say this in such a way that you do not create animosity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "intro": true,
+        "message": "Conscience is the understanding of the divine beginning which lives in us."
+      },
+      {
+        "type": "quote",
+        "message": "Conscience is the real judge between good and bad, conscience is what makes a person similar to God, and conscience is the greatest advantage of human nature. Without conscience there would be nothing that would raise us above the animals, and people would move from one lie to another.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "quote",
+        "message": "The purpose of your life is not to do as the majority does, but to live according to the inner law which you understand in yourself. Do not act against your conscience or against truth. Live like this, and you will fulfill the task of your life.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "intro": true,
+        "message": "You cannot fight with the requirements of conscience. These are the rules of God, and it is better to submit to them."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 24
+        }
+      },
+      {
+        "type": "message",
+        "message": "If the foundations of our life were not of the same nature in all of us, then we would not be able to explain to each other those feelings of compassion which we really experience."
+      },
+      {
+        "type": "quote",
+        "message": "Compassion expressed in response to rage is the same as water for fire. When you are in a rage, try to feel compassion for the other person, and then your rage will disappear.",
+        "author": "After ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There are many people who are more unhappy than you. This message cannot be a roof under which you may live, but it will be enough of a roof under which you may hide from storms."
+      },
+      {
+        "type": "quote",
+        "message": "You hide from your misfortunes. But if you knew what other people suffered, then you would not complain about your own.",
+        "author": "SOLON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Real compassion begins only when you put yourself in the place of those who suffer, and you feel real suffering."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A person can understand his purpose in the same way as he understands his dignity. Only a religious person can understand his purpose in life."
+      },
+      {
+        "type": "quote",
+        "message": "A king asked a holy man, 'Do you remember about me?' The holy man answered, 'Yes, I think about you, when I forget about God.'",
+        "author": "MUSLIH-UD-DIN SAADI"
+      },
+      {
+        "type": "quote",
+        "message": "We fulfill the law of God when we feel the lives of others as our own life.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The freedom of a person is a great thing, and even the freedom of a whole nation begins from the freedom of a single individual."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only he who understands himself as a spiritual being can understand the spiritual dignity of other people. Such a person will not lower himself with any act which is not worthy of a spiritual person."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "For the moral, spiritual life, the importance of things is measured not by their material value, but by their level of goodness."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The majority of people want to do something unusual and difficult in order to improve their lives, but they would be better to purify their wishes, and improve their inner selves."
+      },
+      {
+        "type": "quote",
+        "message": "The second things are much more important than the first.",
+        "author": "After FRANÇOIS FÉNELON"
+      },
+      {
+        "type": "quote",
+        "message": "A person understands himself not through thoughts, but with actions. It is only through making an effort that a person will understand his worth.",
+        "author": "JOHANN WOLFGANG VON GOETHE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "To move yourself from the material to the spiritual means to do only spiritual things. My material body pulls my inner self to itself, but I try to separate my spiritual self from the material body. Though I use my body, I live within my spiritual life, which is my real life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Real religion cannot be opposed to intellect."
+      },
+      {
+        "type": "quote",
+        "message": "Do not believe that in religion you cannot trust your intellect. The force of our intellect must support the foundations of every real faith.",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "quote",
+        "message": "If God, the object of our faith, is higher than our understanding, and if you do not understand Him, it does not mean that you should not use your intellect trying to understand Him.",
+        "author": "FYODOR STRAKHOV"
+      },
+      {
+        "type": "quote",
+        "message": "While ye have light, believe in the light, that ye may be the children of light. These things spake Jesus, and departed, and did hide himself from them.",
+        "author": "JOHN 12:36"
+      },
+      {
+        "type": "message",
+        "message": "In order to understand the truth, you should not suppress your intellect. On the contrary, you should purify your intellect, exercise it, and intellectually try and test everything which we can possibly put to the test."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 28
+        }
+      },
+      {
+        "type": "quote",
+        "message": "Pain is the necessary condition of our body, and suffering is the necessary condition of our spiritual life, from birth to death.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "You should welcome everything which happens to you from birth to death, because the existence and the purpose of the world is in these cases.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "Only in the storm can you see the art of the real sailor; only on the battlefield can you see the bravery of a soldier. The courage of a simple person can be seen in how he copes with the difficult and dangerous situations in life.",
+        "author": "DANIEL ACHINSKY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those things which we call happiness and those which we call unhappiness are useful for us, especially when we see them as opportunities to try ourselves."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The legend about the wandering Jew who was suffering the punishment of eternal life is very true. In the same way, there is a legend about a man who was punished by being given a life without any suffering."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 29
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There is nothing more important than an example. It leads us to do good deeds which would be impossible without this example. Therefore, if we use dissipated or passionate or cruel people as examples, it destroys our soul. The contrary is also true."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who do not think independently are under the influence of somebody else who thinks for them. If you give your thoughts to somebody else, it is a more shameful slavery than if you give your body to someone to possess."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you desire to follow someone as an example, as many other people do, first stop and think whether it is worthwhile to follow this general example."
+      },
+      {
+        "type": "quote",
+        "message": "Those who are not afraid of truly terrible things follow false examples and those people follow the path to destruction.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Evil influence can be destroyed only by good influence. And the way to receive a good influence is to have a good life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A sense of self-importance so high that it surpasses all limits is a mental illness called mania grandiosa."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "People think that self-sacrifice violates your freedom. Those people do not know that sacrifice gives us complete freedom, and frees us from ourselves, from the slavery of our dissipation."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Our passions are the most terrible tyrants, and we can be the slave of them. Only self-sacrifice can free us from this slavery."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you teach others how many insects exist in this world, or when you look at the spots on the sun, or when you write an opera or a novel—we do these things for different purposes. But to teach people goodness is done only for the purpose of self-sacrifice, service to others, and you cannot express this teaching without self-sacrifice. Christ gave his life on the cross for a great purpose, not in vain. And a sacrifice or suffering is never in vain, and it will triumph over everything."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 10,
+          "day": 31
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Nothing can interfere with the growth of truth in the world: nothing except the wish to save old prejudices."
+      },
+      {
+        "type": "quote",
+        "message": "People say that God created mankind after his image. This means that man created God after his image.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "quote",
+        "message": "If we believe in the things we were taught, there is goodness and evil at the same time.",
+        "author": "HENRY GEORGE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Humanity slowly but ceaselessly moves forward to the better and better understanding of the meaning of this life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Among the most terrible lies of all is to teach false faith to children."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Disrespect for traditions has not caused even one thousandth part of the great evil which was caused by the old prejudices, traditions, customs, and institutions which should not exist at present."
       }
     ]
   ]
