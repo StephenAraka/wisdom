@@ -48,8 +48,8 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
         ? colors.cardBgBlueDarkTheme
         : colors.cardBgGreyDarkTheme
       : index % 2 === 0
-      ? colors.cardBgGrey
-      : colors.cardBgColorLightTheme;
+      ? colors.cardBgColorLightTheme
+      : colors.cardBgGrey;
 
     return (
       <View style={[styles.card, { backgroundColor }]}>
