@@ -5,6 +5,8 @@ export default {
   menuBgColorLightTheme: '#EBEBEB',
   wisdomBlue: '#00d4f0',
   cardBgBlueDarkTheme: "rgba(3, 159, 180, 0.35)",
+  cardBgColorLightTheme: "#039FB4",
+  cardBgGrey: "#979797",
   cardBgBlueLightTheme: "#039FB4",
   cardBgGreyLightTheme: "#979797",
   cardBgGreyDarkTheme: "rgba(151, 151, 151, 0.35)",
