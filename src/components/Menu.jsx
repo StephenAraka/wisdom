@@ -39,6 +39,7 @@ const Menu = ({
 
   const likeQuote = async () => {
     let quoteToLike = { ...currentSubquote, date };
+
     const { success, isDuplicate } = await addQuoteToFavorites(quoteToLike);
     if (isDuplicate) console.log("Already liked, relax");
   };

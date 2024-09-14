@@ -10,15 +10,19 @@ import React, { useEffect, useState } from "react";
 import { useIsFocused } from "@react-navigation/native";
 import {
   getFavoriteQuotes,
+  numberOfDay,
   removeFavoriteQuote,
   shareQuote,
 } from "../utils/helpers";
 import ScreenLayout from "../components/ScreenLayout";
 import colors from "../constants/colors";
+import { useNavigation } from "@react-navigation/native";
 
 import { connect } from "react-redux";
+import { updateDate, updateDateIndex } from "../context/actions/dateActions";
 
-const FavouriteQuotes = ({ isDarkTheme }) => {
+const FavouriteQuotes = ({ isDarkTheme, updateDate, updateDateIndex }) => {
+  const navigation = useNavigation();
   const [favoriteQuotes, setFavoriteQuotes] = useState([]);
 
   const fetchFavQuotes = async () => {
@@ -33,6 +37,12 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
   const removeFavQuote = async (item) => {
     await removeFavoriteQuote(item);
     fetchFavQuotes();
+  };
+
+  const seeQuoteSource = (item) => {
+    updateDate(item.date);
+    updateDateIndex(numberOfDay(item.date));
+    navigation.navigate("Quotes");
   };
 
   const isFocused = useIsFocused();
@@ -52,31 +62,33 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
       : colors.cardBgGrey;
 
     return (
-      <View style={[styles.card, { backgroundColor }]}>
-        <Text style={styles.message} numberOfLines={3} ellipsizeMode="tail">
-          {message}
-        </Text>
-        <View style={styles.flexRow}>
-          <Text style={styles.date}>{date}</Text>
+      <TouchableOpacity onPress={() => seeQuoteSource(item)}>
+        <View style={[styles.card, { backgroundColor }]}>
+          <Text style={styles.message} numberOfLines={3} ellipsizeMode="tail">
+            {message}
+          </Text>
           <View style={styles.flexRow}>
-            {/* Icon to share a quote */}
-            <TouchableOpacity onPress={() => shareFavQuote(item)}>
-              <Image
-                source={require("../assets/images/icons/forward-icon-white.png")}
-                style={styles.icon}
-              />
-            </TouchableOpacity>
+            <Text style={styles.date}>{date}</Text>
+            <View style={styles.flexRow}>
+              {/* Icon to share a quote */}
+              <TouchableOpacity onPress={() => shareFavQuote(item)}>
+                <Image
+                  source={require("../assets/images/icons/forward-icon-white.png")}
+                  style={styles.icon}
+                />
+              </TouchableOpacity>
 
-            {/* Icon to remove quote from favorites */}
-            <TouchableOpacity onPress={() => removeFavQuote(item)}>
-              <Image
-                source={require("../assets/images/icons/delete-icon-white.png")}
-                style={styles.icon}
-              />
-            </TouchableOpacity>
+              {/* Icon to remove quote from favorites */}
+              <TouchableOpacity onPress={() => removeFavQuote(item)}>
+                <Image
+                  source={require("../assets/images/icons/delete-icon-white.png")}
+                  style={styles.icon}
+                />
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
-      </View>
+      </TouchableOpacity>
     );
   };
 
@@ -103,9 +115,15 @@ const FavouriteQuotes = ({ isDarkTheme }) => {
 
 const mapStateToProps = (state) => ({
   isDarkTheme: state.theme.isDarkTheme,
+  dateIndex: state.theme.dateIndex,
 });
 
-export default connect(mapStateToProps)(FavouriteQuotes);
+const mapDispatchToProps = {
+  updateDate,
+  updateDateIndex,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(FavouriteQuotes);
 
 const styles = StyleSheet.create({
   card: {

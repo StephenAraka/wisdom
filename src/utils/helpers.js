@@ -60,6 +60,17 @@ export const getMessageFontSize = (message) => {
   return dateIndex = dayOfYear -1;
 }
 
+// Function to get number of day of Year from a date 
+ export const numberOfDay = (date)=> {
+  const thisYear = new Date().getFullYear();
+  const dateToCheck = new Date(`${date} ${thisYear}`);
+  const startOfYear = new Date(new Date().getFullYear(), 0, 0);
+  const diff = dateToCheck - startOfYear;
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor( diff / oneDay);
+  return dateIndex = dayOfYear - 1;
+}
+
 function stripNulls(array) {
   return array.filter(item => item !== null);
 }
