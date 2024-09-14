@@ -10820,6 +10820,346 @@
         "italics": true,
         "message": "We ask the wrong question when we say, 'What will happen after death?' When we speak about the future, we speak of time, but when we die, we leave time behind."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "We come to a right understanding of our life in relation to God in the same way we understand our relation to the world and to its things. Without conscience, we would never know anything about God."
+      },
+      {
+        "type": "quote",
+        "message": "The question is whether the intellectual one, without the heart, can understand God. The truth is that if our heart understands God our intellect will then start to seek Him.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "quote",
+        "message": "The basic foundation of the understanding of God is inside of us.",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A good worker probably does not know the details of the life of his master. Only a lazy worker tries to do nothing except find out more about his master’s way of life, tastes, and preferences in order to please him. The same is true of a person’s attitude to God. It is important to accept Him as your master and to know what He wants you to do. I may never know the answers to the questions 'What is He?' and 'How does He live?' I will never find out because I am not equal to Him. I am His worker, not His master."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Every person understands God in different ways, but people fulfill His will in the same way."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Self-admiration is the beginning of pride. Pride is dissipated self-admiration."
+      },
+      {
+        "type": "quote",
+        "message": "Those who do not hate their own selfishness, their placing of themselves higher than the rest of the world, are blind, because this action contradicts the truth.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "The lighter and less dense a substance is, the less space it occupies. The qualities which a proud person attributes to himself can be compared to this.",
+        "author": "EASTERN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There are many people who claim to be teachers of others who should themselves be taught first of all."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The most important thing in life is the path to perfection, and what kind of perfection can exist if a person is proud and satisfied with himself?"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "From the first moment the members of a religious gathering said, 'The Holy Spirit is among us,' when they claimed theirs the highest authority above all other authorities, when they accepted the results of their own meditation as more worthy than the divine spark that exists in every person (that is, the intellect and the conscience), from this time, a great lie originated, a lie which deceives the bodies and souls of many people, which has destroyed millions of human beings, and which continues its terrible work."
+      },
+      {
+        "type": "quote",
+        "message": "In 1682, a Dr. Leyton, a respected citizen of England who wrote a book criticizing a bishop, was put on trial and severely punished. First he was harshly beaten, then one ear was cut away. After several days he was beaten again, though the injuries on his back had not healed; then they cut off his second ear, and tore off his nose. This was done in the name of Christianity.",
+        "author": "RANDALL THOMAS DAVIDSON"
+      },
+      {
+        "type": "quote",
+        "message": "Christ never founded any church, never created any state, never passed any law, never established any government or other authority. He wanted to put the law of God into the hearts of people, to make them self-governed.",
+        "author": "HERBERT NEWTON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If there is a true church, the people who are inside it cannot see it from the outside."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 11
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Moral perfection is the impossible goal, but moving to it is the law of human life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Some people say, 'Man is selfish, greedy, and dissipated, and cannot be kind to other people.' This is not true. We can be good. Feel in your heart the kind of person you should be; this feeling will give you power."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A woman accidentally dropped a precious pearl into the sea, and she started to scoop ocean water with a spade, one cup after another. A sea-sprite came to her and said, 'When will you stop scooping up water?' The woman said, 'When I have taken all the water from the sea, and retrieved my pearl from the bottom.' Then the sea-sprite retrieved the pearl and returned it to her."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Outer consequences are not in our power to control; it is only possible to make an effort, and inner consequences always follow from our effort."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The land is the general and equal possession of all humanity, and therefore cannot be the property of individuals."
+      },
+      {
+        "type": "quote",
+        "message": "My intellect teaches me that land cannot be sold.",
+        "author": "BLACK HAWK"
+      },
+      {
+        "type": "quote",
+        "message": "The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me.",
+        "author": "LEVITICUS 25:23"
+      },
+      {
+        "type": "quote",
+        "message": "To be honest, the earth has two masters: the first is almighty God and the second are his sons; all the people who have worked and will work on it.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "quote",
+        "message": "All people, from the first, and without any judicial act, should possess the earth. They should be able to live where nature and chance have brought them.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The possession of land as property is one of the most unnatural crimes there is. We cannot see the horror of this crime because in our world it is accepted as law."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 13
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Self-perfection should be one’s primary motivation. If you are truthful to yourself, you will never be satisfied with yourself."
+      },
+      {
+        "type": "quote",
+        "message": "A person should always develop his ability to do goodness. Make yourself better; this should be every person’s goal.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "The first rule of achieving goodness is this: think only about self-perfection, and do so without thought to being praised by others.",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "He who moves from doing bad deeds to doing good deeds enlightens this world like the moon coming out from behind the clouds. This is the best thing in the world; this is the first step toward divinity.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who live life in perfection look only forward; those who have stopped moving forward look back on their achievements."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Dissatisfaction is a necessary condition of intellectual life. It is only this dissatisfaction that pushes you to work."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 14
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The most important knowledge is that which guides the way you lead your life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is harmful to eat if you are not hungry. It is even worse to have sex if you lack desire. But even more harmful is to try to think when you do not wish to, or to be engaged in meaningless intellectual activity. Many people do so when they want to improve their position."
+      },
+      {
+        "type": "quote",
+        "message": "Your will is not good until you have changed the habits of your intellect, and they will improve only when they follow the eternal laws of life.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "quote",
+        "message": "Only those who have real knowledge know what to do.",
+        "author": "INDIAN WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "What is important in knowledge is not quantity, but quality. It is important to know what knowledge is significant, what is less so, and what is trivial."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The joy of wealth is inconstant."
+      },
+      {
+        "type": "quote",
+        "message": "Wherever your heart is, there will be your treasure. The heart of a person whose major treasure is wealth is buried in filth.",
+        "author": "Saint John Chrysostom"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Is it true that people were created to collect more and more gold? No. God created people after His own image; He created you so that you could fulfill His will."
+      },
+      {
+        "type": "quote",
+        "message": "Why should a person be rich? Why should he have expensive horses, rich clothes, wonderful rooms, and the leisure to visit public places of entertainment? Because he does not have enough thoughts to accompany his intellect. Give this person the inner work of his intellect, and he will be happier than the richest man.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "For those who live a spiritual life, wealth is not only unnecessary but uncomfortable. It stops the development of one’s real life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Faith answers those questions to which the intellect cannot find answers, but which must be asked."
+      },
+      {
+        "type": "quote",
+        "message": "There is only one true religion, though there are many different faiths.",
+        "author": "Immanuel Kant"
+      },
+      {
+        "type": "quote",
+        "message": "It is only faith which creates the powerful convictions, the energy, and the unity which can cure society.",
+        "author": "Giuseppe Mazzini"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We have only one sinless guide, a universal spirit which gets into all of us though we are all individuals, and which gives us the urge to do all that is necessary. The same spirit which exists in a tree and pushes it to grow straight and to produce seeds exists in us, urges us to be closer to God, and brings us closer to each other."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When a person is alive, he believes; the closer his faith is to the truth, the happier his life. The further from the truth his faith is, the more unhappy he is."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Without faith he does not live; he dies a premature death or else kills himself."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "We suffer from the past, and we spoil our future because we neglect the present."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The best the future can offer is dreams. There is only one thing which really exists: the present."
+      },
+      {
+        "type": "quote",
+        "message": "Be attentive to the present. Only in the present time can we understand eternity.",
+        "author": "After Johann Wolfgang von Goethe"
+      },
+      {
+        "type": "quote",
+        "message": "Use your body, your vessel, today; tomorrow it can be broken.",
+        "author": "The Talmud"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is no past and no future; no one has ever entered those two imaginary kingdoms. There is only the present. Do not worry about the future, because there is no future. Live in the present and for the present, and if your present is good, then it is good forever."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you have difficult times, if you suffer from the loss of loved ones or from fears about the future, remember that life exists only in the present and direct all your thoughts and memories to this present. All your anguish about the past and your worries about the future will disappear, and you will feel freedom and happiness."
+      }
     ]
   ]
 }
