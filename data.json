@@ -11160,6 +11160,465 @@
         "italics": true,
         "message": "If you have difficult times, if you suffer from the loss of loved ones or from fears about the future, remember that life exists only in the present and direct all your thoughts and memories to this present. All your anguish about the past and your worries about the future will disappear, and you will feel freedom and happiness."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "You cannot measure good by either the feeling of need or sacrifice, but only by the communication with God which is established between the giver and the receiver."
+      },
+      {
+        "type": "quote",
+        "message": "Life alone is not good. Goodness exists only in a proper, virtuous life.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "quote",
+        "message": "It is not a virtue, but a kind of deceitful similitude, to fulfill our duty for the purpose of its reward.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "All people become closer, more or less, to one of two opposite limits: one is life only for oneself, and the other is life only for God."
+      },
+      {
+        "type": "quote",
+        "message": "I call this life a happy one in which I do one good deed after another, with no intervals between them.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We do good only when we do not notice what we do, when we forget ourselves and live only in others."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A material evil done by a person does not return to the evildoer, but the evil feeling which was created by the sinful deed will fester in his soul and sooner or later make him suffer."
+      },
+      {
+        "type": "quote",
+        "message": "If in the morning a person wants to do evil unto others, evil will return to him by nightfall.",
+        "author": "INDIAN WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "The evildoer harms himself first, before he harms others.",
+        "author": "SAINT AUGUSTINE"
+      },
+      {
+        "type": "quote",
+        "message": "Every man becomes what he teaches others to be. Those who gain victory over themselves will gain victory over others. It is most difficult to achieve victory over oneself. Every man has power only over himself.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is no material goodness which can restore the soul after the damage done by the evil which you create."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 20
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Remember: Those who suffer through to the end will be saved. Very often a person becomes desperate or even stops in his purpose when only a small effort is needed to achieve it."
+      },
+      {
+        "type": "quote",
+        "message": "But beware of men: for they will deliver you up to the councils, and they will scourge you in their synagogues; And ye shall be brought before governors and kings for my sake, for a testimony against them and the Gentiles. But when they deliver you up, take no thought how or what ye shall speak: for it shall be given you in that same hour what ye shall speak. For it is not ye that speak, but the Spirit of your Father which speaketh in you.",
+        "author": "MATTHEW 10:17-20"
+      },
+      {
+        "type": "quote",
+        "message": "Right cannot be defeated, because it is done not by your will but according to the eternal laws of God.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Persecution and suffering are the necessary conditions of the fulfillment of Christian law. Persecution is precious because it reveals whether a person lives with real faith."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not seek love in other people, and do not complain about the absence of their love for you. Some people love wrong, not right; therefore, try to please God, rather than people."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "There is no deed in this life so impossible that you cannot do it. Your whole life should be lived as an heroic deed."
+      },
+      {
+        "type": "quote",
+        "message": "Every time you wake up and ask yourself, 'What good things am I going to do today?' remember that, when the sun goes down at sunset, it will take a part of your life with it.",
+        "author": "INDIAN PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "The virtue of a person is measured not by his outstanding efforts, but by his everyday behavior.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "I am the tool with which God works. My virtue is to participate in this work, and I can do so if I keep the instrument which is given to me, namely my soul, in immaculate condition."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "All things, even the most complicated things, become simple and clear if you separate them from other people and place them before God for judgment."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Other than our service to God, all our actions, whether we consider them important or not, are completely trivial. We may not know what the consequences of our actions will be, but we know what we should do."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The more busy you are with the improvement of your inner life, the more active you become in social life, helping other people."
+      },
+      {
+        "type": "quote",
+        "message": "It is as wrong for one person to rule many as it is for many to rule one.",
+        "author": "VLADIMIR CHERTKOV"
+      },
+      {
+        "type": "quote",
+        "message": "What is truth? For the majority of people, truth is the majority of counted votes.",
+        "author": "THOMAS CARLYLE"
+      },
+      {
+        "type": "quote",
+        "message": "When I sit on the seashore and listen to the waves beating on the sand, I feel free from any obligation, and I think that all the people of the world can change their constitutions without me.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Never build, but always plant: in the case of the first, nature will interfere and destroy the creation of your work, but in the case of the second, nature will help you, causing growth in everything you planted. The same thing happens in your spiritual life: those things which are in harmony with the eternal laws of human nature will grow, but those things which correspond to the temporal wishes of people will not."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The question of life’s meaning is a difficult problem which cannot be solved. So, too, is the question, ‘Why did God send us into this world?’ But the meaning of life becomes very simple when a person asks himself, ‘What should I do?’"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Your life may be cut short at any time; therefore, your life should have a deep purpose, a significance that will not depend on whether it is short or long."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is only one way, if you want to live without understanding the meaning of your life: to become addicted to tobacco, alcohol, and drugs, and to live in the world of permanent entertainment."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "This world is not a joke but rather a place for a trial, a way station to a better, eternal world. Our purpose is to make it a better and more joyous place to live, for those who live with us and those who come after us"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Our soul’s perfection is our life’s purpose; any other purpose, keeping death in mind, has no substance."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Helping others takes the form not only of physical aid, but of spiritual support for your neighbor. Stop blaming your neighbor and respect his human dignity."
+      },
+      {
+        "type": "quote",
+        "message": "Do not think that you are generous because you give your excess wealth to a poor person. Real generosity requires that you give this person a place in your heart.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "He is virtuous who does not pay any attention to libel and evil speech."
+      },
+      {
+        "type": "quote",
+        "message": "You should be truthful; you should avoid wrath; you should give to those who ask, because they ask for small things. You will become holier by following these three paths.",
+        "author": "DHAMMAPADA, a book of BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "With humbleness, kindness, and self-sacrifice, you will take the weapon from any enemy. Any fire dies if there is insufficient wood.",
+        "author": "BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Try not to hide the shameful memories of your sins in dark corners. On the contrary, keep them close to you and remember them, before you judge your neighbor."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "War is murder. No matter how many people get together to commit murder or what they call themselves, murder is the worst sin in the world."
+      },
+      {
+        "type": "quote",
+        "message": "People of planet Earth are on a very low level of development. Every day in the newspapers you read the news about military treaties, about the preparations for war, for mass manslaughter. People do not understand that the life of each man is his own personal private property.",
+        "author": "CAMILLE FLAMMARION"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The majority of people now understand not only the uselessness, but also the stupidity and cruelty of any war."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Until such time as people reject the power of government to govern, to tax, to legislate, and to punish, war will never stop. War is the consequence of the government’s power."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Just as one candle lights another and can light thousands of other candles, so one heart illuminates another heart and can illuminate thousands of other hearts."
+      },
+      {
+        "type": "quote",
+        "message": "Beware of those who want to convince you that it is impossible to strive for good just because it is impossible to reach perfection.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Good books are a good influence. Good art is a good influence. Prayer is an influence as well. But the strongest influence is the example of a good life. A good life becomes a blessing for people, not only for those who live good lives but those who can see, know, and understand such lives."
+      },
+      {
+        "type": "quote",
+        "message": "It is difficult to bring people to goodness with lessons, but it is easy to do so by example.",
+        "author": "LUCIUS ANNAEUS SENECA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Beware of groups of people who are harmful for your soul. Try to avoid them. You should praise good company and seek it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "If a passion embraces you, you should remember that this passionate desire is not a part of your soul, but a dark covering which shuts out the true qualities of your soul."
+      },
+      {
+        "type": "quote",
+        "message": "You should be a lantern for yourself. Draw close to the light within you and seek no other shelter.",
+        "author": "BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "A person’s soul may be compared to a transparent ball which is lit from the inside with its own light. This flame is not only the source of all light and truth, but it illuminates everything around you. In this state, the soul is free and happy. Only if it becomes addicted to anything outside you will it become troubled, darkened, and impenetrable. Distractions obstruct the light which shows you the way.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "The soul is a mirror in which you can see the reflection of divine intellect.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "As soon as you feel passion, try to feel in yourself the understanding of your divine nature. As soon as you perceive that your divine nature is inactive and that you are possessed by passions, fight with these passions."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Life is not destroyed, only changed, by death."
+      },
+      {
+        "type": "quote",
+        "message": "The future is only an illusion inferred from our present state. What is important is not the length of life, but the depth of life. What is most important is not to make life longer, but to take your soul out of time, as every sublime act does. Only then does your life become fulfilled. And do not ask yourself questions about time. Jesus did not explain a thing about the eternity of life, but his influence brought people to the eternal.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Faith in the eternity is given to us not in meditation, but in life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is not reasoning which will convince you of the necessity of life after death, but example: when you walk very close to a person, hand in hand, and this person disappears into an abyss, over there, stop in front of the abyss and try to look within it."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The level of fear you feel about death is the level of your understanding of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The less you fear death, the more you possess freedom, tranquillity, and an understanding of the greatness of your spirit and the joy of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The understanding of eternity is part of the nature of the human soul."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 29
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A word is an action."
+      },
+      {
+        "type": "quote",
+        "message": "Do not say words you do not feel, lest your soul be blackened with darkness.",
+        "author": "From the BOOK OF DIVINE THOUGHTS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Your enemies can be more useful to you than your friends, because your friends can often pardon your weaknesses, but your enemies notice them and attract your attention to them."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not neglect the opinion of your enemies."
+      },
+      {
+        "type": "quote",
+        "message": "A wise man does not judge a person for his words, but at the same time does not neglect another person’s words, even when these words are pronounced by an unworthy person.",
+        "author": "CHINESE WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "A person’s tongue is a tool which is sufficient to transmit the ideas created by the human mind. But in the domain of true and deep feelings, our tongue is weak.",
+        "author": "LAJOS KOSSUTH"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Never is there a single instance when a lie can be justified."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 11,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "When a humble person forgets himself, he is united with God."
+      },
+      {
+        "type": "quote",
+        "message": "People who try to force circumstances become their slaves. Those who use them become their masters.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is nothing in this world more tender and more pliable than water, yet hard and rigid things cannot resist it. "
+      },
+      {
+        "type": "quote",
+        "message": "Weakness defeats strength, tenderness defeats rigidity. Everyone knows this law, but no one acts upon it. The weakest in the world gain victory over the strongest; therefore, there is a great advantage in humility and silence. Only a few people in this world are truly humble.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more humble a person is, the freer and stronger he is."
+      }
     ]
   ]
 }
