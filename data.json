@@ -11619,6 +11619,351 @@
         "italics": true,
         "message": "The more humble a person is, the freer and stronger he is."
       }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 1
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "A woman does not differ from a man in her chief mission. This mission is to serve God. The difference is in the method of this service. Though the mission of a woman’s life is the same as that of a man’s life and the service to God is fulfilled by the same means, namely love, for the majority of women the method of this service is more specific than for men. This is the birth and upbringing of new workers for the Lord throughout life."
+      },
+      {
+        "type": "quote",
+        "message": "If a woman’s kindness is boundless, then her rage can also have no limits. A good wife is the best gift for a husband, and an evil wife is a terrible ulcer for a man.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "The more beautiful a woman is, the more honest she should be because it is only through honesty that she can deal with all the evil and damage which her beauty can produce.",
+        "author": "GOTTHOLD EPHRAIM LESSING"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is not usually husbands who choose their wives, but wives who choose their husbands. In order to find a better father for her children, a woman must know good and evil. Therefore, women should have a good education first of all."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is nothing more natural for a woman than self-sacrifice. Nothing can be more unpleasant in her than selfishness."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 2
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "“Do not kill”: these words refer not just to the killing of a person, but to the killing of anything which is alive. This commandment was written in the people’s hearts even before it was heard on Mt. Sinai."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Whatever arguments they use against vegetarianism, men cannot prevent themselves from feeling compassion and disgust at killing sheep, cows, or chickens. Most people would rather stop eating meat than kill these animals themselves."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The more people become educated and the more our population grows, the more people will move from eating animals to eating plants."
+      },
+      {
+        "type": "quote",
+        "message": "Reading and writing do not educate if they do not help people to become kinder to all animals.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The stupidity, lawlessness, and harm, both physical and moral, of meat eating is so clear that meat eating is not supported by reasoning but by old traditions and prejudices. We should not even argue about the absence of logic in eating meat; it is self-evident."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 3
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Art is the activity whereby a person makes a conscious attempt to use the particular means at his disposal to transmit his feelings to others so that they feel them as intensely as he does."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In a true creation of art, there is not only no border between the work of art and the artist, but also between the work and the other people who experience it. The major attraction of real art lies in this unification."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A new work of art should bring a new emotion in our life."
+      },
+      {
+        "type": "quote",
+        "message": "Emerson said that music helps people to find the greatness in their souls. The same can be said about any form of art.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Contemporary artists and scholars do not fulfill and cannot fulfill their destinies, because they have transformed their duties into their rights."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 4
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It is not said by chance that the essence of divine law is to love God and your neighbor. Neighbors come and go, but God exists always. Therefore, a man can fulfill this law when he is alone in a desert, or when he is in prison. He can love God and God’s manifestations even in his thoughts, memories, and imagination."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Remember that the spirit of God exists in every person, the same spirit that gives you life. Therefore you should not only love but respect the soul of every person as a holy place."
+      },
+      {
+        "type": "quote",
+        "message": "I do not grieve that a person dies, that he loses his money, his estate, or all his property, all that can belong to a man. But it is a great pity when a person loses his greatest possession, his human dignity.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not do anything, either among others or alone, which is opposed by your conscience."
+      },
+      {
+        "type": "quote",
+        "message": "In our time, people forget that first of all they should respect the human being in themselves.",
+        "author": "RALPH WALDO EMERSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Beyond his duty to his neighbor, every person has an obligation to himself, as to the Son of God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 5
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The longer mankind exists, the more liberated it becomes from prejudice and the more clearly it perceives the law of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Ours is the age of criticism."
+      },
+      {
+        "type": "quote",
+        "message": "Religion and law try to escape from criticism, religion by saying that it is divine and law by showing that it is powerful. But some suspicions arise from this escape, because we can respect only those things which stand up in free and public trial.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "quote",
+        "message": "Study everything, and put intellect first.",
+        "author": "PYTHAGORAS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not be afraid of the way your intellect calls into question old stories and legends. The pure intellect cannot destroy anything without replacing it with the truth: this is one of its essential qualities."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 6
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "We have misconceptions not because we think illogically but because we live our lives badly."
+      },
+      {
+        "type": "quote",
+        "message": "Ignorance cannot lead to evil, misconceptions lead to evil. It’s not what people do know, it’s what they pretend that they do.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "quote",
+        "message": "Every misconception is a poison: there are no harmless misconceptions.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "One of the evil properties of man is that he loves only himself and wants goodness only for himself. But woe to him who loves only himself!",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The fight between the spiritual and material inner nature goes on in everyone. Thus, all people have misconceptions, and many will always mistake them for the truth."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "To feed the hungry, to clothe the naked, to visit the ill in the hospital—these are acts of mercy, but there is one charitable deed which cannot be compared to them: to free your brother from misconception."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 7
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Life consists of numerous invisible, imperceptible changes, changes that began at birth and end with death. It is not possible for us humans to observe them all."
+      },
+      {
+        "type": "quote",
+        "message": "Truly, truly, I say to you, unless a grain of wheat falls into the earth and dies, it remains by itself alone; but if it dies, it bears much fruit. He who loves his life loses it, and he who hates his life in this world shall keep it to life eternal.",
+        "author": "JOHN 12:24-25"
+      },
+      {
+        "type": "quote",
+        "message": "Life is changing all the time, and only the ignorant do not look into the depth of things.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "quote",
+        "message": "Why are you so afraid of change? Nothing in this world can be done without change. Only one rule should remain constant: do not do anything inhumane to others.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "Everything in this world blooms, grows, and returns to its roots. Returning to one’s roots means becoming united with nature; becoming united with nature involves eternity. The destruction of your body holds no danger in itself.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Death is a change to a form with which our spirit is united. You should not confuse the form with those things with which it is united."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 8
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "It seems so easy to fulfill the law of God that is expressed in the Christian teaching, but we are still so far from this fulfillment!"
+      },
+      {
+        "type": "quote",
+        "message": "The law of right living is not immediately clear to the wise man, but it becomes much clearer when he follows it. The law of right living is immediately clear to the ordinary person, but it becomes less obvious when he tries to follow it.",
+        "author": "CONFUCIUS"
+      },
+      {
+        "type": "quote",
+        "message": "There is only one eternal law. It does not change and it governs all people at all times.",
+        "author": "MARCUS TULLIUS CICERO"
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 9
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Man’s purpose is to serve all mankind, not to serve only one man while doing harm to others."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "For a Christian, the love of one’s motherland can be an obstacle to the love of one’s neighbor."
+      },
+      {
+        "type": "quote",
+        "message": "Lost souls escape their loss of control in patriotism.",
+        "author": "DR. SAMUEL JOHNSON"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Patriotism is not a virtue. Sacrificing your life for an institution which embodies prejudice cannot be your duty."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "People do many bad things for selfish reasons; they do worse things for their families. But they do the worst in the name of patriotism, and they are made proud by these crimes: spying, unduly heavy tax collecting, sacrificing lives, and waging wars."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Loving your country and loving your family are both virtues that can become vices when they become overwhelming and damage your love for your neighbor."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 10
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "One of the worst things possible is to follow the rule: 'Be like everyone, follow the crowd.'"
+      },
+      {
+        "type": "quote",
+        "message": "Woe to the world because of its stumbling block! For it is inevitable that stumbling blocks come; but woe to that man through whom the stumbling block comes! And if your hand or your foot cause you to stumble, cut it off and throw it from you; it is better for you to enter life crippled or lame than having two hands and two feet, to be cast into the eternal fire.",
+        "author": "MATTHEW 18:7-9"
+      },
+      {
+        "type": "quote",
+        "message": "One of the major obstacles impeding any positive future change in our lives is that we are too busy with our current work or activity. Levi quit his tax-work, Peter stopped fishing at a lake, Paul ceased being a priest. They all left their jobs because they thought it was necessary.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "quote",
+        "message": "If a person’s hand is not damaged, then it can withstand the bite of a poisonous snake. Its poison poses no danger to a healthy hand. Evil is harmless for him who is not an evildoer.",
+        "author": "BUDDHIST WISDOM"
+      },
+      {
+        "type": "quote",
+        "message": "False shame is the devil’s favorite emotion; it is even worse than false pride. Pride can support evil, but false shame stops goodness.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "There is no evil in the world itself. All evil exists in our souls, and can be destroyed."
+      }
     ]
   ]
 }
