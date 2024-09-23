@@ -1034,7 +1034,6 @@
         "message": "The essence of the teaching of Christ is to follow his commandments. Those who just repeat, “My God, My Lord” will not get to heaven; only those who fulfill God’s will."
       }
     ],
-    //End of Jan
     [
       {
         "date": {
@@ -1975,7 +1974,6 @@
         "message": "We should believe that the goodness which exists in us and in this world will be fulfilled. This is the major condition to make it happen."
       }
     ],
-    //End of Feb
     [
       {
         "date": {
@@ -3083,7 +3081,6 @@
         "message": "A man will always understand his sins as well as his limits in this limitless world."
       }
     ],
-    //End of March
     [
       {
         "date": {
@@ -4132,7 +4129,6 @@
         "message": "If you do not know your place in the world and the meaning of your life, you should know that there is something to blame; and it is not the social system, or your intellect, but the way in which you directed your intellect."
       }
     ],
-    //End of April
     [
       {
         "date": {
@@ -5281,7 +5277,6 @@
         "message": "We do not have the right to be unhappy with our life. If it seems to us that we are not satisfied with life, we should see this as a reason to be unsatisfied with ourselves."
       }
     ],
-    //End of May
     [
       {
         "date": {
@@ -6368,7 +6363,6 @@
         "message": "The more people believe that others can improve their lives, the slower any improvement will occur."
       }
     ],
-    //Upto End of June
     [
       {
         "date": {
@@ -7434,7 +7428,6 @@
         "message": "A person must completely close his eyes on his morals, that in a Christian society so filled with people in need, there are other people who are so proud to have great wealth."
       }
     ],
-    //End of July
     [
       {
         "date": {
@@ -8525,7 +8518,6 @@
         "message": "Until they throw the money changers out of the temple of art, it will never be a real temple. But the time will come when these salesmen will be sent away from the temple of art."
       }
     ],
-    //End of August
     [
       {
         "date": {
@@ -9581,7 +9573,6 @@
         "message": "Temporary solitude from all things in this life, the meditation within yourself about the divine, is food as necessary for your soul as material food is for your body."
       }
     ],
-    //End of September
     [
       {
         "date": {
@@ -11963,6 +11954,780 @@
         "type": "message",
         "italics": true,
         "message": "There is no evil in the world itself. All evil exists in our souls, and can be destroyed."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 11
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Nothing is more joyful than the labor of a farmer tilling the soil."
+      },
+      {
+        "type": "quote",
+        "message": "The best food is the food you or your children make by yourself.",
+        "author": "MOHAMMED"
+      },
+      {
+        "type": "quote",
+        "message": "Those who provide for their own food by themselves deserve more respect than those who claim to be religious.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Working on the land and making your own bread isn’t necessary for all people, but no type of work is more important for humanity, and no type of work offers a greater degree of independence and good."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 12
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Kindness defeats everything and can never be defeated."
+      },
+      {
+        "type": "quote",
+        "message": "You can stand firm in a fight against everything except kindness.",
+        "author": "JEAN JACQUES ROUSSEAU"
+      },
+      {
+        "type": "quote",
+        "message": "It is not the blaming of evil but the glorifying of goodness that creates harmony in our life.",
+        "author": "LUCY MALORY"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If a good action has an ulterior cause, then it is not truly good. If it expects reward, it is not truly good. Good things are beyond reason and consequence."
+      },
+      {
+        "type": "quote",
+        "message": "In the same way that fireworks and torches cannot be seen in the light of the sun, the best intellect and the greatest beauty cannot be seen in the light of the kindness of a single heart.",
+        "author": "ARTHUR SCHOPENHAUER"
+      },
+      {
+        "type": "quote",
+        "message": "The most tender plants can push their way through the hardest rocks, and it is the same with kindness. Nothing can stop a truly kind and sincere person.",
+        "author": "HENRY DAVID THOREAU"
+      },
+      {
+        "type": "quote",
+        "message": "The person does not exist to whom you cannot do good.",
+        "author": "Lucius ANNAEUS SENECA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We do good to people not in hope of reward, but because we see the divine spirit within everyone."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The best and easiest way to thwart evil in this world is to respond to it with kind words, return an evil action with good."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 13
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "True faith is faith only if the actions of your life are in harmony with it and never contradict it."
+      },
+      {
+        "type": "quote",
+        "message": "During the day you should behave in such a way that you can sleep at night in peace; and in your youth you should behave in such a way that you can live in your old age in peace.",
+        "author": "INDIAN PROVERB"
+      },
+      {
+        "type": "quote",
+        "message": "Those who have weak faith themselves cannot arouse faith in others.",
+        "author": "LAO-Tzu"
+      },
+      {
+        "type": "quote",
+        "message": "Those who give second place to God in their hearts do not give Him a place at all.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We can never fully understand the final purpose of human life. A construction worker who works at a construction site can have no idea of the final form or general design of the large structure he builds, but he can know that he is working on something good, something beautiful, clever, and necessary, both for him and for the world. This is faith."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not believe in words, yours or others’; believe in the deeds."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 14
+        }
+      },
+      {
+        "type": "quote",
+        "message": "A person who becomes close to God understands that God lives within him. Angelus, a mystical poet of the seventeenth century, said, “I see God with the same eye with which He sees me.”",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "The soul of a person is the lamp of God.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "People do not know what God looks like but they live in Him and He in them.",
+        "author": "SUFI WISDOM, a mystical sect in ISLAM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Those who can raise their thoughts to heaven will always have clear days, because the sun always shines above the clouds."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "If you are gnawed by desire or fear you must not believe in God, who is filled with love, and who exists in you. If you believe in Him, you know that you need not wish for anything because the wishes of God always come true; and you need never be afraid of anything, because God fears nothing."
+      },
+      {
+        "type": "quote",
+        "message": "The nature of a soul is so mysterious that no matter how hard we try to understand it, we will never be able to define it.",
+        "author": "HERACLITUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Whatever may happen to you, you will never be unhappy if you understand your unification with God."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 15
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Only misconceptions need to be supported by elaborate arguments. Truth can always stand alone."
+      },
+      {
+        "type": "quote",
+        "message": "All goodness is as nothing compared to the goodness of truth; all sweets are as nothing compared to the sweetness of truth. The bliss of truth surpasses all other joys in the world.",
+        "author": "BUDDHIST WISDOM"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person cannot be completely truthful all the time, because different forces and aspirations fight within him, and sometimes he cannot express them, even to himself."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Misconceptions exist only for a finite period of time, but real truth remains as it always was, after all tricks, sophisms, and lies have withered away."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Learn what to do, think, and say the truth at all times. Only when you start to learn this can you understand how far we are from real truth."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Lies are always harmful to all living things."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "No person is without sin; no person is completely truthful. It is not that one person is virtuous and truthful and another is sinful and deceitful; rather it’s that one person strives to move toward truth and virtue and the other does not."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 16
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Only the spread of love between people can improve the existing social structure."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Love gives meaning to human life. This we have known since antiquity. But what is love? Many wise people throughout the ages have tried to solve this question."
+      },
+      {
+        "type": "quote",
+        "message": "If you raise people to praise only wealth, power, and glory, then naturally they will praise only these things. If you raise people to love the feeling of love, they will start to live in love.",
+        "author": "MEE-TEE, a student of CONFUCIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Only one clear quality marks an action as either good or evil: If it increases the amount of love in the world, it is good. If it separates people and creates animosity among them, it is bad."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The time is coming, a time of concord, harmony, forgiveness, and love. Depend on it. We must do everything in our power to bring this time closer, and to stop those things which delay its arrival."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 17
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Our understanding of ourselves as discrete beings separate from each other grows out of conditions of our life in time and space. The less we feel this separation, the more we feel our unification with all other living creatures, the lighter our load, and the more joyful our life will be."
+      },
+      {
+        "type": "quote",
+        "message": "For the body is not one member, but many…. And if one member suffers, all the members suffer with it; if one member is honored, all the members rejoice with it.",
+        "author": "I CORINTHIANS 12:14,26"
+      },
+      {
+        "type": "quote",
+        "message": "A small branch cut off from a big limb is separated from the whole tree. In the same way when a person is in an argument with another person, he is separated from all humanity.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God created heaven and earth, but they lacked the ability to understand the happiness of their existence. Then God made creatures who could understand the happiness of their existence, and who could create a single body from all of its thinking parts. All people are members of this one body; in order to be happy, they should live in harmony with the will that governs its life. We should live in harmony with this great soul and love it more than we love ourselves.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We manifest in love our understanding of the unity of our being with others, and in so doing we make our life greater. The more we love, the wider, larger, and more joyful our life becomes."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 18
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Mankind moves ceaselessly toward perfection, not of every person’s accord, but through the efforts that some particular individuals make toward their personal perfection. The kingdom of God will be created by these individual efforts."
+      },
+      {
+        "type": "quote",
+        "message": "Do not be embarrassed by all your bad deeds, by all your misfortunes. Do not be embarrassed, but fight ceaselessly, bravely, and without hesitation, because the kingdom of God will come.",
+        "author": "F. ROBERT DE LAMENNAIS"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "We hear often that there is no use in working to improve our life, to fight evil, or to establish justice, because progress will occur by itself. Imagine that a boat floats along a river. Imagine that those who have sat by the oars and rowed tirelessly have stopped and gone ashore; and that the travelers who remain in the boat do not bother to take up the oars and push the boat further, but think that it will travel by itself, as before, into the future."
+      },
+      {
+        "type": "quote",
+        "message": "Life has no meaning without purpose. To lack purpose is to deny the existence of God and to admit that our life is an evil, stupid joke.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "quote",
+        "message": "All our history proves that God may be understood, not by reasoning, but by submission to Him and obeyance to His laws. Only by doing this can we understand His will on earth.",
+        "author": "JOHN RUSKIN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Every person should make a small effort, even the smallest effort, to improve the general well-being of humanity."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 19
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Real goodness is in your hands. It follows a good person as a shadow follows its object."
+      },
+      {
+        "type": "quote",
+        "message": "Everything which can make us better and happier was given to us by God. If our conscience is clear, then nothing can harm us.",
+        "author": "EPICTETUS"
+      },
+      {
+        "type": "quote",
+        "message": "They who have decided to dedicate their lives to spiritual perfection will never be dissatisfied or unhappy, because all that they want is in their power.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "quote",
+        "message": "Happiness, pure happiness, is a virtue in itself.",
+        "author": "BENEDICTUS SPINOZA"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The greater the effort a person makes to achieve pleasure, the less possible it is for him to possess real goodness, or love."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "They who say that doing good causes them unhappiness either don’t believe in God or aren’t doing something that is truly good."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 20
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The real purpose of Christianity is obvious to all, and it is stronger than the lies which try to pervert it."
+      },
+      {
+        "type": "quote",
+        "message": "We should separate the religion that was taught by Jesus from the religion whose subject is Jesus. Then we will understand the real meaning of the New Testament and follow it.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "I see a new religion based on mutual trust, which appeals to our deepest selves, and which teaches that a person should love goodness without reward, and that the divine exists in everyone."
+      },
+      {
+        "type": "quote",
+        "message": "In different ways and in different tongues, all humanity repeats the words of the Lord’s prayer, “Let thy kingdom come on earth as it is in heaven.”",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Do not think that you will personally see the coming of the kingdom of God. But have no doubt that it will come soon: it is coming closer and closer, without hesitation."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 21
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "At the highest level of consciousness, an individual is alone. Such solitude can seem strange, unusual, even difficult. Foolish people try to escape it by means of various dissipations in order to get away from this high point, to some point lower, but wise people remain at this high point, with the help of prayer."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "God wants us to fulfill his will here on earth, in our lives. But life’s interests and passions distract us from this every minute. When we understand this, we can gird ourselves with the physical expression of our attitude to God, prayer."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A personality is a limitation and, therefore, God, as we understand Him, is not a personality. Prayer is our address to God and yet how can we address one who has no personality? I address God as if He were a person, though I know it is not so."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "A person buried in a deep mine, freezing from the cold in deep ice, dying from hunger alone on the open sea, wasting away in solitude in a prison cell, or simply dying at home, deaf and blind—how could this person live out the remainder of his life if prayer did not exist?"
+      },
+      {
+        "type": "quote",
+        "message": "How good a person feels when, exhausted from striving for goodness in his everyday life, he stretches out his hands to God.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "One can live without prayer either when he is possessed by his passions or when his life is completely dedicated to God. But for a person who is fighting his passion and yet far from fulfilling his duty, prayer is a necessary condition of life."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 22
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Nothing seems to check the notion that the way to improve civilization is affected by changing its outer forms. This notion is false, and draws the activity of too many people away from effort that truly can improve our lives."
+      },
+      {
+        "type": "quote",
+        "message": "Civilization is first of all a moral thing. Without truth, respect for duty, love of neighbor, virtue, everything is destroyed. The morality of a society is alone the basis of civilization.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "The proper direction of man’s thought is not toward the creation of new laws for government, but toward the acceptance of every person’s moral dignity.",
+        "author": "EDMUND YATES"
+      },
+      {
+        "type": "quote",
+        "message": "Socialism, when compared with Christianity, is a rather minor, secondary question about the material needs of the working class. It stands outside the basic questions of human life.",
+        "author": "FYODOR STRAKHOV"
+      },
+      {
+        "type": "quote",
+        "message": "We should, first of all, understand that we are all children of the same father, and we should fulfill the same general law: live not for ourselves, but to help others be happy.",
+        "author": "GIUSEPPE MAZZINI"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When we accept false and violent laws and submit to them, we can neither establish truth nor combat lies in this world."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 23
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Wisdom is understanding how eternal truth can be applied to life."
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Socrates was the first who brought philosophy from heaven, distributed it among the people, and enticed them to study the science of life, human morals, and the consequences of good and evil."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Science is seldom connected with wisdom. A scholarly person knows many unnecessary things. A wise person knows few things, but all that he knows is necessary both for humanity and for himself."
+      },
+      {
+        "type": "quote",
+        "message": "He who understands his soul will understand the divine spark within himself.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "quote",
+        "message": "Wise people cannot be sufficiently educated, and educated people cannot be sufficiently wise.",
+        "author": "LAO-TZU"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The goodness given to us by wisdom compares to all other knowledge in the same way that in a desert, a vessel filled with water compares to mountains of gold."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 24
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Starting from early childhood, as we age we feel the growth of our spiritual power and the diminution of our physical power."
+      },
+      {
+        "type": "quote",
+        "message": "Older people who live spiritual lives ever widen their spiritual horizons, and ever expand their consciences. Older people who live only a daily routine become more and more stupid over the years.",
+        "author": "The TALMUD"
+      },
+      {
+        "type": "quote",
+        "message": "One becomes older in order to become kinder; there is no mistake which I have not already made.",
+        "author": "JOHANN WOLFGANG VON GOETHE"
+      },
+      {
+        "type": "quote",
+        "message": "The growth and development of the soul is more important than power and glory.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The growth of our physical energy prepares us for spiritual work, for serving God and mankind; this work starts when our body begins to fade away."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Grow spiritually and help others to do so; it is the meaning of life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Terrible is the situation of those who cannot perceive spiritual growth in themselves. They can see only physical life, which will disappear in time."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "When you understand your spiritual being and live with it, then instead of despairing you understand the joy that can never be destroyed, which always grows."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 25
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Kindness and virtue come from the heart, and should be performed without thought for the opinion of others, or of future rewards."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Virtue and charity start at home. If you have to go somewhere to display it, then it is not virtue."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Assistance given to the poor by the rich is too often just a gesture of politeness, not real charity."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Charity is good only when it comes as a sacrifice; only then do those who receive the material gift receive the spiritual gift too. If it is not a sacrifice but a discharge of excess, it can only irritate those who receive it."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 26
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Childhood is the period in which underlying convictions are formed. Therefore, the most important part of education is the selection of the things of which a child should be convinced."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Talking and reasoning does not even have one thousandth the influence a true example has. All lessons about how to behave are worthless when children see the opposite in real life."
+      },
+      {
+        "type": "quote",
+        "message": "What use is it for children when people only speak about goodness, but perform bad deeds in reality?",
+        "author": "GUSTAV STRUVE"
+      },
+      {
+        "type": "quote",
+        "message": "The strong desire for a pleasant and ideal life is a child’s worst misfortune. It is crucial that children should know how to work from an early age.",
+        "author": "IMMANUEL KANT"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "It is important to teach children kindness and simplicity in life and work. All of children’s moral and spiritual education should be supported by your own good example. You should live virtuously, or at least try to do so; the success of your good life will educate your children."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 27
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "All that we see and know does not exist in reality, because it is the product of our limited ability to understand reality."
+      },
+      {
+        "type": "quote",
+        "message": "Instead of saying that the world is reflected in our intellect, better to say that our intellect is reflected in the world.",
+        "author": "GEORGE LICHTENBERG"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Old fortresses are destroyed, monuments to kings are demolished, old age ravages our bodies. Only the teachings of kindness are never ruined or affected by age."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "As soon as a person truly looks at himself as only a physical body, then he sees an unsolved puzzle, a contradiction that cannot be unraveled."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to understand the true essence of a thing we must transform the physical into the spiritual."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 28
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "Science is vitally important when it is harnessed to reveal the law of human life."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "In order to accept the importance of science, we must prove that this activity is useful. Scientists usually demonstrate that they are doing something and that maybe sometime, someday, this could be useful for people in the future."
+      },
+      {
+        "type": "quote",
+        "message": "The universe is limitless, and impossible for anyone to understand. Therefore, we cannot completely understand the life of our own body.",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "“Science” is not quite the concept which people use this word to identify; it is the highest, most important, most necessary object of our understanding."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 29
+        }
+      },
+      {
+        "type": "quote",
+        "message": "As long as there is violence, there will be war. One cannot defeat violence with more violence, only with nonresistance to and nonparticipation in it.",
+        "author": "LETURNO"
+      },
+      {
+        "type": "quote",
+        "message": "If my soldiers started thinking, not a single soldier would remain in my army.",
+        "author": "FREDERICK II"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The wild instinct of military murder has developed in humanity over the course of thousands of years, and has become rooted in our brains. We must hope that our society will be able to rid itself of this terrible crime."
+      },
+      {
+        "type": "quote",
+        "message": "With time I understand the army code that dictates that a sergeant is always right when he addresses a soldier, that a lieutenant is always right when he addresses a sergeant, and so on up to generals and marshals, even when a person says that two times two equals five. If you do not obey your superior, you are punished by death, or years in prison.",
+        "author": "EDWARD EKMAN"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Wars can be stopped only if people are ready to be persecuted for not participating in them. This is the only way."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 30
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The understanding of the fraternity and equality of all people becomes more and more popular among mankind."
+      },
+      {
+        "type": "quote",
+        "message": "Do we understand our spiritual fraternity? Do we understand that we originated from one divine Father whose image we carry in ourselves and for whose perfection we strive? Have we accepted that there is the same divine life in all people, as well as in ourselves? And that this makes a natural and free bond among people?",
+        "author": "WILLIAM ELLERY CHANNING"
+      },
+      {
+        "type": "quote",
+        "message": "We can love neither those whom we fear nor those who fear us.",
+        "author": "MARCUS TULLIUS CICERO"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Family and motherland are but two circles that are part of the wider circle that is humanity. Those who teach morality and who limit one’s duties only to family and country teach a selfishness which is dangerous for all of us."
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "The understanding of one’s unity with all of humanity comes from the understanding of the divine beginning in us all, and gives all our greatest good. True religion creates this understanding, and different prejudices interfere with it—prejudice of state, nation, and class."
+      }
+    ],
+    [
+      {
+        "date": {
+          "month": 12,
+          "day": 31
+        }
+      },
+      {
+        "type": "intro",
+        "italics": true,
+        "message": "The past does not exist. The future has not begun. The present is an infinitely small point in time in which the already nonexistent past meets the imminent future. At this point, which is timeless, a person’s real life exists."
+      },
+      {
+        "type": "quote",
+        "message": "“Time passes by!” we say. Time does not exist; only we move.",
+        "author": "After the TALMUD"
+      },
+      {
+        "type": "quote",
+        "italics": true,
+        "message": "Time is behind us, time is before us, but in the present there is no time. "
+      },
+      {
+        "type": "quote",
+        "message": "I consist of spirit and body. Time affects the body, but the life of the spirit has no meaning either in the past or in the future. All its life is concentrated in the present.",
+        "author": "MARCUS AURELIUS"
+      },
+      {
+        "type": "quote",
+        "message": "Divine spirit is eternal, it exists out of time. Limitless time and space are divided into small, limited parts to be used by limited beings.",
+        "author": "HENRI AMIEL"
+      },
+      {
+        "type": "quote",
+        "message": "The soul is put into our body, so that it can understand the notion of date and time. It contemplates this fact and calls it “nature.”",
+        "author": "BLAISE PASCAL"
+      },
+      {
+        "type": "message",
+        "italics": true,
+        "message": "Time does not exist. There is only a small and infinite present, and it is only in this present that our life occurs. Therefore, a person should concentrate all his spiritual force only on this present."
       }
     ]
   ]
