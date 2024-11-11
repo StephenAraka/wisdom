@@ -19,4 +19,12 @@ export const usePushNotifications = (): PushNotificationState => {
       shouldSetBadge: false,
     }),
   });
+
+  const [expoPushToken, setExpoPushToken] = useState<
+    Notifications.ExpoPushToken | undefined
+  >();
+
+  const [notification, setNotification] = useState<
+    Notifications.Notification | undefined
+  >();
 }
