@@ -35,7 +35,7 @@ export const usePushNotifications = (): PushNotificationState => {
   const responseListener = useRef<Notifications.Subscription>();
 
   // 5. Get permissions
-  async function registerForPushNotifications() {
+  async function registerForPushNotificationsAsync() {
     let token;
 
     if (Device.isDevice) {
@@ -71,5 +71,35 @@ export const usePushNotifications = (): PushNotificationState => {
       console.log('Please use a physical device');
       
     }
+  }
+
+  // 6. Setup listeners
+  useEffect(() => {
+    registerForPushNotificationsAsync().then((token) => {
+      setExpoPushToken(token);
+    });
+
+    notificationListener.current = Notifications.addNotificationReceivedListener((notification) => {
+      setNotification(notification);
+    })
+
+    responseListener.current = Notifications.addNotificationResponseReceivedListener((response) => {
+      console.log(response);
+    });
+
+    return () => {
+      Notifications.removeNotificationSubscription(
+        notificationListener.current!
+      );
+
+      Notifications.removeNotificationSubscription(
+        responseListener.current!
+      );
+    }
+  }, []);
+
+  return {
+    expoPushToken,
+    notification
   }
 }
