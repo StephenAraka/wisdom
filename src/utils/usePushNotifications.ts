@@ -10,3 +10,13 @@ export interface PushNotificationState {
   notification?: Notifications.Notification;
   expoPushToken?: Notifications.ExpoPushToken;
 };
+
+export const usePushNotifications = (): PushNotificationState => {
+  Notifications.setNotificationHandler({
+    handleNotification: async () => ({
+      shouldPlaySound: false,
+      shouldShowAlert: true,
+      shouldSetBadge: false,
+    }),
+  });
+}
