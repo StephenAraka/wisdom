@@ -35,7 +35,7 @@ export async function scheduleDailyNotifications() {
   await Notifications.scheduleNotificationAsync({
     content: {
       title: 'Good Evening!',
-      body: 'It\'s 9 PM. Time to wind down with a dose of wisdom!!',
+      body: 'It\'s 8 PM. Time to wind down with a dose of wisdom!!',
       sound: 'default',
     },
     trigger: {
