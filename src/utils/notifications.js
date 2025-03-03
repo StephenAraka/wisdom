@@ -39,7 +39,7 @@ export async function scheduleDailyNotifications() {
       sound: 'default',
     },
     trigger: {
-      hour: 21,
+      hour: 20,
       minute: 0,
       repeats: true, // Repeat daily
     },
