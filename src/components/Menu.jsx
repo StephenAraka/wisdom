@@ -41,7 +41,7 @@ const Menu = ({
     let quoteToLike = { ...currentSubquote, date };
 
     const { success, isDuplicate } = await addQuoteToFavorites(quoteToLike);
-    if (isDuplicate) console.log("Already liked, relax");
+    if (isDuplicate) console.log("Already liked, relax"); // TODO: Show toast instead of console log
   };
 
   const gotoMoreInfoScreen = () => {
