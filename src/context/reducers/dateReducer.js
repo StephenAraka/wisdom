@@ -19,7 +19,6 @@ const dateReducer = (state = initialState, action) => {
       }
     
     case 'UPDATE_DATE_INDEX':
-      console.log("Payload:", action.payload);
       return{
         ...state, 
         dateIndex: action.payload
