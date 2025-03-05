@@ -27,6 +27,9 @@ export async function scheduleDailyNotifications() {
     }),
   });
 
+  // First, cancel all previously scheduled notifications
+  await Notifications.cancelAllScheduledNotificationsAsync();
+
   // Schedule 8 AM notification
   await Notifications.scheduleNotificationAsync({
     content: {
