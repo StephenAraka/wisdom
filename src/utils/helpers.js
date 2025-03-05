@@ -141,3 +141,11 @@ export const shareQuote = async (quote) => {
   }
 
 }
+
+export const shortenMessage = (message, maxLength = 40) => {
+  if (message.length > maxLength) {
+    return message.substring(0, maxLength) + '...';
+  }
+  
+  return message;
+}
